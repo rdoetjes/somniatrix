@@ -28,6 +28,7 @@
             - When we get to move: ${Math.floor(max_moves * 0.75)}, the violence turns full on — nobody is potentially safe.
             - After ${max_moves} moves, we see if the reader survives or is the last one to be slaughtered.
             - Avoid clichés and predictable plot points.
+            - Don't use they them pronouns, use he/him or she/her.
 
             CHOICE RULES:
             - Always return EXACTLY THREE numbered choices at the end WHICH MUST REMAIN CONSISTENT with the assistent.content (story) that has already been delivered, THE CHOICES MUST ACCOUNT FOR THE PASSED EVENTS (SO NO SUDDEN PROPS APPEARING):

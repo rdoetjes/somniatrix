@@ -142,16 +142,18 @@ export const plots = {
   },
   serial_killer_style: {
     name: "Serial Killer",
-    prompt: `THE READER IS THE ANTAGONIST, A TWENTY SOMETHING SERIAL KILLER. He targets exclusive male high school students.
-        The antagonist is good looking and charming. He already killed several high school students and the cops have no clue.
+    prompt: `THE READER IS THE ANTAGONIST, A TWENTY SOMETHING SERIAL KILLER. He kidnaps and tortures his victims and leaves them to die. He is a psychopath. He is a sadist. He is a masochist. 
+        The antagonist is good looking and charming. He already killed many people, young and old. 
+        The cops have no leads. The reader is the only one who knows what he is doing.
         DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
         ELEMENTS:
         - DO NOT introduce anything other than human-driven events.
-        - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
         - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
+        - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
         - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
-        - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
+        - There must be a lot of tension and suspense, blood, and gore.
+        - Think real life serial killers, like Ted Bundy, Jeffrey Dahmer, John Wayne Gacy, and Ed Gein.
         ${CHOICE_PROMPT}`,
   },
   kid_serial_killer: {
