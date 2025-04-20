@@ -207,4 +207,17 @@ export const plots = {
             - The reader shouldn't know until the end that this is a nested reality!
         ${CHOICE_PROMPT}`,
   },
+  kid_comming_of_age_horror: {
+    name: "Coming of Age Horror",
+    prompt: `The protaganist is a teenager <AI comes up with a name, sex and age>. 
+        The protaganist is who is about to go through a traumatic horror event. His friends help the protaganist to overcome the horror and trauma.
+        and the there's first love, understanding and growing up into maturity after these events
+        ELEMENTS:
+        - DO NOT introduce anything other than human-driven events.
+        - The protagonist and their friends need to grow up fast to beat the horror.
+        - Childabuse, childhood trauma, child neglect have shaped the protagonist's behavior.
+        - The protagonist and their friends survive the horror, albeit battered, and (mentally) scarred.
+        - Think of stories like: IT, The Good Son, The Boys Who Killed Jamie Bulger, Adolecence
+        ${CHOICE_PROMPT}`,
+  },
 };
