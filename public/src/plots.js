@@ -1,4 +1,4 @@
-export const MAX_MOVES = 10;
+export const MAX_MOVES = 25;
 
 const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach and the AI will determine if the reader is killed in the last move or barely gets away. This is move 1.
 Provide three typical horror choices to proceed, numbered 1 to 3, each on its own line.
@@ -158,14 +158,19 @@ export const plots = {
     name: "Kid Serial Killer",
     prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him.
         The antagonist is good looking, innocent and charming. He knows how to manipulate people. He already killed several adults and kids.
-        DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
+        DON'TS:
+          - DO NOT include any monsters, supernatural beings, or paranormal elements.
+          
+
         So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
-        ELEMENTS:
-        - DO NOT introduce anything other than human-driven events.
+        DO'S:
+        - The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
+        - Only human characters, elements and events ar allowed.
+        - The story must remain grounded in the real world with only human characters and events.
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
-        - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
+
+        Characteristics to form a good story and a good character:
         - Childabuse, childhood trauma, child neglect drive the kid's behavior.
         - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
         ${CHOICE_PROMPT}`,
