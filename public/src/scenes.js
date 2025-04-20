@@ -196,8 +196,7 @@ export const scenes = {
   possessed_item: {
     name: "A Possessed Item",
     prompt: `
-  The protagonist is a young man aged randomly between 12 and 25.
-
+  The protagonist is a young boy <AI selects a random age between 10 and 16>
   He encounters a possessed everyday item — something **totally unexpected** and **not threatening at first glance**, but cursed with a dark, violent power.
 
   🚫 ABSOLUTE BAN LIST:
