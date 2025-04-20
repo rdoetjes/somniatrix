@@ -214,6 +214,8 @@ export const scenes = {
   - Rollerblades that skate their users to death
   - A stuffed animal that eats dreams and minds
   - A cassette tape that infects listeners with a voice
+  - A VHS or DVD player that what you watch happens to people you know
+  - A coffee mug that poisons anyone who drinks from it
 
   The curse should be:
   - Deadly and physical
