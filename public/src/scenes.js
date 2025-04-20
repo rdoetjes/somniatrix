@@ -200,8 +200,11 @@ export const scenes = {
         Elements:
             - The reader gets induced in a dream/hypnotic/hallunocatic state and is able to travel between different realities.
             - The reader is the antagonist in the other realities, killing, maming or torturing people, those he knows in the real world.
-            - The reader is the protagonist in reality/
+            - The reader is the protagonist in reality.
             - Take inspiration from the following prompt: Movies like Brainscan, Inception, Dreamcatcher, The Butterfly Effect, The Matrix, The Sixth Sense, The Shutter Island, The Game.
+
+        IMPORTANT:
+            - The reader shouldn't know until the end that this is a nested reality!
         ${CHOICE_PROMPT}`,
   },
 };
