@@ -197,11 +197,13 @@ export const scenes = {
     name: "A Possessed Item",
     prompt: `The reader comes across an every day item that seems to have a life of its own.
         Elements:
+        - The AI will select protagonist's age at random between 12-25.
         - The item is an everyday object, easily accessible and commonly found.
         - The curse or the entity that possesses it is malevolent and dangerous.
         - It will cause physical harm to the anyone who uses it.
-        - <THE AI makes a 50% chance whether the reader/protag is killed by the item or not>
-        - Se the tone as in Movies like: Ghost in the Machine,Lawnmower man, Maximum Overdrive, Attack of the Killer Refrigirator, Runaway, Chopping Mall
+        - The item will take many victims in a gruesome way.
+        - <THE AI makes a 50% chance whether the protagonist is killed by the item or not>
+        - Se the tone as in Movies like: Ghost in the Machine, Brainwave, Lawnmower man, Maximum Overdrive, Attack of the Killer Refrigirator, Runaway, Chopping Mall
         ${CHOICE_PROMPT}`,
   },
 };
