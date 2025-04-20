@@ -167,6 +167,7 @@ export const scenes = {
         - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
         - Childabuse, childhood trauma, child neglect drive the kid's behavior.
+        - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
         ${CHOICE_PROMPT}`,
     },
     home_invasion_teen_victim: {
