@@ -198,7 +198,7 @@ export const scenes = {
     prompt: `The reader comes across an every day item that seems to have a life of its own, it can't be an electric can opener!!!
         Elements:
         - The protagonist is a man <THE AI PICKS AND AGE AD RANDOM BETWEEN 12-25>
-        - The item is an everyday object it can be organic like: food, alcohol or non-organic like: glasses, clothing, a tool, a TV, a book, a door, computer something mundane we intend to use or consume.
+        - The item is an everyday object anything but an electric can opener!!!
         - The curse or the entity that possesses it is malevolent and dangerous.
         - It will cause physical harm to the anyone who uses it.
         - The item will take many victims in a gruesome way.
