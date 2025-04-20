@@ -412,6 +412,16 @@
                 renderChoices(options);
             }
 
+            function addButton(opt, i) {
+                const btn = document.createElement("button");
+                btn.textContent = `${i + 1}. ${opt}`;
+                btn.className = "glow";
+                btn.onclick = () => {
+                    makeChoice(opt);
+                };
+                choicesContainer.appendChild(btn);
+            }
+
             function renderChoices(options) {
                 choicesContainer.innerHTML = ""; // Clear old buttons
 
@@ -426,13 +436,7 @@
 
                 // Show the 3 parsed options
                 options.forEach((opt, i) => {
-                    const btn = document.createElement("button");
-                    btn.textContent = `${i + 1}. ${opt}`;
-                    btn.className = "glow";
-                    btn.onclick = () => {
-                        makeChoice(opt);
-                    };
-                    choicesContainer.appendChild(btn);
+                    addButton(opt, i);
                 });
             }
 
