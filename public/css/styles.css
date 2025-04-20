@@ -38,7 +38,7 @@ html {
     background: radial-gradient(
         ellipse at center,
         rgba(0, 0, 0, 0) 50%,
-        rgba(0, 0, 0, 0.25) 100%
+        rgba(0, 25, 0, 1.25) 100%
     );
     color: #33ff33;
     font-family: "WebPlus_IBM_EGA_9x8", monospace;
