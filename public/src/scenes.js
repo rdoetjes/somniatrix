@@ -198,7 +198,7 @@ export const scenes = {
     prompt: `
   The protagonist is a <SELECT RANDOM AGE 20-25> young man.
 
-  He discovers a sexual object like dildo, condom, or vibrator pair of panties <AI can be very creative here as to what it is>.
+  He discovers a sexual object like dildo, a pack of condoms, a vibrator, or pair of panties <AI NEEDS TO RANDOMLY SELECT A SEXUAL OBJECT>.
   That object turns out to be cursed.
   Initially it made him attract sexual partners very quickly and easily, becoming a stud.
   But soon he realizes that the object is possessed by a demon that feeds on his sexual energy.
@@ -208,6 +208,7 @@ export const scenes = {
   ELEMENTS:
   - There's a 50% chance the protagonist defeats it… or becomes its final victim.
   - His sexual partners die one by one.
+  - The protagonist has sex with men and women as this OBJECT turns him sex crazed.
   - He slowly realizes that this object and his new found sexual energy are to blame.
   - Will he relinquish his control over the object? Or will his ego and platonic relationships pervail?
   - It's a horror story about self reflection and the subtext is avoiding STDs.
