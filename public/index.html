@@ -116,7 +116,7 @@
                     0 0 10px #33ff33;
             }
 
-            #apiKeyInput {
+            input {
                 width: 100%;
                 padding: 0.5rem;
                 margin-bottom: 1rem;
@@ -129,14 +129,14 @@
                 cursor: url("./cursor.png"), auto;
             }
 
-            #apiKeyInput:focus {
+            input:focus {
                 outline: none;
                 box-shadow:
                     0 0 5px #33ff33,
                     0 0 10px #33ff33;
             }
 
-            #apiKeyInput::placeholder {
+            input::placeholder {
                 color: #66ff66; /* Faint green placeholder */
                 opacity: 0.6; /* Slightly transparent for that ghostly CRT feel */
                 font-family: "WebPlus_IBM_EGA_9x8", monospace;
@@ -151,42 +151,13 @@
             let client = null;
             let currentMove = 1;
             let currentScene = "";
+            let YEAR = "1984";
+            let messages = null;
 
             const MAX_MOVES = 10;
             const terminal = document.getElementById("terminal");
             const choicesContainer = document.getElementById("choices");
 
-            const systemPrompt = {
-                role: "system",
-                content: `You are a retro-futuristic interactive story engine set in an 80s horror vibe. Where protagonist is the reader and the AI will eventually decide the fate of the protagonist.
-
-                                      STORY RULES:
-                                      - The story is set in 1984, the reader, will be the protagonists in this classic horror story, where sex, drugs, violence and inevitable death will occur, this is 18+ so DO NOT HOLD BACK.
-                                      - There's a 50% chance of a plot twist.
-                                      - The AI decides the fate of the protagonist and eventually in the last move the the AI decides of the reader survives or not.
-                                      - Build from intrigue, mystery, romanticm tension (18+), NO HOLDING BACK WITH SEX, BLOOD AND GORE AND HORROR TROPES, when we get to ${MAX_MOVES * 0.75} the violence turns full on, nobody is potentially safe and after ${MAX_MOVES} moves we see if the reader survives or is the last one to be slaughtered.
-                                      - Always return EXACTLY THREE numbered choices at the end:
-                                        - Format each on its own line.
-                                        - Begin with: 1. ... 2. ... 3. ...
-                                        - Use consistent numbering with no prose.
-                                        - Choices must be unique, actionable, and relevant to the scene.
-                                        - Make sure the choices progress the story in varied and interesting directions.
-                                        - Always provide **three distinct** and **unique options** for each scene.
-                                        - The player will NOT DIE before the ${MAX_MOVES}
-                                        - The horror builds up slowly, creating tension and suspense.
-                                      - Always have the story say "you" instead of the player, to make it seem the player is the protagonist.
-                                      - Do NOT repeat the same action more than once.
-                                      - The AI writes in the style of Stephen King and Dean Koontz.
-                                      - Every choice must be a consequence of the previous choices.
-                                      - Some paths can reach to gore and violence faster than others, but the STORY NEVER exceed ${MAX_MOVES} moves.
-                                      - Do not include commentary. Only return story + 3 numbered options.
-                                      - Ensure the choices are **distinct and meaningful**, driving the story forward in interesting, varied directions.
-                                      - Do not make the same choices repeatedly — each scene must offer new ways to progress.
-                                      - The violence can be reached sooner than ${MAX_MOVES}, depending on the intensity and pace of the choices. Encourage faster progression when intimacy builds quickly.
-                                      - The AI can flesh out the ending giving an explanation who the killer (which can be a person or an entity) is and why they did it: "*** The End."`,
-            };
-
-            const messages = [systemPrompt];
             const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach and the AI will determine if the reader is killed in the last move or barely gets away. This is move 1.
                       Provide three typical horror reopw choices to proceed, numbered 1 to 3, each on its own line.
                       Progressively making the choices more dangerous and more violent and daring!`;
@@ -341,6 +312,45 @@
                 },
             };
 
+            window.createSystemPrompt = function (year, max_moves) {
+                return {
+                    role: "system",
+                    content: `You are a retro-futuristic interactive horror story engine. The protagonist is the reader, and the AI will eventually decide the protagonist's fate.
+
+            STORY RULES:
+            - The story has to be set in the year ${year}.
+            - The reader is the protagonist in this classic horror story, where sex, drugs, violence, and inevitable death will occur.
+            - This is 18+, so DO NOT HOLD BACK.
+            - There's a 50% chance of a plot twist.
+            - The AI decides the fate of the protagonist, and in the last move, the AI decides whether the reader survives or not.
+            - Build from intrigue, mystery, romantic tension (18+), NO HOLDING BACK WITH SEX, BLOOD, GORE, AND HORROR TROPES.
+            - When we get to ${Math.floor(max_moves * 0.75)}, the violence turns full on — nobody is potentially safe.
+            - After ${max_moves} moves, we see if the reader survives or is the last one to be slaughtered.
+
+            CHOICE RULES:
+            - Always return EXACTLY THREE numbered choices at the end:
+              1. ...
+              2. ...
+              3. ...
+            - Format each on its own line.
+            - Choices must be unique, actionable, and relevant to the scene.
+            - Make sure the choices progress the story in varied and interesting directions.
+            - The player will NOT DIE before the ${max_moves}th move.
+            - The horror builds up slowly, creating tension and suspense.
+            - Always say "you" instead of "the player."
+            - Do NOT repeat the same action more than once.
+            - Write in the style of Stephen King and Dean Koontz.
+            - Every choice must be a consequence of previous choices.
+            - Some paths can reach gore and violence faster than others, but the STORY NEVER exceeds ${max_moves} moves.
+            - Do not include commentary — only return the story + 3 numbered options.
+            - Ensure the choices are DISTINCT and MEANINGFUL, driving the story forward in interesting, varied directions.
+            - The violence can begin earlier than ${max_moves}, depending on intensity and pacing.
+            - Encourage faster escalation when intimacy builds quickly.
+            - The AI may flesh out the ending, revealing who the killer is (a person or entity) and why they did it.
+            - End with: "*** The End."`,
+                };
+            };
+
             function showSceneMenu() {
                 const sceneButtons = document.getElementById("sceneButtons");
                 sceneButtons.innerHTML = ""; // clear old
@@ -384,6 +394,13 @@
                     dangerouslyAllowBrowser: true,
                 });
                 console.log("Client initialized:", client);
+            };
+
+            window.updateYear = function () {
+                const input = document.getElementById("inputYear");
+                var year = input.value;
+                console.log("Story updated:", year); // Optional debug output
+                messages = [window.createSystemPrompt(year, MAX_MOVES)];
             };
 
             function wrapText(text, maxWidth = 80) {
@@ -518,7 +535,7 @@
                 <h2>SETUP</h2>
 
                 <!-- API Key Input -->
-                <label for="apiKeyInput">OPENAI API KEY:</label>
+                <label id="inputText">OPENAI API KEY:</label>
                 <input
                     type="text"
                     id="apiKeyInput"
@@ -526,7 +543,13 @@
                     oninput="updateApiKey()"
                 />
                 <br />SELECT A STORY SUBJECT<br /><br />
-
+                <label id="inputText">YEAR:</label>
+                <input
+                    type="text"
+                    id="inputYear"
+                    placeholder="1984"
+                    oninput="updateYear()"
+                />
                 <div id="sceneButtons"></div>
                 <button onclick="startRandomScene()">Random Scene</button>
             </div>
