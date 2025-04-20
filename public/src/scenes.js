@@ -209,6 +209,7 @@ export const scenes = {
   - There's a 50% chance the protagonist defeats it… or becomes its final victim.
   - His sexual partners die one by one.
   - The protagonist has sex with men and women as this OBJECT turns him sex crazed.
+  - Even his own boundaries are pushed beyond his ethical limit when he uses the object, the lust is uncontrollable.
   - He slowly realizes that this object and his new found sexual energy are to blame.
   - Will he relinquish his control over the object? Or will his ego and platonic relationships pervail?
   - It's a horror story about self reflection and the subtext is avoiding STDs.
