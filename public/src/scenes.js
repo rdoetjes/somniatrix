@@ -154,7 +154,7 @@ export const scenes = {
         - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
         ${CHOICE_PROMPT}`,
     },
-    kid_serial_killer_style: {
+    kid_serial_killer: {
         name: "Kid Serial Killer",
         prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him. 
         The antagonist is good looking, innocent and charming. He knows how to manipulate people. He already killed several adults and kids.
