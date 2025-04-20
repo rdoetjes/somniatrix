@@ -141,8 +141,8 @@ export const scenes = {
         ${CHOICE_PROMPT}`,
     },
     serial_killer_style: {
-        name: "Middle-Aged Serial Killer",
-        prompt: `THE READER IS THE ANTAGONIST, A MIDDLE AGED SERIAL KILLER. He targets exclusive male high school students.
+        name: "Serial Killer",
+        prompt: `THE READER IS THE ANTAGONIST, A TWENTY SOMETHING SERIAL KILLER. He targets exclusive male high school students.
         The antagonist is good looking and charming. He already killed several high school students and the cops have no clue.
         DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
@@ -152,6 +152,21 @@ export const scenes = {
         - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
         - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
+        ${CHOICE_PROMPT}`,
+    },
+    kid_serial_killer_style: {
+        name: "Kid Serial Killer",
+        prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him. 
+        The antagonist is good looking, innocent and charming. He knows how to manipulate people. He already killed several adults and kids.
+        DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
+        So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
+        ELEMENTS:
+        - DO NOT introduce anything other than human-driven events.
+        - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
+        - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
+        - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
+        - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
+        - Childabuse, childhood trauma, child neglect drive the kid's behavior.
         ${CHOICE_PROMPT}`,
     },
     home_invasion_teen_victim: {
