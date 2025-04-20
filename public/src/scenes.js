@@ -197,39 +197,8 @@ export const scenes = {
     name: "A Possessed Item",
     prompt: `
   The protagonist is a young boy <AI selects a random age between 10 and 16>
-  He encounters a possessed everyday item — something **totally unexpected** and **not threatening at first glance**, but cursed with a dark, violent power.
-
-  ELEMENTS:
-    - The reader is the protagonist
-    - The age of the protagonist is <AI selects a random age between 10 and 16>
-    - The Object is something weird, maybe even a bit maybe even a bit embarresing.
-  🚫 ABSOLUTE BAN LIST:
-  Do not use any of the following objects:
-  - Kitchen items (e.g. microwave, can opener, toaster, blender, stove)
-  - Knives or weapons
-  - Power tools or electrical appliances
-  - Anything related to cooking, cutting, or heating
-  🛑 If any of these are used, the story is invalid.
-
-  ✅ You must choose something mundane but bizarre or ironic. Examples:
-  - A pair of sunglasses that burn images into retinas
-  - A vintage condom that binds souls
-  - Rollerblades that skate their users to death
-  - A stuffed animal that eats dreams and minds
-  - A cassette tape that infects listeners with a voice
-  - A VHS or DVD player that what you watch happens to people you know
-  - A coffee mug that poisons anyone who drinks from it
-
-  The curse should be:
-  - Deadly and physical
-  - Creative, poetic, and gruesome
-  - Spreading or sentient in some way
-  - Leaves the reader disturbed and fascinated
-
-  The item must take multiple victims.
-  There is a 50% chance the protagonist is killed by it.
-  Push boundaries. Be bold. Get weird.
-
+  He encounters a possessed everyday item.
+  The AI needs to be very creative and imaginative in describing the item and its possession.
   ${CHOICE_PROMPT}`,
   },
 };
