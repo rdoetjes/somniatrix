@@ -197,20 +197,13 @@ export const scenes = {
     name: "Possessed Sex Item",
     prompt: `
   The protagonist is a <SELECT RANDOM AGE 20-25> young <AI SELECTS GENDER MALE OR FEMALE> Not popular at all he never had sex or even went steady.
-  Women (and Men) always avoided him, he wasn't liked let alone sexually attractive.
-  This is until the reader acquired a magical sexual item that grants them immense sexual powers, every man and woman the reader meets
-  they can seduce and have sex with.
-  But each sexual relation slowly dilapidates the reader's mind and body until they become a shell of their former self.
-
+  This is until the protaganist acquired a magical sexual item that grants them immense sexual attraction, every man and woman wants the protagonist and idolize them.
+  But this new found attention eats away at the protagonist's sanity.
   ELEMENTS:
-  - The person doesn't realize the true nature of the object until ${MOVES * 0.75}
   - There's a 50% chance the protagonist defeats the object and regains himself… or becomes its final victim.
-  - The dilapidation does not hinder the protagonist's sexual prowess.
-  - The protagonist has sex with men and women as this OBJECT turns the protagonist sex crazed.
-  - Even the protagonist own boundaries are pushed beyond their ethical limits when they use the object, the sexual lust is uncontrollable.
-  - The protagonist slowly realizes that this object and their new found sexual energy are the cause of their success and dilapidation.
   - It's a horror story about self reflection, self control and the subtext is avoiding STDs.
-  Encourage weird twists, ironic consequences, and creepiness. This R+ so DON'T HOLD BACK.
+  - Subtext is that gay sex is a sin, but straight sex before marriage is a sin too.
+  Encourage weird twists, ironic consequences, and creepiness. This R RATED so DON'T HOLD BACK.
   ${CHOICE_PROMPT}`,
   },
 };
