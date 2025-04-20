@@ -6,7 +6,7 @@
 
             let client = null;
             let currentMove = 1;
-            let currentplot = "";
+            let currentPlot = "";
             let decade = "1980s";
             let messages = null;
 
@@ -73,7 +73,7 @@
                     document.getElementById("header").style.display = "block";
 
                     currentMove = 1;
-                    currentplot = plotKey;
+                    currentPlot = plotKey;
                     getPlot(plotKey);
                 } else {
                     document.getElementById("apiKeyInput").focus();
