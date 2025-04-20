@@ -141,6 +141,27 @@
                 opacity: 0.6; /* Slightly transparent for that ghostly CRT feel */
                 font-family: "WebPlus_IBM_EGA_9x8", monospace;
             }
+
+            select {
+                width: 100%;
+                padding: 0.5rem;
+                margin-bottom: 1rem;
+                background: black;
+                color: #33ff33;
+                border: 1px solid #33ff33;
+                font-family: "WebPlus_IBM_EGA_9x8", monospace;
+                font-size: 100%;
+                box-sizing: border-box;
+                cursor: url("./cursor.png"), auto;
+                appearance: none;
+            }
+
+            select:focus {
+                outline: none;
+                box-shadow:
+                    0 0 5px #33ff33,
+                    0 0 10px #33ff33;
+            }
         </style>
 
         <script type="module">
@@ -312,13 +333,13 @@
                 },
             };
 
-            window.createSystemPrompt = function (year, max_moves) {
+            window.createSystemPrompt = function (decade, max_moves) {
                 return {
                     role: "system",
                     content: `You are a retro-futuristic interactive horror story engine. The protagonist is the reader, and the AI will eventually decide the protagonist's fate.
 
             STORY RULES:
-            - The story has to be set in the year ${year}.
+            - The story has to be set in the ${decade} <AI can select a random year in the ${decade}>.
             - The reader is the protagonist in this classic horror story, where sex, drugs, violence, and inevitable death will occur.
             - This is 18+, so DO NOT HOLD BACK.
             - There's a 50% chance of a plot twist.
@@ -397,10 +418,10 @@
             };
 
             window.updateYear = function () {
-                const input = document.getElementById("inputYear");
-                var year = input.value;
-                console.log("Story updated:", year); // Optional debug output
-                messages = [window.createSystemPrompt(year, MAX_MOVES)];
+                const input = document.getElementById("inputDecade");
+                var decade = input.value;
+                console.log("Story decade:", decade); // Optional debug output
+                messages = [window.createSystemPrompt(decade, MAX_MOVES)];
             };
 
             function wrapText(text, maxWidth = 80) {
@@ -543,13 +564,14 @@
                     oninput="updateApiKey()"
                 />
                 <br />SELECT A STORY SUBJECT<br /><br />
-                <label id="inputText">YEAR:</label>
-                <input
-                    type="text"
-                    id="inputYear"
-                    placeholder="1984"
-                    oninput="updateYear()"
-                />
+                <label id="inputText">DECADE:</label>
+                <select id="inputDecade" onchange="updateYear()">
+                    <option value="" disabled selected>Select a decade</option>
+                    <option value="1960s">1960s</option>
+                    <option value="1970s">1970s</option>
+                    <option value="1980s">1980s</option>
+                    <option value="1990s">1990s</option>
+                </select>
                 <div id="sceneButtons"></div>
                 <button onclick="startRandomScene()">Random Scene</button>
             </div>
