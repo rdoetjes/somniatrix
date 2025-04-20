@@ -215,7 +215,7 @@
                 const remaining = Math.max(MAX_MOVES - currentMove, 0);
                 const key = `plot_${currentMove}`;
 
-                plot[key] = {
+                plots[key] = {
                     prompt: `You previously chose: "${choice}".\nThis is move ${currentMove} out of ${MAX_MOVES}. There are ${remaining} moves left before the climax must happen.\nNarrate the next phase in second person, continuing the tension, torture and horror. Raise the stakes, advance the violence and death.\nIf this is the final move (${currentMove} == ${MAX_MOVES}), teh AI must decide whether the reader gets away (can be extremely hurt) or is slaughtered in the a horrific painful way and then write: "*** The End."\nOtherwise, follow with exactly three unique, story-progressing, progressing, daring, stupid or dangerous choices.`,
                 };
 
