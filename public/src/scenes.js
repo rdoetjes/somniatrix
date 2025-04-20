@@ -196,7 +196,8 @@ export const scenes = {
   possessed_item: {
     name: "A Possessed Item",
     prompt: `
-  The protagonist is a <SELECT RANDOM AGE 20-25> young man. Not popular at all he is an incel.
+  The protagonist is a <SELECT RANDOM AGE 20-25> young man. Not popular at all he never had sex or a girlfriend.
+  Women (and Men) always avoided him, he wasn't liked let alone sexually attractive.
   This is until he acquired a magical sexual item that grants him immense sexual powers, every man and woman he meets
   he can seduce and have sex with.
   But each sexual relation slowly dilapidates his mind and body until he becomes a shell of his former self.
