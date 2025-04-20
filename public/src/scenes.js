@@ -195,13 +195,16 @@ export const scenes = {
   },
   possessed_item: {
     name: "A Possessed Item",
-    prompt: `The reader comes across an every day item that seems to have a life of its own, it can't be an electric can opener!!!
-        Elements:
-        - The protagonist is a man <THE AI PICKS AND AGE AD RANDOM BETWEEN 12-25>
-        - The item is an everyday object anything but an electric can opener!!!
-        - The curse or the entity that possesses it is malevolent and dangerous.
-        - It will cause physical harm to the anyone who uses it.
-        - The item will take many victims in a gruesome way.
-        - <THE AI makes a 50% chance whether the protagonist is killed by the item or not>        ${CHOICE_PROMPT}`,
+    prompt: `The reader comes across an everyday item that seems to have a life of its own. It *must not* be an electric can opener, under *any* circumstances.
+
+  Guidelines:
+  - The protagonist is a boy, aged randomly between 10 and 18.
+  - The item must be something found in daily life, but **not kitchen-related** and **not a tool or appliance**.
+  - Encourage strange or ironic items like rollerblades, sunglasses, condoms, lava lamps, plush toys, etc.
+  - The item is possessed by a malevolent entity or curse and causes severe physical harm or even death.
+  - It takes multiple victims in imaginative, gruesome ways.
+  - There’s a 50% chance the protagonist is eventually killed by the item.
+  Be wildly creative. The more bizarre or ironic the item, the better — twist innocence into horror.
+  ${CHOICE_PROMPT}`,
   },
 };
