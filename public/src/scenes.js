@@ -198,7 +198,7 @@ export const scenes = {
     prompt: `The reader comes across an every day item that seems to have a life of its own.
         Elements:
         - The protagonist is a man <THE AI PICKS AND AGE AD RANDOM BETWEEN 12-25>
-        - The item is an everyday object it can be organic like food or non-organic like a tool, a door or computer something we intend to use.
+        - The item is an everyday object it can be organic like food or non-organic like a tool, a TV, a book, a door, computer something we intend to use or consume.
         - The curse or the entity that possesses it is malevolent and dangerous.
         - It will cause physical harm to the anyone who uses it.
         - The item will take many victims in a gruesome way.
