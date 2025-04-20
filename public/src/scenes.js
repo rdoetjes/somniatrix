@@ -202,8 +202,9 @@ export const scenes = {
   ELEMENTS:
   - There's a 50% chance the protagonist defeats the object and regains himself… or becomes its final victim.
   - It's a horror story about self reflection, self control and the subtext is avoiding STDs.
-  - Subtext is that gay sex is a sin, but straight sex before marriage is a sin too.
-  Encourage weird twists, ironic consequences, and creepiness. This R RATED so DON'T HOLD BACK.
+  - Subtext is that gay sex is a feeds your soul, but straight sex before marriage is a sin too.
+  -Encourage creepiness but make it also funny (sexual innuendo and joking with stereotypes)
+  - This R RATED so DON'T HOLD BACK.
   ${CHOICE_PROMPT}`,
   },
 };
