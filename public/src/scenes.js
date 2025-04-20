@@ -199,6 +199,10 @@ export const scenes = {
   The protagonist is a young boy <AI selects a random age between 10 and 16>
   He encounters a possessed everyday item — something **totally unexpected** and **not threatening at first glance**, but cursed with a dark, violent power.
 
+  ELEMENTS:
+    - The reader is the protagonist
+    - The age of the protagonist is <AI selects a random age between 10 and 16>
+    - The Object is something weird, maybe even a bit maybe even a bit embarresing.
   🚫 ABSOLUTE BAN LIST:
   Do not use any of the following objects:
   - Kitchen items (e.g. microwave, can opener, toaster, blender, stove)
