@@ -196,12 +196,21 @@ export const scenes = {
   possessed_item: {
     name: "A Possessed Item",
     prompt: `
-  The protagonist is a 19 year old boy.
-  He encounters a possessed condom and pair of panties.
+  This is a creepy youth horror story in the style of *Are You Afraid of the Dark?* or *Eerie Indiana*.
+
+  The protagonist is a 13-year-old boy.
+
+  He discovers a strange object — something common for a kid to encounter, like a locker decoration, a walkman, a comic book, or a schoolyard trinket — but it's secretly cursed.
+
   ELEMENTS:
-  - The AI needs to be very creative and imaginative in describing the item and its possession.
-  - Whatever is possessing the item is very evil and wants to destroy the protagonist and their family.
-  - The AI will select at random if the protagonist survives or not.
+  - The object is possessed by something evil that targets the boy and those close to him.
+  - It behaves strangely — whispering, moving on its own, changing appearance, or influencing emotions.
+  - The curse becomes more dangerous over time, resulting in physical harm or terrifying events.
+  - The object takes multiple victims before the climax.
+  - There's a 50% chance the protagonist defeats it… or becomes its final victim.
+
+  Encourage weird twists, ironic consequences, and age-appropriate creepiness.
+
   ${CHOICE_PROMPT}`,
   },
 };
