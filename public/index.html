@@ -398,12 +398,15 @@
             }
 
             window.startRandomScene = function () {
-                const keys = Object.keys(scenes).filter(
-                    (k) => !k.startsWith("scene_"),
-                );
-                const randomKey = keys[Math.floor(Math.random() * keys.length)];
-                console.log(randomKey);
-                startSelectedScene(randomKey);
+                if (client != null) {
+                    const keys = Object.keys(scenes).filter(
+                        (k) => !k.startsWith("scene_"),
+                    );
+                    const randomKey =
+                        keys[Math.floor(Math.random() * keys.length)];
+                    console.log(randomKey);
+                    startSelectedScene(randomKey);
+                }
             };
 
             window.updateApiKey = function () {
