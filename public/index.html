@@ -12,16 +12,24 @@
                 font-style: normal;
                 line-height: 20px; /* or 18px for 2px spacing */
             }
+
+            html {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
             #sceneMenu {
                 position: absolute;
                 top: 5%;
                 left: 5%;
-                width: 50%;
-                height: 50%;
+                width: 60%;
+                max-height: 80%;
                 background-color: rgba(0, 0, 0, 0.95);
                 border: 1px solid #33ff33;
                 padding: 1rem;
-                overflow-y: auto;
+                overflow-y: auto !important; /* or scroll, if you want it always visible */
+                box-sizing: border-box;
                 z-index: 10;
             }
 
@@ -31,7 +39,7 @@
 
             #crt {
                 width: 80vw; /* 80% of the viewport width */
-                height: 73vh; /* 90% of the viewport height */
+                height: 70vh; /* 90% of the viewport height */
                 margin: 5vh auto; /* 5% vertical margin (5% top and bottom) */
                 padding: 30px;
                 background: radial-gradient(
@@ -54,6 +62,9 @@
             }
 
             body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
                 background-color: black;
                 color: #33ff33;
                 font-family: "WebPlus_IBM_EGA_9x8", monospace;
@@ -61,6 +72,7 @@
                 margin: 0;
                 padding: 2rem;
                 cursor: url("./cursor.png"), auto;
+                overflow-y: hidden !important; /* Disable vertical scrolling */
             }
 
             .terminal {
@@ -68,7 +80,7 @@
                 overflow-y: auto;
                 border: 1px solid #33ff33;
                 padding: 1rem;
-                max-height: 60vh;
+                max-height: 70%;
                 margin-bottom: 1rem;
                 white-space: pre-wrap;
             }
@@ -181,42 +193,50 @@
 
             const scenes = {
                 slaughter_house: {
+                    name: "A Slaughter House",
                     prompt: `A deary, dilapidated slaughterhouse in the middle of nowhere. Where the group including the reader are standing in front of the slaughterhouse where a blood stained sign reveals the name of the company: <AI makes up a very horrific suggestive name here>.
                                           Begin the mystery and by inviting them inside. Describe the scene and let them explore and be picked up by the killer one by one and killed in a gruesome manner.
                                          ${CHOICE_PROMPT}`,
                 },
                 town_house: {
+                    name: "An Old Town House",
                     prompt: `An old townhouse in the middle of a street. Where the group of teenagers are standing in front of the townhouse that is named by the kids in the neighborhood: <AI makes up a very horrific suggestive name here> where some horrific things are happening have happened <which the AI can dream up>.
                                           Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner.
                                           ${CHOICE_PROMPT}`,
                 },
                 grave_yard: {
+                    name: "And Old Graveyard",
                     prompt: `An old graveyard in an old village where the reader and his family and friends get somehow stranded <the AI can make up how the got stranded> has some made some very weird-, horrific- and eerie victims. <AI makes up the name of the graveyard>. In this graveyard people who come in alive somehow very often end up dead as to how and why the <which the AI can dream up>.
                                           Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner.
                                           ${CHOICE_PROMPT}`,
                 },
                 hitchhiker: {
+                    name: "The Hitchhiker",
                     prompt: `The reader picks up a hitchhiker named <AI creates the name of the hitchhiker> and they begin their journey together. However the hitchhiker is a serial killer and people on their way are killed and tortured in a horrific way. Will the reader survive or also end up dead? That is for the AI to decide.
                                           Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner, no matter what the reader does he will see the horror. Get inspired from The Movie The Hitcher, The Movie DUEL,Stephen King's The Hitchhiker.
                                           ${CHOICE_PROMPT}`,
                 },
                 boarding_school: {
+                    name: "A Boarding School",
                     prompt: `The reader is a teenager <AI creates a random age between 11 and 16> in a luxury boarding school. In that boarding school, children seem to go missing or tell stories about sexual abuse, torture and ritualistic killings. The parents don't seem to care. Will the reader try to escape or stay? Will reader survive or die? That is up to the AI to decide.
                                           Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner, no matter what the reader does he will see the horror.
                                           ${CHOICE_PROMPT}`,
                 },
                 mental_asylum: {
+                    name: "Mental Asylum",
                     prompt: `<AI decideds if the reader is either a patient, a visitor or an employee> in this mental aslym. A mental asylm where very sinister things have (or still do happen) to the patients. Create a story about an asylum where terrible things happen. You can for example get inspiration from Silent Hill, Shutter Island and the likes. It ca be paranormal or psychological horror, the AI decides.
                                       Begin the mystery. And expose the reader gradually to the horror that have occured in the asylum and WILL DEFINITELY HAPPEN TO THE READER! Don't hold back in gore!
                                       ${CHOICE_PROMPT}`,
                 },
                 abandoned_carnival: {
+                    name: "Abandoned Carnival",
                     prompt: `An abandoned carnival on the outskirts of town, rumored to have shut down after a mass disappearance of visitors decades ago. The reader and their group find the rusted gates unlocked. A crooked, faded sign reads: <AI invents a terrifying carnival name, like “Grinner’s Hollow” or “The Laughing Dark”>.
                                       Begin the mystery. The group enters and soon realizes they're not alone. Sinister clowns, grotesque rides, and haunted attractions become death traps.
                                       ${CHOICE_PROMPT}`,
                 },
 
                 deep_wood_cabin: {
+                    name: "Deep Wood Cabin",
                     prompt: `A remote log cabin in the middle of a dark, endless forest. The group, including the reader, seeks shelter after their car breaks down. Carved into the door are strange symbols and a phrase: <AI makes up a cursed warning>.
                                       Inside, things are wrong. Time loops, shadows move, and something ancient awakens in the trees.
                                       Begin the mystery. As the story progresses, characters will descend into madness, die in brutal ways, or vanish entirely.
@@ -224,29 +244,34 @@
                 },
 
                 sunken_hotel: {
+                    name: "Sunken Hotel",
                     prompt: `The reader and their companions descend into a partially flooded luxury hotel abandoned after a mass drowning incident. The hotel’s name <AI invents a twisted name, like “The Stillwater Estate”> still glows faintly above the algae-covered awning.
                                       Begin the mystery. Something lurks in the stagnant water, dragging people under. Ghostly guests roam the halls, repeating their final moments.
                                       ${CHOICE_PROMPT}`,
                 },
 
                 the_curse: {
+                    name: "The Curse",
                     prompt: `<AI decides how the reader gets cursed by someone or something> The curse is real and powerful. The reader must face it head-on. The AI decides how the curse manifests itself and whether the reader beats the curse or not.
                                         Begin the mystery.Very mundane, take inspiration from classic horror stories like Thinner, The Gypse, The Curse of the Mummy etc.
                                         ${CHOICE_PROMPT}`,
                 },
 
                 abandoned_mine: {
+                    name: "Abandoned Mine",
                     prompt: `The reader and friends some how <AI decides how> get to an abandoned mine said to be cursed after a collapse that buried dozens alive. The entrance is sealed with rusted chains and a warning scrawled in blood-red paint: <AI creates a horrific name or phrase>.
                                       Begin the mystery. As they go deeper underground, they begin hearing voices, seeing flickers of movement, and then one by one… they disappear.
                                       ${CHOICE_PROMPT}`,
                 },
 
                 lost_hospital: {
+                    name: "Lost Hospital",
                     prompt: `The reader stumbles across a forgotten, overgrown hospital. Its name, <AI creates a disturbing hospital name>, is partially obscured by ivy. Inside, everything is preserved—beds unmade, charts still on clipboards, blood stains long dried.
                                       Begin the mystery. As the reader explores, echoes of past surgeries and long-dead patients return in horrific, physical form.
                                       ${CHOICE_PROMPT}`,
                 },
                 abandoned_church: {
+                    name: "Abandoned Church",
                     prompt: `An old, crumbling church deep in a forest that doesn’t appear on any map. The reader and their companions discover it during a camping trip. Over the door, a carved phrase reads: <AI generates a blasphemous or foreboding church name or motto>.
                                       Inside, the altar is stained, the pews are shattered, and something unseen watches from the rafters.
                                       Begin the mystery. As the group explores, they encounter increasingly unholy horrors — some human, some not. Sacrifices will be made.
@@ -254,6 +279,7 @@
                 },
 
                 sunken_ship: {
+                    name: "Sunken Ship",
                     prompt: `The reader joins a deep-sea salvage crew to explore a recently discovered sunken vessel named <AI creates an eerie ship name>. The ship rests in an unnatural trench where no life should exist.
                                       As the team dives and enters the hull, things begin to move in the shadows. Old crew logs speak of madness, rituals, and “something awakened in the deep.”
                                       Begin the mystery. One by one, the divers vanish or turn on each other in horrifying ways. The sea does not give back what it takes.
@@ -261,6 +287,7 @@
                 },
 
                 desert_motel: {
+                    name: "Desert Motel",
                     prompt: `A dusty motel off a forgotten desert highway. As the reader and optionally <AI gets cho choose whether the reader is alone or with a partner or a whole famile> check in for the night. Things are not right, you won't catch sleep as this place can house ghosts, serial killers, and other horrors.
                                       <AI invents the motel’s name — something suggestive of decay or death>.
                                       Begin the mystery. The other guests may not be human. Time is strange here. Violence seeps into the walls.
@@ -268,6 +295,7 @@
                 },
 
                 alien_forest: {
+                    name: "Alien Forest",
                     prompt: `A research team, including the reader, lands on an uncharted planet covered in thick, bioluminescent jungle. The trees whisper. The sky shifts colors. A trail of missing expedition members leads to a pulsing structure of unknown origin.
                                       <AI names the alien forest with something ancient and unpronounceable>.
                                       Begin the mystery. As the team explores, their minds begin to warp, and the forest seems to breathe. What’s killing them may already be inside them.
@@ -275,29 +303,34 @@
                 },
 
                 mirror_house: {
+                    name: "Mirror House",
                     prompt: `The reader wakes up inside a grand Victorian house made entirely of mirrors. No memory of how they got there. Their reflection is slightly... off. Other “versions” of themselves appear in different mirrors. One begins to move without the reader.
                                       <AI gives the house a name that hints at fractured reality or forbidden reflection>.
                                       Begin the mystery. Every room is a psychological trap. And the reflections want out.
                                       ${CHOICE_PROMPT}`,
                 },
                 trick_or_treat: {
+                    name: "Trick or Treat",
                     prompt: `The reader is an early teenager, who goes trick or treating <AI decides whether he is alone or accompanied by friends>. <The AI decides whether they can become kidnapped and horribly tortured and abused. They are murdered by one by one by a paranormal entity. Or slashed one by one by some serial killer. Get inspired by stores like Trick Or Treat, Halloween Horror Nights, Halloween. Nobody is safe! NOT EVEN LITTLE KIDS!!! Sometimes reality is worse that paranormal stuff, so choose wisely dear AI!
                                       Begin the mystery, think of the most terrifying scenarios that could happen to the reader when it concerns your kids (razor blades in apples, drugs in apples that lead them to be kidnapped... Kids are not spared! If the reader survies this ordeal is up to the AI to decide!
                                       ${CHOICE_PROMPT}`,
                 },
                 dysfunctional_family: {
+                    name: "Dysfunctional Family",
                     prompt: `The reader is a member of a dysfunctional family. They take you in torturing, raping and gaslighting complete strangers, nobody is safe from you and your family! Not even your own family members, because there are secrets of horrible deeds even among the family members. Incestious relationships are common in this family. Psychopathy is given in all the family members.
                     THINK SAW, Devils Rejects, TORTURE PORN HORROR GENRE!
                     Begin the mystery with the reader being the biggest psychopath in the family, taking any chance to hurt and kill anyone young or old give the chance.
                     ${CHOICE_PROMPT}`,
                 },
                 serial_killer_style: {
+                    name: "Middle-Aged Serial Killer",
                     prompt: `THE READER IS THE ANTAGONIST, A MIDDLE AGED SERIAL KILLER. He targets exclusive male high school students.
                     The antagonist is good looking and charming. He already killed several high school students and the cops have no clue. <THE AI DECIDES AD RANDOM, IF THIS VICTIM WILL TURN THE TABLES ON HIM OR NOT>
                     IMPORTANT, NO CREATURES, NO PARANORMAL ELEMENTS, NO MAGIC, NO SUPERNATURAL ELEMENTS, NO OTHER WORLD ELEMENTS!
                     ${CHOICE_PROMPT}`,
                 },
                 home_invasion_teen_victim: {
+                    name: "Teen Home Invasion",
                     prompt: `The reader is a teenager <AI comes up with a name> he becomes the victim of a house invasion. <AI decides if he is alone or with his friends or siblings>. The reader and the optional siblings or friends are confronted by <the AI decides it it's a group of psychopaths or a single psychopath>.
                     The main antagonist is has a twisted sense of humor and enjoys torturing his victims. The victim is terrified and has no idea what to do.
                     He stops at nothing! Young or old, he will kill them all! <THE AI DECIDES AD RANDOM, IF THE PROTAGONIST WILL TURN THE TABLES ON HIM OR NOT>
@@ -315,7 +348,7 @@
                 for (let key in scenes) {
                     if (!key.startsWith("scene_")) {
                         const btn = document.createElement("button");
-                        btn.textContent = key;
+                        btn.textContent = scenes[key].name;
                         btn.onclick = () => startSelectedScene(key);
                         sceneButtons.appendChild(btn);
                     }
@@ -482,15 +515,17 @@
     <body>
         <div id="crt">
             <div id="sceneMenu" class="glow">
-                <h2>Select a Scene</h2>
+                <h2>SETUP</h2>
+
                 <!-- API Key Input -->
-                <label for="apiKeyInput">OpenAI API Key:</label>
+                <label for="apiKeyInput">OPENAI API KEY:</label>
                 <input
                     type="text"
                     id="apiKeyInput"
                     placeholder="Enter API key"
                     oninput="updateApiKey()"
                 />
+                <br />SELECT A STORY SUBJECT<br /><br />
 
                 <div id="sceneButtons"></div>
                 <button onclick="startRandomScene()">Random Scene</button>
