@@ -195,16 +195,21 @@ export const scenes = {
   },
   possessed_item: {
     name: "A Possessed Item",
-    prompt: `The reader comes across an everyday item that seems to have a life of its own. It *must not* be an electric can opener, under *any* circumstances.
+    prompt: `
+        The protagonist, a young man aged randomly between 12 and 25, discovers an everyday object that is possessed by something dark and malevolent.
 
-  Guidelines:
-  - The protagonist is a boy, aged randomly between 10 and 18.
-  - The item must be something found in daily life, but **not kitchen-related** and **not a tool or appliance**.
-  - Encourage strange or ironic items like rollerblades, sunglasses, condoms, lava lamps, plush toys, etc.
-  - The item is possessed by a malevolent entity or curse and causes severe physical harm or even death.
-  - It takes multiple victims in imaginative, gruesome ways.
-  - There’s a 50% chance the protagonist is eventually killed by the item.
-  Be wildly creative. The more bizarre or ironic the item, the better — twist innocence into horror.
+        ⚠️ ABSOLUTELY FORBIDDEN: kitchen items, household tools, appliances, or anything commonly used for cutting, heating, or blending. No microwaves. No electric can openers. No knives. No hairdryers. No toasters. Be bold.
+
+        ✅ PICK SOMETHING UNEXPECTED: sunglasses, condoms, lava lamps, vintage VHS tapes, a rubber duck, a music box, rollerblades, an old Game Boy, a worn-out teddy bear — anything that’s **non-threatening on the surface**, but creepy in hindsight.
+
+        🎯 GOALS:
+        - The item causes *gruesome physical harm* to anyone who uses or touches it.
+        - The curse spreads or manipulates people to interact with it.
+        - The story takes a sinister turn quickly — victims die horribly, or become puppets.
+        - There is a 50% chance the protagonist will survive (flip a coin internally).
+        - Embrace irony and horror. Make the object feel cursed *because* it shouldn't be.
+
+        DO NOT take the easy route. Surprise the reader. Haunt them with the mundane turned grotesque.
   ${CHOICE_PROMPT}`,
   },
 };
