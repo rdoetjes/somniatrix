@@ -194,7 +194,7 @@ export const scenes = {
         ${CHOICE_PROMPT}`,
   },
   possessed_item: {
-    name: "A Possessed Item",
+    name: "Possessed Sex Item",
     prompt: `
   The protagonist is a <SELECT RANDOM AGE 20-25> young man. Not popular at all he never had sex or a girlfriend.
   Women (and Men) always avoided him, he wasn't liked let alone sexually attractive.
