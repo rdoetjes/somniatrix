@@ -12,7 +12,7 @@ html {
     padding: 0;
 }
 
-#sceneMenu {
+#plotMenu {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -26,7 +26,7 @@ html {
     z-index: 10;
 }
 
-#sceneMenu button {
+#plotMenu button {
     margin: 0.25rem 0;
 }
 

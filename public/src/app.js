@@ -1,12 +1,12 @@
         // THIS IS A VIBE CODING SESSION, TO SEE WHAT YOU CAN DO WITH AI
             // THINGS LOOK AWFUL, TERRIBLE LOOKING CODE BY CHATGPT 4.0
             import OpenAI from "https://cdn.skypack.dev/openai";
-            import { scenes } from "./scenes.js";
-            import { MAX_MOVES } from "./scenes.js";
+            import { plots } from "./plots.js";
+            import { MAX_MOVES } from "./plots.js";
 
             let client = null;
             let currentMove = 1;
-            let currentScene = "";
+            let currentplot = "";
             let decade = "1980s";
             let messages = null;
 
@@ -34,7 +34,7 @@
               2. ...
               3. ...
             - Format each on its own line.
-            - Choices must be unique, actionable, and relevant to the scene.
+            - Choices must be unique, actionable, and relevant to the plot.
             - Make sure the choices progress the story in varied and interesting directions.
             - The player will NOT DIE before the ${max_moves}th move.
             - The story builds up slowly, creating tension and suspense.
@@ -51,44 +51,44 @@
                 };
             };
 
-            function showSceneMenu() {
-                const sceneButtons = document.getElementById("sceneButtons");
-                sceneButtons.innerHTML = ""; // clear old
+            function showplotMenu() {
+                const plotButtons = document.getElementById("plotButtons");
+                plotButtons.innerHTML = ""; // clear old
 
-                for (let key in scenes) {
-                    if (!key.startsWith("scene_")) {
+                for (let key in plots) {
+                    if (!key.startsWith("plot_")) {
                         const btn = document.createElement("button");
-                        btn.textContent = scenes[key].name;
-                        btn.onclick = () => startSelectedScene(key);
-                        sceneButtons.appendChild(btn);
+                        btn.textContent = plots[key].name;
+                        btn.onclick = () => startSelectedplot(key);
+                        plotButtons.appendChild(btn);
                     }
                 }
             }
 
-            function startSelectedScene(sceneKey) {
+            function startSelectedplot(plotKey) {
                 if (client != null) {
-                    document.getElementById("sceneMenu").style.display = "none";
+                    document.getElementById("plotMenu").style.display = "none";
                     document.getElementById("terminal").style.display = "block";
                     document.getElementById("choices").style.display = "block";
                     document.getElementById("header").style.display = "block";
 
                     currentMove = 1;
-                    currentScene = sceneKey;
-                    getScene(sceneKey);
+                    currentplot = plotKey;
+                    getPlot(plotKey);
                 } else {
                     document.getElementById("apiKeyInput").focus();
                 }
             }
 
-            window.startRandomScene = function () {
+            window.startRandomplot = function () {
                 if (client != null) {
-                    const keys = Object.keys(scenes).filter(
-                        (k) => !k.startsWith("scene_"),
+                    const keys = Object.keys(plots).filter(
+                        (k) => !k.startsWith("plot_"),
                     );
                     const randomKey =
                         keys[Math.floor(Math.random() * keys.length)];
                     console.log(randomKey);
-                    startSelectedScene(randomKey);
+                    startSelectedplot(randomKey);
                 } else {
                     document.getElementById("apiKeyInput").focus();
                 }
@@ -137,7 +137,7 @@
                 return options.length >= 3 ? options.slice(0, 3) : [];
             }
 
-            async function getScene(sceneKey, userChoice = null) {
+            async function getPlot(plotKey, userChoice = null) {
                 const newMessages = [...messages];
 
                 if (userChoice) {
@@ -148,7 +148,7 @@
                 } else {
                     newMessages.push({
                         role: "user",
-                        content: scenes[sceneKey].prompt,
+                        content: plots[plotKey].prompt,
                     });
                 }
 
@@ -213,15 +213,15 @@
                 console.log("currentMove BEFORE increment:", currentMove);
 
                 const remaining = Math.max(MAX_MOVES - currentMove, 0);
-                const key = `scene_${currentMove}`;
+                const key = `plot_${currentMove}`;
 
-                scenes[key] = {
+                plot[key] = {
                     prompt: `You previously chose: "${choice}".\nThis is move ${currentMove} out of ${MAX_MOVES}. There are ${remaining} moves left before the climax must happen.\nNarrate the next phase in second person, continuing the tension, torture and horror. Raise the stakes, advance the violence and death.\nIf this is the final move (${currentMove} == ${MAX_MOVES}), teh AI must decide whether the reader gets away (can be extremely hurt) or is slaughtered in the a horrific painful way and then write: "*** The End."\nOtherwise, follow with exactly three unique, story-progressing, progressing, daring, stupid or dangerous choices.`,
                 };
 
-                currentScene = key;
-                console.log(currentScene);
-                await getScene(currentScene, choice);
+                currentPlot = key;
+                console.log(currentPlot);
+                await getPlot(currentPlot, choice);
 
                 currentMove++;
                 isProcessingChoice = false;
@@ -235,5 +235,5 @@
                 document.getElementById("terminal").style.display = "none";
                 document.getElementById("choices").style.display = "none";
 
-                showSceneMenu();
+                showplotMenu();
             };

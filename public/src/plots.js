@@ -4,11 +4,11 @@ const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach and the AI will dete
 Provide three typical horror choices to proceed, numbered 1 to 3, each on its own line.
 Progressively making the choices more dangerous and more violent and daring!`;
 
-export const scenes = {
+export const plots = {
   slaughter_house: {
     name: "A Slaughter House",
     prompt: `A deary, dilapidated slaughterhouse in the middle of nowhere. Where the group including the reader are standing in front of the slaughterhouse where a blood stained sign reveals the name of the company: <AI makes up a very horrific suggestive name here>.
-                              Begin the mystery and by inviting them inside. Describe the scene and let them explore and be picked up by the killer one by one and killed in a gruesome manner.
+                              Begin the mystery and by inviting them inside. Describe the plot and let them explore and be picked up by the killer one by one and killed in a gruesome manner.
                              ${CHOICE_PROMPT}`,
   },
   town_house: {
