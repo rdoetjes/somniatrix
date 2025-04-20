@@ -387,14 +387,18 @@
             }
 
             function startSelectedScene(sceneKey) {
-                document.getElementById("sceneMenu").style.display = "none";
-                document.getElementById("terminal").style.display = "block";
-                document.getElementById("choices").style.display = "block";
-                document.getElementById("header").style.display = "block";
+                if (client != null) {
+                    document.getElementById("sceneMenu").style.display = "none";
+                    document.getElementById("terminal").style.display = "block";
+                    document.getElementById("choices").style.display = "block";
+                    document.getElementById("header").style.display = "block";
 
-                currentMove = 1;
-                currentScene = sceneKey;
-                getScene(sceneKey);
+                    currentMove = 1;
+                    currentScene = sceneKey;
+                    getScene(sceneKey);
+                } else {
+                    document.getElementById("apiKeyInput").focus();
+                }
             }
 
             window.startRandomScene = function () {
@@ -406,6 +410,8 @@
                         keys[Math.floor(Math.random() * keys.length)];
                     console.log(randomKey);
                     startSelectedScene(randomKey);
+                } else {
+                    document.getElementById("apiKeyInput").focus();
                 }
             };
 
