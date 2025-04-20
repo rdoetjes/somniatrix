@@ -203,6 +203,7 @@ export const scenes = {
         - It will cause physical harm to the anyone who uses it.
         - The item will take many victims in a gruesome way.
         - <THE AI makes a 50% chance whether the protagonist is killed by the item or not>
+        - NO ELECTRIC CAN OPENER!!!
         ${CHOICE_PROMPT}`,
   },
 };
