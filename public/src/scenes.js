@@ -194,23 +194,23 @@ export const scenes = {
         ${CHOICE_PROMPT}`,
   },
   possessed_item: {
-    name: "Goosebumps Youth Horror A Possessed Item",
+    name: "A Possessed Item",
     prompt: `
-  This is a creepy youth horror story in the style of *Are You Afraid of the Dark?* or *Eerie Indiana*.
+  The protagonist is a <SELECT RANDOM AGE 20-25> young man.
 
-  The protagonist is a 13-year-old boy.
-
-  He discovers a strange object — something common for a kid to encounter, like a locker decoration, a walkman, a comic book, or a schoolyard trinket — but it's secretly cursed.
+  He discovers a sexual object like dildo, condom, or vibrator pair of panties. That turns out to be cursed.
+  Initially it made him attract sexual partners very quickly and easily, becoming a stud.
+  But soon he realizes that the object is possessed by a demon that feeds on his sexual energy.
+  The demon is a powerful entity that can control the object and manipulate the protagonist's desires and kill his sexual partners.
+  The object is synomous with STDs.
 
   ELEMENTS:
-  - The object is possessed by something evil that targets the boy and those close to him.
-  - It behaves strangely — whispering, moving on its own, changing appearance, or influencing emotions.
-  - The curse becomes more dangerous over time, resulting in physical harm or terrifying events.
-  - The object takes multiple victims before the climax.
   - There's a 50% chance the protagonist defeats it… or becomes its final victim.
-
-  Encourage weird twists, ironic consequences, and age-appropriate creepiness.
-
+  - His sexual partners die one by one.
+  - He slowly realizes that this object and his new found sexual energy are to blame.
+  - Will he relinquish his control over the object? Or will his ego and platonic relationships pervail?
+  - It's a horror story about self reflection and the subtext is avoiding STDs.
+  Encourage weird twists, ironic consequences, and creepiness. This R+ so DON'T HOLD BACK.
   ${CHOICE_PROMPT}`,
   },
 };
