@@ -203,6 +203,7 @@ export const scenes = {
   But each sexual relation slowly dilapidates the reader's mind and body until they become a shell of their former self.
 
   ELEMENTS:
+  - The person doesn't realize the true nature of the object until ${MOVES * 0.75}
   - There's a 50% chance the protagonist defeats the object and regains himself… or becomes its final victim.
   - The dilapidation does not hinder the protagonist's sexual prowess.
   - The protagonist has sex with men and women as this OBJECT turns the protagonist sex crazed.
