@@ -196,8 +196,8 @@ export const scenes = {
   possessed_item: {
     name: "A Possessed Item",
     prompt: `
-  The protagonist is a young boy <AI selects a random age between 10 and 16>
-  He encounters a possessed everyday item.
+  The protagonist is a 13 year old boy.
+  He encounters a possessed condom and pair of panties.
   ELEMENTS:
   - The AI needs to be very creative and imaginative in describing the item and its possession.
   - Whatever is possessing the item is very evil and wants to destroy the protagonist and their family.
