@@ -197,7 +197,7 @@ export const scenes = {
     name: "A Possessed Item",
     prompt: `The reader comes across an every day item that seems to have a life of its own.
         Elements:
-        - The AI will select protagonist's age at random between 12-25.
+        - The protagonist is a man <THE AI picks his age between 12-25 and mentions it in the setup of the story>
         - The item is an everyday object, easily accessible and commonly found.
         - The curse or the entity that possesses it is malevolent and dangerous.
         - It will cause physical harm to the anyone who uses it.
