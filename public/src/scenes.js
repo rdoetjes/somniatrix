@@ -198,16 +198,16 @@ export const scenes = {
     prompt: `
   The protagonist is a <SELECT RANDOM AGE 20-25> young <AI SELECTS GENDER MALE OR FEMALE> Not popular at all he never had sex or even went steady.
   Women (and Men) always avoided him, he wasn't liked let alone sexually attractive.
-  This is until he acquired a magical sexual item that grants him immense sexual powers, every man and woman he meets
-  he can seduce and have sex with.
-  But each sexual relation slowly dilapidates his mind and body until he becomes a shell of his former self.
+  This is until the reader acquired a magical sexual item that grants them immense sexual powers, every man and woman the reader meets
+  they can seduce and have sex with.
+  But each sexual relation slowly dilapidates the reader's mind and body until they become a shell of their former self.
 
   ELEMENTS:
   - There's a 50% chance the protagonist defeats the object and regains himself… or becomes its final victim.
-  - The dilapidation does not hinder his sexual prowess.
-  - The protagonist has sex with men and women as this OBJECT turns him sex crazed.
-  - Even his own boundaries are pushed beyond his ethical limits when he uses the object, his lust is uncontrollable.
-  - He slowly realizes that this object and his new found sexual energy are to blame.
+  - The dilapidation does not hinder the protagonist's sexual prowess.
+  - The protagonist has sex with men and women as this OBJECT turns the protagonist sex crazed.
+  - Even the protagonist own boundaries are pushed beyond their ethical limits when they use the object, the sexual lust is uncontrollable.
+  - The protagonist slowly realizes that this object and their new found sexual energy are the cause of their success and dilapidation.
   - It's a horror story about self reflection, self control and the subtext is avoiding STDs.
   Encourage weird twists, ironic consequences, and creepiness. This R+ so DON'T HOLD BACK.
   ${CHOICE_PROMPT}`,
