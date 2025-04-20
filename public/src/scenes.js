@@ -196,20 +196,35 @@ export const scenes = {
   possessed_item: {
     name: "A Possessed Item",
     prompt: `
-        The protagonist, a young man aged randomly between 12 and 25, discovers an everyday object that is possessed by something dark and malevolent.
+  The protagonist is a young man aged randomly between 12 and 25.
 
-        ⚠️ ABSOLUTELY FORBIDDEN: kitchen items, household tools, appliances, or anything commonly used for cutting, heating, or blending. No microwaves. No electric can openers. No knives. No hairdryers. No toasters. Be bold.
+  He encounters a possessed everyday item — something **totally unexpected** and **not threatening at first glance**, but cursed with a dark, violent power.
 
-        ✅ PICK SOMETHING UNEXPECTED: sunglasses, condoms, lava lamps, vintage VHS tapes, a rubber duck, a music box, rollerblades, an old Game Boy, a worn-out teddy bear — anything that’s **non-threatening on the surface**, but creepy in hindsight.
+  🚫 ABSOLUTE BAN LIST:
+  Do not use any of the following objects:
+  - Kitchen items (e.g. microwave, can opener, toaster, blender, stove)
+  - Knives or weapons
+  - Power tools or electrical appliances
+  - Anything related to cooking, cutting, or heating
+  🛑 If any of these are used, the story is invalid.
 
-        🎯 GOALS:
-        - The item causes *gruesome physical harm* to anyone who uses or touches it.
-        - The curse spreads or manipulates people to interact with it.
-        - The story takes a sinister turn quickly — victims die horribly, or become puppets.
-        - There is a 50% chance the protagonist will survive (flip a coin internally).
-        - Embrace irony and horror. Make the object feel cursed *because* it shouldn't be.
+  ✅ You must choose something mundane but bizarre or ironic. Examples:
+  - A pair of sunglasses that burn images into retinas
+  - A vintage condom that binds souls
+  - Rollerblades that skate their users to death
+  - A stuffed animal that eats dreams and minds
+  - A cassette tape that infects listeners with a voice
 
-        DO NOT take the easy route. Surprise the reader. Haunt them with the mundane turned grotesque.
+  The curse should be:
+  - Deadly and physical
+  - Creative, poetic, and gruesome
+  - Spreading or sentient in some way
+  - Leaves the reader disturbed and fascinated
+
+  The item must take multiple victims.
+  There is a 50% chance the protagonist is killed by it.
+  Push boundaries. Be bold. Get weird.
+
   ${CHOICE_PROMPT}`,
   },
 };
