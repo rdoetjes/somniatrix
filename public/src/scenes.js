@@ -198,7 +198,8 @@ export const scenes = {
     prompt: `
   The protagonist is a <SELECT RANDOM AGE 20-25> young man.
 
-  He discovers a sexual object like dildo, condom, or vibrator pair of panties. That turns out to be cursed.
+  He discovers a sexual object like dildo, condom, or vibrator pair of panties <AI can be very creative here as to what it is>.
+  That object turns out to be cursed.
   Initially it made him attract sexual partners very quickly and easily, becoming a stud.
   But soon he realizes that the object is possessed by a demon that feeds on his sexual energy.
   The demon is a powerful entity that can control the object and manipulate the protagonist's desires and kill his sexual partners.
