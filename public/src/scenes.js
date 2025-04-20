@@ -194,7 +194,7 @@ export const scenes = {
         ${CHOICE_PROMPT}`,
   },
   possessed_item: {
-    name: "A Possessed Item",
+    name: "Goosebumps Youth HorrorA Possessed Item",
     prompt: `
   This is a creepy youth horror story in the style of *Are You Afraid of the Dark?* or *Eerie Indiana*.
 
