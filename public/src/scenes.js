@@ -193,4 +193,15 @@ export const scenes = {
         - Take inspiration from the following prompt: Movies like Better WatchOut, Krampus, Dreaming of a White Doomsday, Terrifier 3, Saint Nick, Nightmare Before Christmas
         ${CHOICE_PROMPT}`,
   },
+  nested_realities: {
+    name: "Nested Realities",
+    prompt: `The reader is the antagonist and protagonist in a nested reality. The reader is somehow able to travel between different realities, either due to hypnosis, dreams, hallicinations or drugs
+            He has no control what happens in the other realities, in which he is the antagonist. Killing, maming or torturing people, those he knows in the real world.
+        Elements:
+            - The reader gets induced in a dream/hypnotic/hallunocatic state and is able to travel between different realities.
+            - The reader is the antagonist in the other realities, killing, maming or torturing people, those he knows in the real world.
+            - The reader is the protagonist in reality/
+            - Take inspiration from the following prompt: Movies like Brainscan, Inception, Dreamcatcher, The Butterfly Effect, The Matrix, The Sixth Sense, The Shutter Island, The Game.
+        ${CHOICE_PROMPT}`,
+  },
 };
