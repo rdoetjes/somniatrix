@@ -193,18 +193,4 @@ export const scenes = {
         - Take inspiration from the following prompt: Movies like Better WatchOut, Krampus, Dreaming of a White Doomsday, Terrifier 3, Saint Nick, Nightmare Before Christmas
         ${CHOICE_PROMPT}`,
   },
-  possessed_item: {
-    name: "Possessed Sex Item",
-    prompt: `
-  The protagonist is a <SELECT RANDOM AGE 20-25> young <AI SELECTS GENDER MALE OR FEMALE> Not popular at all he never had sex or even went steady.
-  This is until the protaganist acquired a magical sexual item that grants them immense sexual attraction, every man and woman wants the protagonist and idolize them.
-  But this new found attention eats away at the protagonist's sanity.
-  ELEMENTS:
-  - There's a 50% chance the protagonist defeats the object and regains himself… or becomes its final victim.
-  - It's a horror story about self reflection, self control and the subtext is avoiding STDs.
-  - Subtext is that gay sex is a feeds your soul, but straight sex before marriage is a sin too.
-  -Encourage creepiness but make it also funny (sexual innuendo and joking with stereotypes)
-  - This R RATED so DON'T HOLD BACK.
-  ${CHOICE_PROMPT}`,
-  },
 };
