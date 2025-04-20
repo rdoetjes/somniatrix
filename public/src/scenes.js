@@ -198,7 +198,10 @@ export const scenes = {
     prompt: `
   The protagonist is a young boy <AI selects a random age between 10 and 16>
   He encounters a possessed everyday item.
-  The AI needs to be very creative and imaginative in describing the item and its possession.
+  ELEMENTS:
+  - The AI needs to be very creative and imaginative in describing the item and its possession.
+  - Whatever is possessing the item is very evil and wants to destroy the protagonist and their family.
+  - The AI will select at random if the protagonist survives or not.
   ${CHOICE_PROMPT}`,
   },
 };
