@@ -172,7 +172,7 @@
             let client = null;
             let currentMove = 1;
             let currentScene = "";
-            let YEAR = "1984";
+            let decade = "1980s";
             let messages = null;
 
             const MAX_MOVES = 10;
@@ -349,7 +349,7 @@
             - After ${max_moves} moves, we see if the reader survives or is the last one to be slaughtered.
 
             CHOICE RULES:
-            - Always return EXACTLY THREE numbered choices at the end:
+            - Always return EXACTLY THREE numbered choices at the end WHICH MUST REMAIN CONSISTENT TO THE STORY, WE WANT TO THE STORY TO PROGRESS WITHOUT ABRUPT CHANGES AND JUMPS:
               1. ...
               2. ...
               3. ...
@@ -428,7 +428,7 @@
 
             window.updateYear = function () {
                 const input = document.getElementById("inputDecade");
-                var decade = input.value;
+                decade = input.value;
                 console.log("Story decade:", decade); // Optional debug output
                 messages = [window.createSystemPrompt(decade, MAX_MOVES)];
             };
@@ -550,6 +550,8 @@
 
             // Start the story
             window.onload = () => {
+                messages = [window.createSystemPrompt(decade, MAX_MOVES)];
+
                 document.getElementById("header").style.display = "none";
                 document.getElementById("terminal").style.display = "none";
                 document.getElementById("choices").style.display = "none";
@@ -575,7 +577,8 @@
                 <br />SELECT A STORY SUBJECT<br /><br />
                 <label id="inputText">DECADE:</label>
                 <select id="inputDecade" onchange="updateYear()">
-                    <option value="" disabled selected>Select a decade</option>
+                    <option value="" disabled selected>1980s</option>
+                    <option value="Middleages">Middleages</option>
                     <option value="1960s">1960s</option>
                     <option value="1970s">1970s</option>
                     <option value="1980s">1980s</option>
