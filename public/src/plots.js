@@ -168,25 +168,22 @@ export const plots = {
   },
   kid_serial_killer: {
     name: "Kid Serial Killer",
-    prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him.
-        The antagonist is good looking, innocent and charming. He knows how to manipulate people. He already killed several adults and kids.
+    prompt: `The reader is the ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-16>. 
+            The reader is a psychopath. The reader is a sadist. The reader is a masochist. In the story he will kill and torture at least two of his victims.
+            DON'T introduce anything other than human-driven events. The ANTAGONIST's actions should be strictly human, with no paranormal or fantastical elements allowed.
         DON'TS:
           - DO NOT include any monsters, supernatural beings, or paranormal elements.
-          
+          - DO NOT use knives! 
         So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
         DO'S:
         - Victims must be killed in the most gruesome ways.
-        - The antagonist enjoyed killing his victims and adores seeing their pain and suffering.
-        - Years of sexual- and physical abuse combined with domestic violence have made him a psychopath, these events will shimmer in the background of the story.
-        - When the reader kills his victims, he grows more and more powerful, more brutal and evil.
-        - The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
-        - Only human characters, elements and events ar allowed.
-        - The story must remain grounded in the real world with only human characters and events.
+        - At least two victims must die in the story!
+        - Use creative weapons like: syringes (with poison), chemical, pens/pencils, belts, electrocution, fire, slow strangling, drowning, suffocation, blunt force trauma, and so on.      
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
+        - The AI decides in a 50% chance if the boy is eventually caught/killed or not.
 
-        Characteristics to form a good story and a good character:
-        - Childabuse, childhood trauma, child neglect drive the kid's behavior.
+        The boy has a background of:
+        - Sexual and physical abuse that has left him with severe emotional trauma and caused him to become a psychopath.
         - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
         ${CHOICE_PROMPT}`,
   },
