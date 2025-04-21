@@ -12,6 +12,7 @@
 
             const terminal = document.getElementById("terminal");
             const choicesContainer = document.getElementById("choices");
+            const header = "SOMNIATRIX | NIGHTMARE TERMINAL|";
 
             window.createSystemPrompt = function (decade, max_moves) {
                 return {
@@ -160,6 +161,7 @@
                     messages: newMessages,
                 });
 
+                document.getElementById("header").value =  header + "p." + currentMove;
                 const storyText = response.choices[0].message.content.trim();
                 const wrapped = wrapText(storyText).replace(/1\..*$/s, "");
                 terminal.textContent = wrapped;
@@ -223,7 +225,6 @@
                 await getPlot(currentPlot, choice);
 
                 currentMove++;
-                document.getElementById("header").value = "SOMNIATRIX | NIGHTMARE TERMINAL|p." + currentMove;
                 isProcessingChoice = false;
             }
 
@@ -232,6 +233,8 @@
                 messages = [window.createSystemPrompt(decade, MAX_MOVES)];
 
                 document.getElementById("header").style.display = "none";
+                document.getElementById("header").value =  header;
+
                 document.getElementById("terminal").style.display = "none";
                 document.getElementById("choices").style.display = "none";
 
