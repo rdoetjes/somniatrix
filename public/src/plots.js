@@ -180,7 +180,7 @@ export const plots = {
         - The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
         - At least two kills by his hand.
         - Victims must be killed in the most gruesome ways.
-        - Use creative weapons like: syringes (with poison), chemical, pens/pencils, belts, electrocution, fire, slow strangling, drowning, suffocation, blunt force trauma, and so on.      
+        - The kid "MacGyvers" his weapons AI must be creative things ot think of: syringes (with poison), little remote controlled explosive cars, chemicals, stationary, industrial stapler, forklift, firecrack bombs, ball bearings, belts, electrocution, flame throwers, phosphours, molotovs, fire, slow strangling, guitar- or piano strings, spike traps like in vietnam etc.
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
         - The AI decides in a 50% chance if the boy is eventually caught or not.
         - Reveal a background sexual or physical abuse that has left him with severe emotional trauma and caused him to become a psychopath.
