@@ -239,8 +239,7 @@ export const plots = {
   },
   road_rage: {
     name: "Road Rage",
-    prompt: `You are writing a horror short story in the style of *The Strangers* or *Funny Games*. The story is told in second person: the reader is driving with their family — a spouse, a 14-year-old boy, and a 13-year-old girl — on a remote stretch of highway.
-  
+    prompt: `You are writing a horror short story in the style of *The Strangers* or *Funny Games*. The story is told in second person: the reader is driving with their family — a spouse, and their kids — on a remote stretch of highway.
   Another vehicle begins to tailgate, then harass, then pursue. The occupants are masked, silent, and deliberate — they are sadistic thrill-killers.
   
   By the end of the story, **only ONE family member will survive**. The others are murdered in horrifying, realistic, and cinematic ways. The killer's motives remain ambiguous, their faces may never be seen. The story should:
