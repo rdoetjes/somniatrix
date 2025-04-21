@@ -168,8 +168,9 @@ export const plots = {
   },
   kid_serial_killer: {
     name: "Kid Serial Killer",
-    prompt: `The reader is the ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-16>. 
-            The reader is a psychopath. The reader is a sadist. The reader is a masochist. In the story he will kill and torture at least two of his victims.
+    prompt: `The  ANTAGONIST, IS A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-16>. 
+            In the story at least two of his victims must die!!!
+            The ANTAGONIST is a psychopath, masochist, sadist. Killing an torturing his victims is his favorite pastime.
             DON'T introduce anything other than human-driven events. The ANTAGONIST's actions should be strictly human, with no paranormal or fantastical elements allowed.
         DON'TS:
           - DO NOT include any monsters, supernatural beings, or paranormal elements.
@@ -177,13 +178,11 @@ export const plots = {
         So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
         DO'S:
         - Victims must be killed in the most gruesome ways.
-        - At least two victims must die in the story!
+        - At least two kills.
         - Use creative weapons like: syringes (with poison), chemical, pens/pencils, belts, electrocution, fire, slow strangling, drowning, suffocation, blunt force trauma, and so on.      
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
         - The AI decides in a 50% chance if the boy is eventually caught/killed or not.
-
-        The boy has a background of:
-        - Sexual and physical abuse that has left him with severe emotional trauma and caused him to become a psychopath.
+        - Reveal a background sexual and physical abuse that has left him with severe emotional trauma and caused him to become a psychopath.
         - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
         ${CHOICE_PROMPT}`,
   },
