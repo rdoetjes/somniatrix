@@ -188,6 +188,27 @@ export const plots = {
         - A lot of lighthearted horror killings.
         ${CHOICE_PROMPT}`,
   },
+  kid_serial_killer: {
+    name: "Kid Serial Killer",
+    prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him.
+        The antagonist is good looking, innocent and charming. He knows how to manipulate people. He already killed several adults and kids.
+        DON'TS:
+          - DO NOT include any monsters, supernatural beings, or paranormal elements.
+          
+
+        So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
+        DO'S:
+        - The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
+        - Only human characters, elements and events ar allowed.
+        - The story must remain grounded in the real world with only human characters and events.
+        - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
+        - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
+
+        Characteristics to form a good story and a good character:
+        - Childabuse, childhood trauma, child neglect drive the kid's behavior.
+        - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
+        ${CHOICE_PROMPT}`,
+  },
   home_invasion_teen_victim: {
     name: "Teen Home Invasion",
     prompt: `The reader is a teenager <AI comes up with a name> he becomes the victim of a house invasion. <AI decides if he is alone or with his friends or siblings>. The reader and the optional siblings or friends are confronted by <the AI decides it it's a group of psychopaths or a single psychopath>.
@@ -196,7 +217,7 @@ export const plots = {
         - He stops at nothing! Young or old, he will kill them all! <THE AI DECIDES AD RANDOM, IF THE PROTAGONIST WILL TURN THE TABLES ON HIM OR NOT>
         - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
         - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
-        - Please take inspiration from the following prompt: Movies like SCREAM, The Babysitter, Summer of 84, Intrusion, I See You etc.
+        - Please take inspiration from the following prompt: Movies like Better Watch Out, SCREAM, The Babysitter, Summer of 84, Intrusion, I See You etc.
         - Lots of blood and gore and suspense.
         ${CHOICE_PROMPT}`,
   },
