@@ -185,13 +185,13 @@ export const plots = {
   - **No peaceful, merciful, or redemptive outcomes**. The boy is a predator, not a victim.
   - Even when using manipulation (e.g., faking innocence, playing the victim), the boy must ultimately **commit the act of killing**.
   - **Each branch escalates** his confidence, creativity, and depravity.
-  = **At least 12 moves and 2 kills** by move 10.
+  = **At least 12 moves
   
   ---
   
   **STYLE**:
-  - Written like a dark confession, case file, or psychological horror story.
-  - Brutally grounded in reality — inspired by *The Good Son*, *We Need to Talk About Kevin*, *Mikey*, and real-world juvenile killers.
+  - Written like a psychological horror story.
+  - Inspired by *The Good Son*, *We Need to Talk About Kevin*, *Mikey*, and real-world juvenile killers.
   - The boy's kills are **calculated**, **disturbing**, and **deliberately personal**.
   - The world sees him as "sweet" and "gifted" — but the reader knows better.
   
