@@ -169,18 +169,19 @@ export const plots = {
   kid_serial_killer: {
     name: "Kid Serial Killer",
     prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him.
-        The antagonist is good looking, innocent and charming. He knows how to manipulate people. He already killed several adults and kids.
+        The antagonist is good looking, innocent and charming.
+        He already killed several adults and kids and he is going to kill now, again!
         DON'TS:
           - DO NOT include any monsters, supernatural beings, or paranormal elements.
           
-
         So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
         DO'S:
         - The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         - Only human characters, elements and events ar allowed.
-        - The story must remain grounded in the real world with only human characters and events.
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - THE AI DECIDES IF THIS VICTIM WILL TURN THE TABLES AND KILL THE READER, OR THE READER WILL KILL THE VICTIM
+        - People are going to die by his hands.
+        - Only in move ${MAX_MOVES} we will know if the antagonist will be arrested for his crimes or not.
+        - HE MUST KILL! KILL! KILL! KILL!
 
         Characteristics to form a good story and a good character:
         - Childabuse, childhood trauma, child neglect drive the kid's behavior.
