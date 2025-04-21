@@ -173,7 +173,7 @@ export const plots = {
   
     He is **charming**, **well-spoken**, and often **described as a "sweet" or "gifted" kid** — a mask he wears perfectly. But behind that mask is a manipulative killer who has already taken the lives of children and adults, and is planning his next move.
   
-    The antagonist uses **psychological manipulation**, **deception**, and **his own appearance of innocence** to get close to his victims. He may gain their trust, isolate them, and then **kill them in realistic, human ways** — poisoning, bludgeoning, suffocation, or staged accidents. Every move he makes should lead him closer to **another death**.
+    The antagonist uses **deception**, and **his own appearance of innocence** to get close to his victims. He may gain their trust, isolate them, and then **kill them in bizarre over the top ways** — poisoning, bludgeoning, suffocation, or staged accidents. Every move he makes should lead him closer to **another death**.
   
     **DON'TS**:
       - DO NOT introduce supernatural, paranormal, or fantastical elements of any kind.
