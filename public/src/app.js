@@ -169,7 +169,7 @@
 
                 const options = parseOptions(storyText);
                 renderChoices(options);
-                document.getElementById("header").innerHTML =  header + "<&nbsp>;<&nbsp>;p." + currentMove;
+                document.getElementById("header").innerHTML =  header + "&nbsp&nbspp." + currentMove;
 
             }
 
