@@ -223,6 +223,7 @@
                 await getPlot(currentPlot, choice);
 
                 currentMove++;
+                document.getElementById("header").value = "SOMNIATRIX | NIGHTMARE TERMINAL|p." + currentMove;
                 isProcessingChoice = false;
             }
 
