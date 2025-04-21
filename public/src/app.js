@@ -159,7 +159,7 @@
                 choicesContainer.innerHTML = "";
 
                 const response = await client.chat.completions.create({
-                    model: "gpt-4-tubo",
+                    model: "gpt-4-turbo",
                     messages: newMessages,
                 });
 
