@@ -168,7 +168,7 @@ export const plots = {
   },
   kid_serial_killer: {
     name: "Kid Serial Killer",
-    prompt: `The  ANTAGONIST, IS A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-16>. 
+    prompt: `The reader is the ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-16>. 
             In the story at least two of his victims must die!!!
             The ANTAGONIST is a psychopath, masochist, sadist. Killing an torturing his victims is his favorite pastime.
             DON'T introduce anything other than human-driven events. The ANTAGONIST's actions should be strictly human, with no paranormal or fantastical elements allowed.
