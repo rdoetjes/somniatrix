@@ -253,6 +253,7 @@ export const plots = {
   - Be generous with the gore and violence! These are the most fun stories to write!
   - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
   
-  Make it bleak. Make it terrifying. Make it R-rated gorey and unforgettable.`
+  Make it bleak. Make it terrifying. Make it R-rated gorey and unforgettable.
+   ${CHOICE_PROMPT}`
   },  
 };
