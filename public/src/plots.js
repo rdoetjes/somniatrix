@@ -241,13 +241,11 @@ export const plots = {
     name: "Road Rage",
     prompt: `The reader is family caught in a road rage situation.
         The reader is driving in a car with their family. Another vehicle drives past the reader's car and the occuptant(s) of the other car are psychopath.
-        The psychopaths want to kill the reader and their family after a small confrontation.
+        The psychopaths kill 75% of the family. <THE AI DECIDES WHICH 25% OF THE FAMILY SURVIVES>
         Elements:
         - The family has a boy <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16> and a girl <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16>
-        - Eventually father and mother are killed by the psychopaths.
-        - The AI decides whether one or none of the children survive!
+        - The AI decides which 25% of the family survives!
         - The AI decides whether the psychopaths survive or not!
-        - Settings are lone roads in the countryside or dessert.
         - Think like movies like: The Strangers, The Hitcher, The Hunted, The Hitcher, DUEL.
        `
   }
