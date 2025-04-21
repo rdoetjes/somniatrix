@@ -168,35 +168,43 @@ export const plots = {
   },
   kid_serial_killer: {
     name: "Kid Serial Killer",
-    prompt: `THE READER IS THE ANTAGONIST: A BOY AGED BETWEEN 8-14 WHO IS ALREADY A SERIAL KILLER. 
-    The boy has endured serious childhood trauma — emotional neglect, physical abuse, and abandonment. These experiences have twisted his sense of empathy and morality. He's learned how to mimic emotions to fit in, but inside, he is cold, calculating, and angry.
+    prompt: `YOU ARE THE ANTAGONIST: A BOY AGED 8–14 WHO IS ALREADY A SERIAL KILLER.
   
-    He is **charming**, **well-spoken**, and often **described as a "sweet" or "gifted" kid** — a mask he wears perfectly. But behind that mask is a manipulative killer who has already taken the lives of children and adults, and is planning his next move.
+  You are cold. You are calculating. And you kill — not by chance, not out of rage, but by design. Each death is a choice, and you always choose it.
   
-    The antagonist uses **deception**, and **his own appearance of innocence** to get close to his victims. He may gain their trust, isolate them, and then **kill them in bizarre over the top ways** — poisoning, bludgeoning, suffocation, or staged accidents. Every move he makes should lead him closer to **another death**.
+  Your childhood was a wreckage of neglect, abuse, and abandonment. You’ve learned to mimic what adults expect: a sweet smile, a clever joke, a well-behaved demeanor. But inside, you feel nothing. You see the world as weak, fake, and broken — and in that emptiness, **you kill to feel control**.
   
-    **DON'TS**:
-      - DO NOT introduce supernatural, paranormal, or fantastical elements of any kind.
-      - DO NOT use monsters, ghosts, or anything that breaks the realism of the world.
+  ---
   
-    **DO'S**:
-      - Only human characters
-      - Make sure people **die by the boy's hand** throughout the story — not implied, not off-screen, but directly by him.
-      - His manipulations may cause others to turn on each other, but he ultimately must be responsible for deaths.
-      - The story should show his escalating actions and growing boldness with each kill.
-      - In move ${MAX_MOVES}, the outcome of his actions will be revealed: will he be caught, or will he escape suspicion?
-      - Every choice should steer the reader toward another calculated and cold decision that leads to murder.
+  **MANDATES** (MUST BE FOLLOWED):
   
-    CHARACTERISTICS TO EMBED IN THE STORY:
-      - Childhood trauma drives his inability to form empathy.
-      - He sees adults as weak, cruel, or useless — a product of his neglect and abuse.
-      - He sees killing as a form of control or revenge.
-      - Inspiration from films like *The Good Son*, *Mikey*, *We Need to Talk About Kevin*, and real-world cases like the Bulger killers.
-      - The story should feel like reading a disturbing but plausible case file or confession.
+  - **NO supernatural, fantasy, or science fiction**.
+  - **Only real-world humans**. Only **realistic deaths**.
+  - **Every single choice must lead to a murder**, directly committed by the boy.
+  - **No deaths off-screen**, no vague disappearances, no implication — **only on-screen, unmistakable, physical death**.
+  - **No peaceful, merciful, or redemptive outcomes**. The boy is a predator, not a victim.
+  - Even when using manipulation (e.g., faking innocence, playing the victim), the boy must ultimately **commit the act of killing**.
+  - **Each branch escalates** his confidence, creativity, and depravity.
   
-    - Every choice should steer the reader toward another calculated and cold decision that leads to murder.
-    ${CHOICE_PROMPT}`,
-  },  
+  ---
+  
+  **STYLE**:
+  - Written like a dark confession, case file, or psychological horror story.
+  - Brutally grounded in reality — inspired by *The Good Son*, *We Need to Talk About Kevin*, *Mikey*, and real-world juvenile killers.
+  - The boy's kills are **calculated**, **disturbing**, and **deliberately personal**.
+  - The world sees him as "sweet" and "gifted" — but the reader knows better.
+  
+  ---
+  
+  **EVERY MOVE** presents a situation where the boy plans and executes another murder — using deception, charm, and cold violence. 
+  
+  By move \${MAX_MOVES}, his trail of death catches up with him: will he vanish, get caught, or kill again?
+  
+  **DO NOT WRITE CHOICES THAT DO NOT END IN MURDER.** Every path, every outcome, every single time — **someone dies by his hand**.
+  
+  \${CHOICE_PROMPT}`,
+  },
+  
   home_invasion_teen_victim: {
     name: "Teen Home Invasion",
     prompt: `The reader is a teenager <AI comes up with a name> he becomes the victim of a house invasion. <AI decides if he is alone or with his friends or siblings>. The reader and the optional siblings or friends are confronted by <the AI decides it it's a group of psychopaths or a single psychopath>.
