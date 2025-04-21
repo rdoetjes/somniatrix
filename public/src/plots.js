@@ -246,6 +246,7 @@ export const plots = {
         - The family has a boy <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16> and a girl <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16>
         - Eventually father and mother are killed by the psychopaths.
         - The AI decides whether one or none of the children survive!
+        - The AI decides whether the psychopaths survive or not!
         - Settings are lone roads in the countryside or dessert.
         - Think like movies like: The Strangers, The Hitcher, The Hunted, The Hitcher, DUEL.
        `
