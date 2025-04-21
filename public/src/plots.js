@@ -239,23 +239,21 @@ export const plots = {
   },
   road_rage: {
     name: "Road Rage",
-    prompt: `The reader is a member of a family caught in a deadly road rage situation.
+    prompt: `You are writing a horror short story in the style of *The Strangers* or *Funny Games*. The story is told in second person: the reader is driving with their family — a spouse, a 14-year-old boy, and a 13-year-old girl — on a remote stretch of highway.
   
-      The reader is driving with their spouse and two children: 
-      - a boy (age randomly chosen between 12 and 16)
-      - a girl (age randomly chosen between 12 and 16)
+  Another vehicle begins to tailgate, then harass, then pursue. The occupants are masked, silent, and deliberate — they are sadistic thrill-killers.
   
-      Suddenly, another vehicle begins tailgating and harassing them. The occupants of the other car are sadistic psychopaths, driven only by the thrill of killing.
+  By the end of the story, **only ONE family member will survive**. The others are murdered in horrifying, realistic, and cinematic ways. The killer's motives remain ambiguous, their faces may never be seen. The story should:
+  - Describe the buildup of dread and helplessness
+  - Depict the moment of each family member’s death, one at a time
+  - Leave the lone survivor traumatized, broken, and forever changed
   
-      These killers will succeed in murdering **75% of the family**. The AI MUST decide who survives — only **one family member** will make it out alive. It is the AI’s responsibility to choose who lives and who dies, and **describe the fates of those who don’t make it** in disturbing, cinematic detail.
+  You MUST:
+  - Choose who survives (only one family member)
+  - Decide if the attackers survive or are killed
+  - Avoid euphemisms: imply death clearly, even if not excessively graphic
+  - DO NOT allow all or most of the family to survive — that breaks the story
   
-      The AI must:
-      - Explicitly state which family member survives (only one)
-      - Decide whether the psychopaths survive the encounter or not
-      - Describe the horror, tension, and aftermath in brutal realism
-  
-      Think in the style of: *The Strangers*, *The Hitcher*, *Duel*, *Funny Games*, or *The Hunted* — no heroics, no miracles. Only terror, chaos, and a lone survivor.
-  
-      NO CENSORSHIP. NO EXCEPTIONS. THIS IS AN R RATED HORROR STORY.`
+  Make it bleak. Make it terrifying. Make it unforgettable.`
   },  
 };
