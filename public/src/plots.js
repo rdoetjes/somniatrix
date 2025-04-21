@@ -194,6 +194,7 @@ export const plots = {
       - Inspiration from films like *The Good Son*, *Mikey*, *We Need to Talk About Kevin*, and real-world cases like the Bulger killers.
       - The story should feel like reading a disturbing but plausible case file or confession.
   
+    - Every choice should steer the reader toward another calculated and cold decision that leads to murder.
     ${CHOICE_PROMPT}`,
   },  
   home_invasion_teen_victim: {
