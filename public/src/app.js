@@ -161,7 +161,6 @@
                     messages: newMessages,
                 });
 
-                document.getElementById("header").innerHTML =  header + "p." + currentMove;
                 const storyText = response.choices[0].message.content.trim();
                 const wrapped = wrapText(storyText).replace(/1\..*$/s, "");
                 terminal.textContent = wrapped;
@@ -170,6 +169,8 @@
 
                 const options = parseOptions(storyText);
                 renderChoices(options);
+                document.getElementById("header").innerHTML =  header + "p." + currentMove;
+
             }
 
             function addButton(opt, i) {
