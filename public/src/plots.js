@@ -5,6 +5,14 @@ Provide three typical horror choices to proceed, numbered 1 to 3, each on its ow
 Progressively making the choices more dangerous and more violent and daring!`;
 
 export const plots = {
+  snuff_film: {
+    name: "Snuff IT",
+    prompt: `The protagonist is a young man, with a job as a gay porn actor.
+            Takes on the wrong job and ends up in a SNUFF film, where he is brutally murdered.
+            This is an R Rated SNUFF HORROR, so DON'T HOLD BACK on dirty details blood and gore.
+            Take inspiration from: sexual violence, torture, snuff films.
+                             ${CHOICE_PROMPT}`,
+  },
   slaughter_house: {
     name: "A Slaughter House",
     prompt: `A deary, dilapidated slaughterhouse in the middle of nowhere. Where the group including the reader are standing in front of the slaughterhouse where a blood stained sign reveals the name of the company: <AI makes up a very horrific suggestive name here>.
