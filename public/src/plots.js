@@ -237,4 +237,17 @@ export const plots = {
         - Think of stories like: IT, The Good Son, The Boys Who Killed Jamie Bulger, Adolecence
         ${CHOICE_PROMPT}`,
   },
+  road_rage: {
+    name: "Road Rage",
+    prompt: `The reader is family caught in a road rage situation.
+        The reader is driving in a car with their family. Another vehicle drives past the reader's car and the occuptant(s) of the other car are psychopath.
+        The psychopaths want to kill the reader and their family after a small confrontation.
+        Elements:
+        - The family has a boy <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16> and a girl <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16>
+        - Eventually father and mother are killed by the psychopaths.
+        - The AI decides whether one or none of the children survive!
+        - Settings are lone roads in the countryside or dessert.
+        - Think like movies like: The Strangers, The Hitcher, The Hunted, The Hitcher, DUEL.
+       `
+  }
 };
