@@ -182,8 +182,8 @@ export const plots = {
         - The kid "MacGyvers" his weapons AI must be creative things ot think of: little remote controlled explosive cars, make shift bow and arrows, chemicals, stationary, industrial stapler, forklift, firecrack bombs, ball bearings, belts, electrocution, flame throwers, phosphours, molotovs, fire, slow strangling, guitar- or piano strings as limb or head chopping devices, spike traps like in vietnam etc.
         - Victims must be killed in quick succession a "ironic comical killing" spree with these make shift weapons, as we know from some 80s horrors.
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - The AI decides in a 50% chance if the boy is eventually caught or not.
-        - He mainlu kills social workers, judges, lawyers, teachers, parents, and other authority figures.
+        - He always gets away with it because of his intelligence and his ability to escape.
+        - He mainly kills social workers, judges, lawyers, teachers, parents, and other authority figures.
         - Think Art The Clown style killings but then with a kid making it extra funny and comically disturbing.
         - A lot of lighthearted horror killings.
         ${CHOICE_PROMPT}`,
