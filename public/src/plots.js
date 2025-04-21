@@ -182,8 +182,8 @@ export const plots = {
         - Victims must be killed in the most gruesome ways.
         - Use creative weapons like: syringes (with poison), chemical, pens/pencils, belts, electrocution, fire, slow strangling, drowning, suffocation, blunt force trauma, and so on.      
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - The AI decides in a 50% chance if the boy is eventually caught/killed or not.
-        - Reveal a background sexual and physical abuse that has left him with severe emotional trauma and caused him to become a psychopath.
+        - The AI decides in a 50% chance if the boy is eventually caught or not.
+        - Reveal a background sexual or physical abuse that has left him with severe emotional trauma and caused him to become a psychopath.
         - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
         ${CHOICE_PROMPT}`,
   },
