@@ -175,10 +175,11 @@ export const plots = {
         DON'TS:
           - DO NOT include any monsters, supernatural beings, or paranormal elements.
           - DO NOT use knives! 
-        So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
+          - So do not introduce anything other than human-driven events. 
         DO'S:
+        - The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
+        - At least two kills by his hand.
         - Victims must be killed in the most gruesome ways.
-        - At least two kills.
         - Use creative weapons like: syringes (with poison), chemical, pens/pencils, belts, electrocution, fire, slow strangling, drowning, suffocation, blunt force trauma, and so on.      
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
         - The AI decides in a 50% chance if the boy is eventually caught/killed or not.
