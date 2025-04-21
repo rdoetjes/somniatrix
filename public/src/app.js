@@ -12,7 +12,7 @@
 
             const terminal = document.getElementById("terminal");
             const choicesContainer = document.getElementById("choices");
-            const header = "SOMNIATRIX | NIGHTMARE TERMINAL|";
+            const header = "SOMNIATRIX | NIGHTMARE TERMINAL ";
 
             window.createSystemPrompt = function (decade, max_moves) {
                 return {
