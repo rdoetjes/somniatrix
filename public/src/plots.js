@@ -239,20 +239,20 @@ export const plots = {
   },
   road_rage: {
     name: "Road Rage",
-    prompt: `You are writing a horror short story in the style of *The Strangers* or *Funny Games*. The story is told in second person: the reader is driving with their family — a spouse, and their kids — on a remote stretch of highway.
-  Another vehicle begins to tailgate, then harass, then pursue. The occupants are masked, silent, and deliberate — they are sadistic thrill-killers.
+    prompt: `You are writing a horror short story in the style of *The Strangers* or *Funny Games*. 
+    The story is about a couple of high schoolers making a road trip.
+    Another vehicle begins to tailgate, then harass, then pursue. They are sadistic thrill-killers who are out for blood and torture.
   
-  By the end of the story, **only ONE family member will survive**. The others are murdered in horrifying, realistic, and cinematic ways. The killer's motives remain ambiguous, their faces may never be seen. The story should:
+  By the end of the story, the AI decideds if all the characters are dead or not.
   - Describe the buildup of dread and helplessness
-  - Depict the moment of each family member’s death, one at a time
   - Leave the lone survivor traumatized, broken, and forever changed
   
   You MUST:
-  - Choose who survives (only one family member)
-  - Decide if the attackers survive or are killed
-  - Avoid euphemisms: imply death clearly, even if not excessively graphic
-  - DO NOT allow all or most of the family to survive — that breaks the story
+  - Decide if the attacker(s) survive or are killed
+  - DO NOT allow all the characters to survive!
+  - Be generous with the gore and violence! These are the most fun stories to write!
+  - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
   
-  Make it bleak. Make it terrifying. Make it unforgettable.`
+  Make it bleak. Make it terrifying. Make it R-rated gorey and unforgettable.`
   },  
 };
