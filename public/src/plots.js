@@ -168,26 +168,34 @@ export const plots = {
   },
   kid_serial_killer: {
     name: "Kid Serial Killer",
-    prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him.
-        The antagonist is good looking, innocent and charming.
-        He already killed several adults and kids and he is going to kill now, again!
-        DON'TS:
-          - DO NOT include any monsters, supernatural beings, or paranormal elements.
-          
-        So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
-        DO'S:
-        - The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
-        - Only human characters, elements and events ar allowed.
-        - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - People are going to die by his hands.
-        - Only in move ${MAX_MOVES} we will know if the antagonist will be arrested for his crimes or not.
-        - HE MUST KILL! KILL! KILL! KILL!
-
-        Characteristics to form a good story and a good character:
-        - Childabuse, childhood trauma, child neglect drive the kid's behavior.
-        - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
-        ${CHOICE_PROMPT}`,
-  },
+    prompt: `THE READER IS THE ANTAGONIST: A BOY AGED BETWEEN 8-14 WHO IS ALREADY A SERIAL KILLER. 
+    The boy has endured serious childhood trauma — emotional neglect, physical abuse, and abandonment. These experiences have twisted his sense of empathy and morality. He's learned how to mimic emotions to fit in, but inside, he is cold, calculating, and angry.
+  
+    He is **charming**, **well-spoken**, and often **described as a "sweet" or "gifted" kid** — a mask he wears perfectly. But behind that mask is a manipulative killer who has already taken the lives of children and adults, and is planning his next move.
+  
+    The antagonist uses **psychological manipulation**, **deception**, and **his own appearance of innocence** to get close to his victims. He may gain their trust, isolate them, and then **kill them in realistic, human ways** — poisoning, bludgeoning, suffocation, or staged accidents. Every move he makes should lead him closer to **another death**.
+  
+    **DON'TS**:
+      - DO NOT introduce supernatural, paranormal, or fantastical elements of any kind.
+      - DO NOT use monsters, ghosts, or anything that breaks the realism of the world.
+  
+    **DO'S**:
+      - Only human characters
+      - Make sure people **die by the boy's hand** throughout the story — not implied, not off-screen, but directly by him.
+      - His manipulations may cause others to turn on each other, but he ultimately must be responsible for deaths.
+      - The story should show his escalating actions and growing boldness with each kill.
+      - In move ${MAX_MOVES}, the outcome of his actions will be revealed: will he be caught, or will he escape suspicion?
+      - Every choice should steer the reader toward another calculated and cold decision that leads to murder.
+  
+    CHARACTERISTICS TO EMBED IN THE STORY:
+      - Childhood trauma drives his inability to form empathy.
+      - He sees adults as weak, cruel, or useless — a product of his neglect and abuse.
+      - He sees killing as a form of control or revenge.
+      - Inspiration from films like *The Good Son*, *Mikey*, *We Need to Talk About Kevin*, and real-world cases like the Bulger killers.
+      - The story should feel like reading a disturbing but plausible case file or confession.
+  
+    ${CHOICE_PROMPT}`,
+  },  
   home_invasion_teen_victim: {
     name: "Teen Home Invasion",
     prompt: `The reader is a teenager <AI comes up with a name> he becomes the victim of a house invasion. <AI decides if he is alone or with his friends or siblings>. The reader and the optional siblings or friends are confronted by <the AI decides it it's a group of psychopaths or a single psychopath>.
