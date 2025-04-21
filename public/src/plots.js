@@ -177,6 +177,7 @@ export const plots = {
         DO'S:
         - Victims must be killed in the most gruesome ways.
         - The antagonist enjoyed killing his victims and adores seeing their pain and suffering.
+        - Years of sexual- and physical abuse combined with domestic violence have made him a psychopath, these events will shimmer in the background of the story.
         - When the reader kills his victims, he grows more and more powerful, more brutal and evil.
         - The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         - Only human characters, elements and events ar allowed.
