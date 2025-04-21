@@ -168,7 +168,7 @@ export const plots = {
   },
   kid_serial_killer: {
     name: "Kid Serial Killer",
-    prompt: `YOU ARE THE ANTAGONIST: A BOY AGED 8–14 WHO IS ALREADY A SERIAL KILLER.
+    prompt: `YOU ARE THE ANTAGONIST: A BOY AGED 8–16 WHO IS ALREADY A SERIAL KILLER.
   
   You are cold. You are calculating. And you kill — not by chance, not out of rage, but by design. Each death is a choice, and you always choose it.
   
@@ -185,6 +185,7 @@ export const plots = {
   - **No peaceful, merciful, or redemptive outcomes**. The boy is a predator, not a victim.
   - Even when using manipulation (e.g., faking innocence, playing the victim), the boy must ultimately **commit the act of killing**.
   - **Each branch escalates** his confidence, creativity, and depravity.
+  = **At least 12 moves and 2 kills** by move 10.
   
   ---
   
