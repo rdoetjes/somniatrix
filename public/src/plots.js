@@ -184,6 +184,7 @@ export const plots = {
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
         - The AI decides in a 50% chance if the boy is eventually caught or not.
         - Think Art The Clown style killings but then with a kid making it extra funny and comically disturbing.
+        - A lot of lighthearted horror killings.
         ${CHOICE_PROMPT}`,
   },
   home_invasion_teen_victim: {
