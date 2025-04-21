@@ -239,14 +239,23 @@ export const plots = {
   },
   road_rage: {
     name: "Road Rage",
-    prompt: `The reader is family caught in a road rage situation.
-        The reader is driving in a car with their family. Another vehicle drives past the reader's car and the occuptant(s) of the other car are psychopath.
-        The psychopaths kill 75% of the family. <THE AI DECIDES WHICH 25% OF THE FAMILY SURVIVES>
-        Elements:
-        - The family has a boy <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16> and a girl <RANDOM AGE DETERMINED BY AI BETWEEN 12 AND 16>
-        - The AI decides which 25% of the family survives!
-        - The AI decides whether the psychopaths survive or not!
-        - Think like movies like: The Strangers, The Hitcher, The Hunted, The Hitcher, DUEL.
-       `
-  }
+    prompt: `The reader is a member of a family caught in a deadly road rage situation.
+  
+      The reader is driving with their spouse and two children: 
+      - a boy (age randomly chosen between 12 and 16)
+      - a girl (age randomly chosen between 12 and 16)
+  
+      Suddenly, another vehicle begins tailgating and harassing them. The occupants of the other car are sadistic psychopaths, driven only by the thrill of killing.
+  
+      These killers will succeed in murdering **75% of the family**. The AI MUST decide who survives — only **one family member** will make it out alive. It is the AI’s responsibility to choose who lives and who dies, and **describe the fates of those who don’t make it** in disturbing, cinematic detail.
+  
+      The AI must:
+      - Explicitly state which family member survives (only one)
+      - Decide whether the psychopaths survive the encounter or not
+      - Describe the horror, tension, and aftermath in brutal realism
+  
+      Think in the style of: *The Strangers*, *The Hitcher*, *Duel*, *Funny Games*, or *The Hunted* — no heroics, no miracles. Only terror, chaos, and a lone survivor.
+  
+      NO CENSORSHIP. NO EXCEPTIONS. THIS IS AN R RATED HORROR STORY.`
+  },  
 };
