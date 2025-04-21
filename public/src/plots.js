@@ -179,12 +179,11 @@ export const plots = {
         DO'S:
         - The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
         - At least two kills by his hand.
-        - Victims must be killed in the most gruesome ways.
-        - The kid "MacGyvers" his weapons AI must be creative things ot think of: syringes (with poison), little remote controlled explosive cars, chemicals, stationary, industrial stapler, forklift, firecrack bombs, ball bearings, belts, electrocution, flame throwers, phosphours, molotovs, fire, slow strangling, guitar- or piano strings, spike traps like in vietnam etc.
+        - The kid "MacGyvers" his weapons AI must be creative things ot think of: syringes (with poison), little remote controlled explosive cars, make shift bow and arrows, chemicals, stationary, industrial stapler, forklift, firecrack bombs, ball bearings, belts, electrocution, flame throwers, phosphours, molotovs, fire, slow strangling, guitar- or piano strings, spike traps like in vietnam etc.
+        - Victims must be killed in quick succession a "ironic comical killing" spree with these make shift weapons, as we know from some 80s horrors.
         - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
         - The AI decides in a 50% chance if the boy is eventually caught or not.
-        - Reveal a background sexual or physical abuse that has left him with severe emotional trauma and caused him to become a psychopath.
-        - Think of stories like: The Good Son, The Boy Who Killed His Parents, Mikey, The Boys Who Killed Jamie Bulger, Adolecence
+        - Think Art The Clown style killings but then with a kid making it extra funny and comically disturbing.
         ${CHOICE_PROMPT}`,
   },
   home_invasion_teen_victim: {
