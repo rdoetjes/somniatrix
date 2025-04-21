@@ -167,28 +167,6 @@ export const plots = {
         ${CHOICE_PROMPT}`,
   },
   kid_serial_killer: {
-    name: "Artful Kid, Serial Killer",
-    prompt: `The reader is the ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-16>. 
-            In the story at least two of his victims must die!!!
-            The ANTAGONIST is a psychopath and a sadist.
-            DON'T introduce anything other than human-driven events. The ANTAGONIST's actions should be strictly human, with no paranormal or fantastical elements allowed.
-        DON'TS:
-          - DO NOT include any monsters, supernatural beings, or paranormal elements.
-          - DO NOT use knives! 
-          - So do not introduce anything other than human-driven events. 
-        DO'S:
-        - The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - At least two kills by his hand.
-        - The kid "MacGyvers" his weapons AI must be creative things ot think of: little remote controlled explosive cars, make shift bow and arrows, chemicals, stationary, industrial stapler, forklift, firecrack bombs, ball bearings, belts, electrocution, flame throwers, phosphours, molotovs, fire, slow strangling, guitar- or piano strings as limb or head chopping devices, spike traps like in vietnam etc.
-        - Victims must be killed in quick succession a "ironic comical killing" spree with these make shift weapons, as we know from some 80s horrors.
-        - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - He always gets away with it because of his intelligence and his ability to escape.
-        - He mainly kills social workers, judges, lawyers, teachers, parents, and other authority figures.
-        - Think Art The Clown style killings but then with a kid making it extra funny and comically disturbing.
-        - A lot of lighthearted horror killings.
-        ${CHOICE_PROMPT}`,
-  },
-  kid_serial_killer: {
     name: "Kid Serial Killer",
     prompt: `THE READER IS THE ANTAGONIST, A YOUNG SERIAL KILLER <AI DETERMINES AGE BETWEEN 8-14>. The boy has had a rough life, and he has a lot of anger and rage inside him. He has a lot of pent-up anger and rage inside him.
         The antagonist is good looking, innocent and charming. He knows how to manipulate people. He already killed several adults and kids.
