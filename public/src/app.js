@@ -21,7 +21,7 @@
                           "Use vivid language, evocative descriptions, and detailed settings."
             STORY RULES:
             - The story has to be set in the ${decade} <AI can select a random year in the ${decade}>.
-            
+            - If the story plays before the 2000s then there are no CELL PHONES!
             - This is 18+, SO DO NOT HOLD BACK, ON VIOLENCE, BLOOD, SEX, GORE
             - There's a 50% chance of a plot twist.
             - The AI decides the fate of the protagonist, and in the last move, the AI decides whether the reader survives or not.
@@ -161,7 +161,7 @@
                     messages: newMessages,
                 });
 
-                document.getElementById("header").value =  header + "p." + currentMove;
+                document.getElementById("header").innerHTML =  header + "p." + currentMove;
                 const storyText = response.choices[0].message.content.trim();
                 const wrapped = wrapText(storyText).replace(/1\..*$/s, "");
                 terminal.textContent = wrapped;
@@ -233,7 +233,7 @@
                 messages = [window.createSystemPrompt(decade, MAX_MOVES)];
 
                 document.getElementById("header").style.display = "none";
-                document.getElementById("header").value =  header;
+                document.getElementById("header").innerHTML =  header;
 
                 document.getElementById("terminal").style.display = "none";
                 document.getElementById("choices").style.display = "none";
