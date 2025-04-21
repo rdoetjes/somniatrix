@@ -12,7 +12,7 @@
 
             const terminal = document.getElementById("terminal");
             const choicesContainer = document.getElementById("choices");
-            const header = "SOMNIATRIX | NIGHTMARE TERMINAL ";
+            const header = "SOMNIATRIX | NIGHTMARE TERMINAL";
 
             window.createSystemPrompt = function (decade, max_moves) {
                 return {
@@ -169,7 +169,7 @@
 
                 const options = parseOptions(storyText);
                 renderChoices(options);
-                document.getElementById("header").innerHTML =  header + "p." + currentMove;
+                document.getElementById("header").innerHTML =  header + "<&nbsp>;<&nbsp>;p." + currentMove;
 
             }
 
