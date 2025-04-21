@@ -145,6 +145,8 @@ export const plots = {
         - They take you in torturing, raping and gaslighting complete strangers, nobody is safe from you and your family! Not even your own family members, because there are secrets of horrible deeds even among the family members. Incestious relationships are common in this family. Psychopathy is given in all the family members.
         - THINK SAW, Devils Rejects, Texas Chainsaw massacre, TORTURE PORN, HORROR GENRE!
         - The reader is the biggest psychopath in the family. We see him lead the family.
+        - None of their victims survive! At least not in the beginning.
+        - Their victims will be tortured and killed in the most gruesome ways.
         - Whether the reader survives his killing and toturing spree isup to the AI to decide!
         ${CHOICE_PROMPT}`,
   },

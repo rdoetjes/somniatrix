@@ -73,7 +73,7 @@ body {
     overflow-y: auto;
     border: 1px solid #33ff33;
     padding: 1rem;
-    max-height: 70%;
+    max-height: 60vh;
     margin-bottom: 1rem;
     white-space: pre-wrap;
 }
