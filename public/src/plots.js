@@ -173,9 +173,11 @@ export const plots = {
         DON'TS:
           - DO NOT include any monsters, supernatural beings, or paranormal elements.
           
-
         So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
         DO'S:
+        - Victims must be killed in the most gruesome ways.
+        - The antagonist enjoyed killing his victims and adores seeing their pain and suffering.
+        - When the reader kills his victims, he grows more and more powerful and evil.
         - The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
         - Only human characters, elements and events ar allowed.
         - The story must remain grounded in the real world with only human characters and events.
