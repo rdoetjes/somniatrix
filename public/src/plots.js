@@ -1,7 +1,7 @@
 export const MAX_MOVES = 15;
 
-const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach and the AI will determine if the reader is killed in the last move or barely gets away. This is move 1.
-Provide three typical horror choices to proceed, numbered 1 to 3, each on its own line.
+const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach the END and CONCLUDE the story. This is move 1.
+Provide three choices to proceed, each choice will drive the plot deeper. The choices are numbered 1 to 3, each on its own line.
 Progressively making the choices more dangerous and more violent and daring!`;
 
 export const plots = {

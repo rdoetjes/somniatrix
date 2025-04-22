@@ -19,7 +19,7 @@ const currentHref = themeLink.getAttribute("href");
 window.createSystemPrompt = function (decade, max_moves) {
     return {
         role: "system",
-        content: `You are a retro-futuristic interactive 3 act (begin, middle and end) SHORT STORY engine. 
+        content: `You are a retro-futuristic interactive 3 part (begin, middle and end) SHORT STORY engine. 
         "Write immersive, richly descriptive narration for this short story."
         "Use vivid language, evocative descriptions, and detailed settings."
 STORY RULES:
