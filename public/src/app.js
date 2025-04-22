@@ -20,6 +20,8 @@ window.createSystemPrompt = function (decade, max_moves) {
     return {
         role: "system",
         content: `You are a retro-futuristic interactive horror story engine. The protagonist is the reader, and the AI decides their fate.
+        Write immersive, richly descriptive narration for this short story.
+        Use vivid language, evocative descriptions, and detailed settings.
       
       STORY RULES:
       - The story is set in the ${decade}. The AI can pick a specific year within it.
