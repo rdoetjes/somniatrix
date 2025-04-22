@@ -5,7 +5,8 @@ Provide three choices to proceed, each choice will drive the plot deeper. The ch
 Progressively making the choices more dangerous and more violent and daring!
 - One choice must always be “active harm” (the reader causes or experiences pain).
 - One choice must be “passive harm” (the reader avoids action, causing worse outcomes).
-- One choice must be “moral risk” (seems good but leads to disturbing consequences).`;
+- One choice must be “moral risk” (seems good but leads to disturbing consequences).
+- DON'T mention the Active harm, passive hard and moral risk in the choices' text`;
 
 export const plots = {
   nickelodeon_kid_horror_style: {
