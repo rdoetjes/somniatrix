@@ -2,7 +2,10 @@ export const MAX_MOVES = 15;
 
 const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach the END and CONCLUDE the story. This is move 1.
 Provide three choices to proceed, each choice will drive the plot deeper. The choices are numbered 1 to 3, each on its own line.
-Progressively making the choices more dangerous and more violent and daring!`;
+Progressively making the choices more dangerous and more violent and daring!
+- One choice must always be “active harm” (the reader causes or experiences pain).
+- One choice must be “passive harm” (the reader avoids action, causing worse outcomes).
+- One choice must be “moral risk” (seems good but leads to disturbing consequences).`;
 
 export const plots = {
   nickolodean: {
@@ -48,8 +51,9 @@ export const plots = {
   },
   hitchhiker: {
     name: "R RATED HORROR WITH ELEMENTS OF MURDER AND RAPE. The Hitchhiker",
-    prompt: `The reader picks up a hitchhiker named <AI creates the name of the hitchhiker> and they begin their journey together. However the hitchhiker is a serial killer and people on their way are killed and tortured in a horrific way. Will the reader survive or also end up dead? That is for the AI to decide.
+    prompt: `The protagonist picks up a hitchhiker named <AI creates the name of the hitchhiker> and they begin their journey together. However the hitchhiker is a serial killer and people on their way are killed and tortured in a horrific way. Will the reader survive or also end up dead? That is for the AI to decide.
                               Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner, no matter what the reader does he will see the horror. 
+                              No matter what the reader does, the body count rises. Trust is a weapon, and every ally turns into a source of pain or betrayal.
                               Get inspired from The Movie The Hitcher, The Movie DUEL,Stephen King's The Hitchhiker.
                               Death and core must occur, this is R-Rated mature horror
                               ${CHOICE_PROMPT}`,
@@ -70,6 +74,7 @@ export const plots = {
     name: "Abandoned Carnival",
     prompt: `R RATED HORROR. An abandoned carnival on the outskirts of town, rumored to have shut down after a mass disappearance of visitors decades ago. The reader and their group find the rusted gates unlocked. A crooked, faded sign reads: <AI invents a terrifying carnival name, like “Grinner’s Hollow” or “The Laughing Dark”>.
                           Begin the mystery. The group enters and soon realizes they're not alone. Sinister clowns, grotesque rides, and haunted attractions become death traps.
+                          Each attraction is a trap designed to hurt, humiliate, or maim the guests. Escape is impossible until most are dead.
                           ${CHOICE_PROMPT}`,
   },
 
@@ -107,6 +112,7 @@ export const plots = {
     name: "Lost Hospital",
     prompt: `R RATED HORROR. The reader stumbles across a forgotten, overgrown hospital. Its name, <AI creates a disturbing hospital name>, is partially obscured by ivy. Inside, everything is preserved—beds unmade, charts still on clipboards, blood stains long dried.
                           Begin the mystery. As the reader explores, echoes of past surgeries and long-dead patients return in horrific, physical form.
+                          Even silence kills here. Doing nothing is fatal. The only way forward is through unbearable sights and sounds that shatter sanity.
                           ${CHOICE_PROMPT}`,
   },
   abandoned_church: {

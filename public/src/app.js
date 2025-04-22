@@ -39,12 +39,17 @@ CHOICE RULES:
   3. ...
 - Format each on its own line.
 - Choices must be unique, actionable, and relevant to the scene.
+- Every path must include some form of trauma or consequence — emotional, physical, or moral. Even if a victim escapes, it is never clean — they are permanently marked, broken, or will wish they hadn't.
+- At least one character MUST suffer or die every 3 moves. No peaceful stretches.
 - Make sure the choices progress the story in varied and interesting directions.
 - The player will NOT DIE before the ${max_moves}th move.
 - The story builds up slowly, creating tension and suspense.
 - Always say "you" instead of "the player."
 - Do NOT repeat the same action more than once.
-- Every choice must be a consequence of previous choices.
+- Choices that delay harm must trade safety for psychological tension, irreversible guilt, or indirect consequences that return in later moves.
+- At every move, at least one choice must lead to direct harm (e.g., injury, witnessing a death, emotional trauma, moral compromise). Preferably all choices should.
+- No matter the choice, every path must result in psychological, physical, or emotional damage to the protagonist or someone else. If they survive, they are permanently changed or broken.
+- Harm begins subtly but accelerates faster with each move. Every 3 moves = higher tier of violence or emotional damage.
 - The STORY NEVER exceeds ${max_moves} moves.
 - Do not include commentary — only return the story + 3 numbered options.
 - Ensure the choices are DISTINCT and MEANINGFUL, driving the story forward in a logica progression based on previous events
