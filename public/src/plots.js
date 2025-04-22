@@ -5,13 +5,14 @@ Provide three choices to proceed, each choice will drive the plot deeper. The ch
 Progressively making the choices more dangerous and more violent and daring!
 - One choice must always be “active harm” (the reader causes or experiences pain).
 - One choice must be “passive harm” (the reader avoids action, causing worse outcomes).
-- One choice must be “moral risk” (seems good but leads to disturbing consequences).`;
+- One choice must be “moral risk” (seems good but leads to disturbing consequences).
+Just don't mention the active harm, passive harm and moral risk in the options (and they can change order so the reader doesn't know)`;
 
 export const plots = {
   nickelodeon_kid_horror_style: {
     name: "Nickelodeon Kid Horror",
     prompt: `
-  You are the PROTAGONIST: a tween or teen in the ${decade} (AI can pic a year), You stumble into a kid-sized nightmare — inspired by shows like *Are You Afraid of the Dark?*, *Goosebumps*, and *Courage the Cowardly Dog*, but with an R-rated twist.
+  You are the PROTAGONIST: a tween or teen stumbles into a kid-sized nightmare — inspired by shows like *Are You Afraid of the Dark?*, *Goosebumps*, and *Courage the Cowardly Dog*, but with an R-rated twist.
   
   GENRE RULES:
   - Kid-centric suburban horror with **real danger** — no sugarcoating.
@@ -37,7 +38,7 @@ export const plots = {
   You are the PROTAGONIST: a teenager (or a group of teens) who sneaks into the local mall after closing for a night of mischief, dares, or maybe just to party. But something — or someone — is already there.
   
   GENRE RULES:
-  - Set in ${decade} (AI can select the year in this ${decade}).
+
   - No supernatural elements unless explained through folklore, psychological breakdown, or urban myth.
   - Think *Chopping Mall*, *The Initiation*, or *Stranger Things* Season 3 with *zero safety nets*.
   - Every store can be a unique trap: mannequins that move, security bots with reprogrammed protocols, janitors with secrets, makeup counters full of poison.
