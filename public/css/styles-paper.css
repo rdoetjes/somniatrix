@@ -1,11 +1,3 @@
-@font-face {
-    font-family: "WebPlus_IBM_EGA_9x8";
-    src: url("/assets/WebPlus_IBM_EGA_9x8.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    line-height: 20px; /* or 18px for 2px spacing */
-}
-
 html {
     height: 100%;
     margin: 0;
@@ -39,7 +31,7 @@ html {
     background: #f5f0e0;
     color: #333;
     font-family: Georgia, serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     border-radius: 5px;
     box-shadow: 
@@ -83,7 +75,7 @@ body {
     padding: 2rem;
     cursor: default;
     overflow-y: hidden !important; /* Disable vertical scrolling */
-    background-image: url('/assets/paper-texture.png');
+    background-image: url('/assets/paper-texture.jp');
     background-repeat: repeat;
 }
 
