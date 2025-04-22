@@ -208,8 +208,7 @@ function renderChoices(options) {
 
     // Show the 3 parsed options
     options.forEach((opt, i) => {
-        const filtered = opt.replace(/\*\*\s?[\w\s:]+\*\*/s, "");
-        addButton(filtered, i);
+        addButton(opt, i);
     });
 }
 
