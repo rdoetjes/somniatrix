@@ -22,7 +22,7 @@ export const plots = {
   },  
   snuff_film: {
     name: "Snuff IT",
-    prompt: `The protagonist is a young man, with a job as a gay porn actor.
+    prompt: `R RATED HORROR WITH RAPE AND MURRDER. The protagonist is a young man, with a job as a gay porn actor.
             Takes on the wrong job and ends up in a SNUFF film, where he is brutally murdered.
             This is an R Rated SNUFF HORROR, so DON'T HOLD BACK on dirty details blood and gore.
             Take inspiration from: sexual violence, torture, snuff films.
@@ -30,24 +30,24 @@ export const plots = {
   },
   slaughter_house: {
     name: "A Slaughter House",
-    prompt: `A deary, dilapidated slaughterhouse in the middle of nowhere. Where the group including the reader are standing in front of the slaughterhouse where a blood stained sign reveals the name of the company: <AI makes up a very horrific suggestive name here>.
+    prompt: `R RATED HORROR. A deary, dilapidated slaughterhouse in the middle of nowhere. Where the group including the reader are standing in front of the slaughterhouse where a blood stained sign reveals the name of the company: <AI makes up a very horrific suggestive name here>.
                               Begin the mystery and by inviting them inside. Describe the plot and let them explore and be picked up by the killer one by one and killed in a gruesome manner.
                              ${CHOICE_PROMPT}`,
   },
   town_house: {
     name: "An Old Town House",
-    prompt: `An old townhouse in the middle of a street. Where the group of teenagers are standing in front of the townhouse that is named by the kids in the neighborhood: <AI makes up a very horrific suggestive name here> where some horrific things are happening have happened <which the AI can dream up>.
+    prompt: `R RATED HORROR. An old townhouse in the middle of a street. Where the group of teenagers are standing in front of the townhouse that is named by the kids in the neighborhood: <AI makes up a very horrific suggestive name here> where some horrific things are happening have happened <which the AI can dream up>.
                               Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner.
                               ${CHOICE_PROMPT}`,
   },
   grave_yard: {
     name: "And Old Graveyard",
-    prompt: `An old graveyard in an old village where the reader and his family and friends get somehow stranded <the AI can make up how the got stranded> has some made some very weird-, horrific- and eerie victims. <AI makes up the name of the graveyard>. In this graveyard people who come in alive somehow very often end up dead as to how and why the <which the AI can dream up>.
+    prompt: `R RATED HORROR. An old graveyard in an old village where the reader and his family and friends get somehow stranded <the AI can make up how the got stranded> has some made some very weird-, horrific- and eerie victims. <AI makes up the name of the graveyard>. In this graveyard people who come in alive somehow very often end up dead as to how and why the <which the AI can dream up>.
                               Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner.
                               ${CHOICE_PROMPT}`,
   },
   hitchhiker: {
-    name: "The Hitchhiker",
+    name: "R RATED HORROR WITH ELEMENTS OF MURDER AND RAPE. The Hitchhiker",
     prompt: `The reader picks up a hitchhiker named <AI creates the name of the hitchhiker> and they begin their journey together. However the hitchhiker is a serial killer and people on their way are killed and tortured in a horrific way. Will the reader survive or also end up dead? That is for the AI to decide.
                               Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner, no matter what the reader does he will see the horror. 
                               Get inspired from The Movie The Hitcher, The Movie DUEL,Stephen King's The Hitchhiker.
@@ -56,26 +56,26 @@ export const plots = {
   },
   boarding_school: {
     name: "A Boarding School",
-    prompt: `The reader is a teenager <AI creates a random age between 11 and 16> in a luxury boarding school. In that boarding school, children seem to go missing or tell stories about sexual abuse, torture and ritualistic killings. The parents don't seem to care. Will the reader try to escape or stay? Will reader survive or die? That is up to the AI to decide.
+    prompt: `PG-RATED HORROR. The reader is a teenager <AI creates a random age between 11 and 16> in a luxury boarding school. In that boarding school, children seem to go missing or tell stories about sexual abuse, torture and ritualistic killings. The parents don't seem to care. Will the reader try to escape or stay? Will reader survive or die? That is up to the AI to decide.
                               Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner, no matter what the reader does he will see the horror.
                               ${CHOICE_PROMPT}`,
   },
   mental_asylum: {
     name: "Mental Asylum",
-    prompt: `<AI decideds if the reader is either a patient, a visitor or an employee> in this mental aslym. A mental asylm where very sinister things have (or still do happen) to the patients. Create a story about an asylum where terrible things happen. You can for example get inspiration from Silent Hill, Shutter Island and the likes. It ca be paranormal or psychological horror, the AI decides.
+    prompt: `R RATED HORROR. <AI decideds if the reader is either a patient, a visitor or an employee> in this mental aslym. A mental asylm where very sinister things have (or still do happen) to the patients. Create a story about an asylum where terrible things happen. You can for example get inspiration from Silent Hill, Shutter Island and the likes. It ca be paranormal or psychological horror, the AI decides.
                           Begin the mystery. And expose the reader gradually to the horror that have occured in the asylum and WILL DEFINITELY HAPPEN TO THE READER! Don't hold back in gore!
                           ${CHOICE_PROMPT}`,
   },
   abandoned_carnival: {
     name: "Abandoned Carnival",
-    prompt: `An abandoned carnival on the outskirts of town, rumored to have shut down after a mass disappearance of visitors decades ago. The reader and their group find the rusted gates unlocked. A crooked, faded sign reads: <AI invents a terrifying carnival name, like “Grinner’s Hollow” or “The Laughing Dark”>.
+    prompt: `R RATED HORROR. An abandoned carnival on the outskirts of town, rumored to have shut down after a mass disappearance of visitors decades ago. The reader and their group find the rusted gates unlocked. A crooked, faded sign reads: <AI invents a terrifying carnival name, like “Grinner’s Hollow” or “The Laughing Dark”>.
                           Begin the mystery. The group enters and soon realizes they're not alone. Sinister clowns, grotesque rides, and haunted attractions become death traps.
                           ${CHOICE_PROMPT}`,
   },
 
   deep_wood_cabin: {
     name: "Deep Wood Cabin",
-    prompt: `A remote log cabin in the middle of a dark, endless forest. The group, including the reader, seeks shelter after their car breaks down. Carved into the door are strange symbols and a phrase: <AI makes up a cursed warning>.
+    prompt: `R RATED HORROR WITH SEX. A remote log cabin in the middle of a dark, endless forest. The group, including the reader, seeks shelter after their car breaks down. Carved into the door are strange symbols and a phrase: <AI makes up a cursed warning>.
                           Inside, things are wrong. Time loops, shadows move, and something ancient awakens in the trees.
                           Begin the mystery. As the story progresses, characters will descend into madness, die in brutal ways, or vanish entirely.
                           ${CHOICE_PROMPT}`,
@@ -83,7 +83,7 @@ export const plots = {
 
   sunken_hotel: {
     name: "Sunken Hotel",
-    prompt: `The reader and their companions descend into a partially flooded luxury hotel abandoned after a mass drowning incident. The hotel’s name <AI invents a twisted name, like “The Stillwater Estate”> still glows faintly above the algae-covered awning.
+    prompt: `R RATED HORROR WITHS SEX. The reader and their companions descend into a partially flooded luxury hotel abandoned after a mass drowning incident. The hotel’s name <AI invents a twisted name, like “The Stillwater Estate”> still glows faintly above the algae-covered awning.
                           Begin the mystery. Something lurks in the stagnant water, dragging people under. Ghostly guests roam the halls, repeating their final moments.
                           Get inspired by the Overlook Hotel in The Shining.
                           ${CHOICE_PROMPT}`,
@@ -91,43 +91,35 @@ export const plots = {
 
   the_curse: {
     name: "The Curse",
-    prompt: `<AI decides how the reader gets cursed by someone or something> The curse is real and powerful. The reader must face it head-on. The AI decides how the curse manifests itself and whether the reader beats the curse or not.
+    prompt: `R RATED HORROR. <AI decides how the reader gets cursed by someone or something> The curse is real and powerful. The reader must face it head-on. The AI decides how the curse manifests itself and whether the reader beats the curse or not.
                             Begin the mystery.Very mundane, take inspiration from classic horror stories like Thinner, The Gypse, The Curse of the Mummy etc.
                             ${CHOICE_PROMPT}`,
   },
 
   abandoned_mine: {
     name: "Abandoned Mine",
-    prompt: `The reader and friends some how <AI decides how> get to an abandoned mine said to be cursed after a collapse that buried dozens alive. The entrance is sealed with rusted chains and a warning scrawled in blood-red paint: <AI creates a horrific name or phrase>.
+    prompt: `R RATED HORROR. The reader and friends some how <AI decides how> get to an abandoned mine said to be cursed after a collapse that buried dozens alive. The entrance is sealed with rusted chains and a warning scrawled in blood-red paint: <AI creates a horrific name or phrase>.
                           Begin the mystery. As they go deeper underground, they begin hearing voices, seeing flickers of movement, and then one by one… they disappear.
                           ${CHOICE_PROMPT}`,
   },
 
   lost_hospital: {
     name: "Lost Hospital",
-    prompt: `The reader stumbles across a forgotten, overgrown hospital. Its name, <AI creates a disturbing hospital name>, is partially obscured by ivy. Inside, everything is preserved—beds unmade, charts still on clipboards, blood stains long dried.
+    prompt: `R RATED HORROR. The reader stumbles across a forgotten, overgrown hospital. Its name, <AI creates a disturbing hospital name>, is partially obscured by ivy. Inside, everything is preserved—beds unmade, charts still on clipboards, blood stains long dried.
                           Begin the mystery. As the reader explores, echoes of past surgeries and long-dead patients return in horrific, physical form.
                           ${CHOICE_PROMPT}`,
   },
   abandoned_church: {
     name: "Abandoned Church",
-    prompt: `An old, crumbling church deep in a forest that doesn’t appear on any map. The reader and their companions discover it during a camping trip. Over the door, a carved phrase reads: <AI generates a blasphemous or foreboding church name or motto>.
+    prompt: `R RATED HORROR. An old, crumbling church deep in a forest that doesn’t appear on any map. The reader and their companions discover it during a camping trip. Over the door, a carved phrase reads: <AI generates a blasphemous or foreboding church name or motto>.
                           Inside, the altar is stained, the pews are shattered, and something unseen watches from the rafters.
                           Begin the mystery. As the group explores, they encounter increasingly unholy horrors — some human, some not. Sacrifices will be made.
                           ${CHOICE_PROMPT}`,
   },
 
-  sunken_ship: {
-    name: "Sunken Ship",
-    prompt: `The reader joins a deep-sea salvage crew to explore a recently discovered sunken vessel named <AI creates an eerie ship name>. The ship rests in an unnatural trench where no life should exist.
-                          As the team dives and enters the hull, things begin to move in the shadows. Old crew logs speak of madness, rituals, and “something awakened in the deep.”
-                          Begin the mystery. One by one, the divers vanish or turn on each other in horrifying ways. The sea does not give back what it takes.
-                          ${CHOICE_PROMPT}`,
-  },
-
   desert_motel: {
     name: "Desert Motel",
-    prompt: `A dusty motel off a forgotten desert highway. As the reader and optionally <AI gets cho choose whether the reader is alone or with a partner or a whole famile> check in for the night. Things are not right, you won't catch sleep as this place can house ghosts, serial killers, and other horrors.
+    prompt: `R RATED HORROR. A dusty motel off a forgotten desert highway. As the reader and optionally <AI gets cho choose whether the reader is alone or with a partner or a whole famile> check in for the night. Things are not right, you won't catch sleep as this place can house ghosts, serial killers, and other horrors.
                           <AI invents the motel’s name — something suggestive of decay or death>.
                           Begin the mystery. The other guests may not be human. Time is strange here. Violence seeps into the walls.
                           ${CHOICE_PROMPT}`,
@@ -135,31 +127,23 @@ export const plots = {
 
   alien_horror: {
     name: "Alien Horror",
-    prompt: `Write a story about humans encountering extraterrestrial creatures or advanced alien technology.
+    prompt: `R RATED HORROR. Write a story about humans encountering extraterrestrial creatures or advanced alien technology.
             The threat must originate from outer space—either crash-landed, discovered in deep space, or secretly invading Earth.
-            It should be R-Rated, in the style of Alien, The Thing, Critters, Gremlins, or Event Horizon.
             The aliens must cause gruesome deaths or horrific injuries using their biology or technology.
             The AI decides if this is a lighthearted story in the style of Gremlins and Critters or a more serious story in the style of Alien, The Thing, or Event Horizon.
             The AI decides if the humans will survive or not.
         ${CHOICE_PROMPT}`,
   },
   
-  mirror_house: {
-    name: "Mirror House",
-    prompt: `The reader wakes up inside a grand Victorian house made entirely of mirrors. No memory of how they got there. Their reflection is slightly... off. Other “versions” of themselves appear in different mirrors. One begins to move without the reader.
-                          <AI gives the house a name that hints at fractured reality or forbidden reflection>.
-                          Begin the mystery. Every room is a psychological trap. And the reflections want out.
-                          ${CHOICE_PROMPT}`,
-  },
   trick_or_treat: {
     name: "Trick or Treat",
-    prompt: `The reader is an early teenager, who goes trick or treating <AI decides whether he is alone or accompanied by friends>. <The AI decides whether they can become kidnapped and horribly tortured and abused. They are murdered by one by one by a paranormal entity. Or slashed one by one by some serial killer. Get inspired by stores like Trick Or Treat, Halloween Horror Nights, Halloween. Nobody is safe! NOT EVEN LITTLE KIDS!!! Sometimes reality is worse that paranormal stuff, so choose wisely dear AI!
+    prompt: `PG-RATED HORROR. The reader is an early teenager, who goes trick or treating <AI decides whether he is alone or accompanied by friends>. <The AI decides whether they can become kidnapped and horribly tortured and abused. They are murdered by one by one by a paranormal entity. Or slashed one by one by some serial killer. Get inspired by stores like Trick Or Treat, Halloween Horror Nights, Halloween. Nobody is safe! NOT EVEN LITTLE KIDS!!! Sometimes reality is worse that paranormal stuff, so choose wisely dear AI!
                           Begin the mystery, think of the most terrifying scenarios that could happen to the reader when it concerns your kids (razor blades in apples, drugs in apples that lead them to be kidnapped... Kids are not spared! If the reader survies this ordeal is up to the AI to decide!
                           ${CHOICE_PROMPT}`,
   },
   dysfunctional_family: {
     name: "Dysfunctional Family",
-    prompt: `The reader is a member of a dysfunctional family, roaming the wide open American countryside to make victims of the innocent.
+    prompt: `R RATED HORROR WITH SEX, RAPE AND GORE. The reader is a member of a dysfunctional family, roaming the wide open American countryside to make victims of the innocent.
         Elements:
         - The family has an INCESTUOUS history.
         - The family is full of psychopaths, sadists, and masochists.
@@ -173,7 +157,7 @@ export const plots = {
   },
   serial_killer_style: {
     name: "Serial Killer",
-    prompt: `THE READER IS THE ANTAGONIST, A TWENTY SOMETHING SERIAL KILLER. He kidnaps and tortures his victims and leaves them to die. He is a psychopath. He is a sadist. He is a masochist. 
+    prompt: `R RATED HORROR OPTIONAL SEX. THE READER IS THE ANTAGONIST, A TWENTY SOMETHING SERIAL KILLER. He kidnaps and tortures his victims and leaves them to die. He is a psychopath. He is a sadist. He is a masochist. 
         The antagonist is good looking and charming. He already killed many people, young and old. 
         The cops have no leads. The reader is the only one who knows what he is doing.
         DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
@@ -189,7 +173,7 @@ export const plots = {
   },
   kid_serial_killer: {
     name: "Kid Serial Killer",
-    prompt: `YOU ARE THE ANTAGONIST: A BOY AGED 8–16 WHO IS ALREADY A SERIAL KILLER.
+    prompt: `R RATED HORROR. YOU ARE THE ANTAGONIST: A BOY AGED 8–16 WHO IS ALREADY A SERIAL KILLER.
   
   You are cold. You are calculating. And you kill — not by chance, not out of rage, but by design. Each death is a choice, and you always choose it.
   
@@ -227,18 +211,6 @@ export const plots = {
   \${CHOICE_PROMPT}`,
   },
   
-  home_invasion_teen_victim: {
-    name: "Teen Home Invasion",
-    prompt: `The reader is a teenager <AI comes up with a name> he becomes the victim of a house invasion. <AI decides if he is alone or with his friends or siblings>. The reader and the optional siblings or friends are confronted by <the AI decides it it's a group of psychopaths or a single psychopath>.
-        ELEMENTS:
-        - The main antagonist is has a twisted sense of humor and enjoys torturing his victims. The victim is terrified and has no idea what to do.
-        - He stops at nothing! Young or old, he will kill them all! <THE AI DECIDES AD RANDOM, IF THE PROTAGONIST WILL TURN THE TABLES ON HIM OR NOT>
-        - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
-        - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
-        - Please take inspiration from the following prompt: Movies like Better Watch Out, SCREAM, The Babysitter, Summer of 84, Intrusion, I See You etc.
-        - Lots of blood and gore and suspense.
-        ${CHOICE_PROMPT}`,
-  },
   scary_christmas: {
     name: "Scary Christmas Setting",
     prompt: `The reader is the lead in a Christmas horror story.
@@ -266,7 +238,7 @@ export const plots = {
   },
   kid_comming_of_age_horror: {
     name: "Coming of Age Horror",
-    prompt: `The protaganist is a teenager <AI comes up with a name, sex and age>. 
+    prompt: `R RATED HORROR. The protaganist is a teenager <AI comes up with a name, sex and age>. 
         The protaganist is who is about to go through a traumatic horror event. His friends help the protaganist to overcome the horror and trauma.
         and the there's first love, understanding and growing up into maturity after these events
         ELEMENTS:
@@ -279,7 +251,7 @@ export const plots = {
   },
   road_rage: {
     name: "Road Rage",
-    prompt: `You are writing a horror short story in the style of *The Strangers* or *Funny Games*. 
+    prompt: `R RATED HORROR OPTIONAL SEX AND RAPE. You are writing a horror short story in the style of *The Strangers* or *Funny Games*. 
     The story is about a couple of high schoolers making a road trip.
     Another vehicle begins to tailgate, then harass, then pursue. They are sadistic thrill-killers who are out for blood and torture.
   
