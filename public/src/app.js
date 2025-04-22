@@ -43,9 +43,10 @@ window.createSystemPrompt = function (decade, max_moves) {
       
       CHOICE RULES:
       - Every move ends with exactly **three numbered choices**:
-        1. **Active harm** – The reader causes or experiences direct pain.
-        2. **Passive harm** – Avoidance leads to worse outcomes.
-        3. **Moral risk** – Seems good, but has dark consequences.
+        1. The reader causes or experiences direct pain.
+        2. Avoidance leads to worse outcomes.
+        3. Seems good, but has dark consequences.
+      - Don't write the 
       - Choices must be relevant, grounded, and reflect the events that have happened.
       - All paths result in **some form of damage** — physical, emotional, or moral.
       - There must be **no safe option**, only degrees of consequence.
