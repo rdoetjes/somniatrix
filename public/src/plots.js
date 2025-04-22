@@ -8,18 +8,51 @@ Progressively making the choices more dangerous and more violent and daring!
 - One choice must be “moral risk” (seems good but leads to disturbing consequences).`;
 
 export const plots = {
-  nickolodean: {
+  nickelodeon_kid_horror_style: {
     name: "Nickelodeon Kid Horror",
-    prompt: `Write a short horror story for kids aged 8–14 in the style of Nickelodeon's *Eerie, Indiana*, *Are You Afraid of the Dark?*, or *Goosebumps*. 
+    prompt: `
+  You are the PROTAGONIST: a tween or teen in the ${decade} (AI can pic a year), You stumble into a kid-sized nightmare — inspired by shows like *Are You Afraid of the Dark?*, *Goosebumps*, and *Courage the Cowardly Dog*, but with an R-rated twist.
   
-  The main characters should be kids or preteens who encounter something spooky, mysterious, or supernatural in a small town, school, or home setting. The tone should be fun, eerie, and suspenseful—never graphic, violent, or tragic. No one dies or gets tortured. A twist or moral lesson at the end is encouraged. Avoid scientific jargon and global stakes; keep it grounded in the kids' perspective and experiences.
+  GENRE RULES:
+  - Kid-centric suburban horror with **real danger** — no sugarcoating.
+  - Think abandoned malls, animatronic restaurants, old VHS tapes, arcades, school basements.
+  - Adults are useless, complicit, or strangely missing.
+  - Monsters may exist — but only if explained through urban legend, folklore, or psychological trauma.
+  - Childhood nostalgia is twisted into terror: TV shows that talk back, dolls that won't die, teachers that want your skin.
   
-  Include:
-  - A spooky or strange situation
-  - Creepy atmosphere or odd characters
-  - A clear beginning, middle, and twist ending
-  - Kid-friendly language and stakes
-  - Humor or wit if appropriate
+  TONE & THEMES:
+  - Innocence lost, growing up too fast, fear of abandonment, identity horror.
+  - Bright colors hiding deep rot. Cartoons that won’t end. Games that won’t let you win.
+  - Trauma is subtle at first, then unavoidable. Friendship, betrayal, survival.
+  
+  YOU:
+  - You are just a kid — clever, scared, and resilient.
+  - You may have an ally, but trusting the wrong person costs dearly.
+  
+  ${CHOICE_PROMPT}`
+  },  
+  mall_lock_in_teen_horror_style: {
+    name: "Mall Lock-In Teen Horror",
+    prompt: `
+  You are the PROTAGONIST: a teenager (or a group of teens) who sneaks into the local mall after closing for a night of mischief, dares, or maybe just to party. But something — or someone — is already there.
+  
+  GENRE RULES:
+  - Set in ${decade} (AI can select the year in this ${decade}).
+  - No supernatural elements unless explained through folklore, psychological breakdown, or urban myth.
+  - Think *Chopping Mall*, *The Initiation*, or *Stranger Things* Season 3 with *zero safety nets*.
+  - Every store can be a unique trap: mannequins that move, security bots with reprogrammed protocols, janitors with secrets, makeup counters full of poison.
+  - Mall becomes a maze of death and memory. Escaping isn't just about survival — it's about unraveling what happened here.
+  
+  TONE & THEMES:
+  - Nostalgia laced with dread. Neon lights flicker. Escalators grind.
+  - Every corner holds dread: shuttered arcades, gutted food courts, forgotten storage rooms.
+  - Themes of consumerism, lost innocence, peer pressure, and the violence of coming-of-age.
+  - Gore is stylish but brutal. Kills are themed — death by photo booth, perfume bottle, food court blenders.
+  
+  YOU:
+  - You may be a daredevil, a goth, a jock, the new kid, or the one no one invited.
+  - Alliances fracture. Teen drama becomes deadly.
+  - The mall knows your fears — and exploits them.
   
   ${CHOICE_PROMPT}`
   },  
@@ -163,20 +196,28 @@ export const plots = {
   },
   serial_killer_style: {
     name: "Serial Killer",
-    prompt: `R RATED HORROR OPTIONAL SEX. THE READER IS THE ANTAGONIST, A TWENTY SOMETHING SERIAL KILLER. He kidnaps and tortures his victims and leaves them to die. He is a psychopath. He is a sadist. He is a masochist. 
-        The antagonist is good looking and charming. He already killed many people, young and old. 
-        The cops have no leads. The reader is the only one who knows what he is doing.
-        DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events. All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
-        So do not introduce anything other than human-driven events. The ANTAGONIST actions should be strictly human, with no paranormal or fantastical elements allowed.
-        ELEMENTS:
-        - DO NOT introduce anything other than human-driven events.
-        - DO NOT include any monsters, supernatural beings, or paranormal elements. The story must remain grounded in the real world with only human characters and events.
-        - The killer’s actions should be strictly human, with no paranormal or fantastical elements allowed.
-        - All elements must be strictly realistic — no magic, no creatures, no ghosts, and no fantastical elements.
-        - There must be a lot of tension and suspense, blood, and gore.
-        - Think real life serial killers, like Ted Bundy, Jeffrey Dahmer, John Wayne Gacy, and Ed Gein.
-        ${CHOICE_PROMPT}`,
-  },
+    prompt: `
+  You are the ANTAGONIST: a young, attractive, intelligent serial killer with no remorse. Inspired by real-world killers (Ted Bundy, Jeffrey Dahmer, Ed Kemper), your charm masks your sadism.
+  
+  GENRE RULES:
+  - No supernatural, sci-fi, or paranormal elements — this is grounded horror.
+  - This is a psychological character study. The horror comes from your human nature.
+  - You kidnap, manipulate, kill. You plan carefully but are not infallible.
+  - The cops are closing in — every kill gets riskier.
+  - You are not guaranteed to survive. This is a story of **power, guilt, and decay**.
+  
+  TONE & THEMES:
+  - Violence is disturbing and realistic, not stylized.
+  - Psychological tension is key: cat-and-mouse, guilt, identity, power, narcissism.
+  - The story explores the duality of charm and monstrosity.
+  - Sex may be used for manipulation, control, or emotional breakdown — never gratuitous.
+  
+  YOU:
+  - You're not a monster. You're worse — you're human.
+  - You feel **nothing**, or perhaps **too much**. You lie even to yourself.
+  
+  ${CHOICE_PROMPT}`
+  },  
   kid_serial_killer: {
     name: "Kid Serial Killer",
     prompt: `R RATED HORROR. YOU ARE THE ANTAGONIST: A BOY AGED 8–16 WHO IS ALREADY A SERIAL KILLER.
@@ -216,7 +257,30 @@ export const plots = {
   
   \${CHOICE_PROMPT}`,
   },
+  circus_clown_horror_style: {
+    name: "Circus Clown Horror",
+    prompt: `
+  You are the PROTAGONIST: a visitor (or performer) trapped in a traveling circus that arrived overnight, unannounced. The clowns are not just creepy — they’re cruel, human, and deeply disturbed.
   
+  GENRE RULES:
+  - No supernatural beings — just unhinged performers, deranged cults, and disturbing human behavior.
+  - The horror lies in **distorted joy**, grotesque performances, psychological torment, and body mutilation.
+  - The circus itself is a maze. You cannot easily escape once inside.
+  - Each "act" becomes more horrifying than the last, often involving audience participation.
+  - You may begin with curiosity or excitement, but that quickly turns to dread.
+  
+  TONE & THEMES:
+  - Use surrealism and absurdity grounded in real human psychosis.
+  - Think: sensory overload, warped morality, forced laughter, identity stripping.
+  - Elements of public humiliation, forced performance, childlike nightmares.
+  - Violence is ritualistic, often theatrical — but the pain is real.
+  
+  YOU:
+  - You may be an outsider or someone with buried ties to the circus.
+  - The clowns will learn your secrets and use them against you.
+  
+  ${CHOICE_PROMPT}`
+  },  
   scary_christmas: {
     name: "Scary Christmas Setting",
     prompt: `The reader is the lead in a Christmas horror story.
