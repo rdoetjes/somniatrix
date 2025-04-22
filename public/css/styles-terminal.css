@@ -13,9 +13,11 @@ html {
 }
 
 #plotMenu {
-    position: absolute;
+    position: relative; /* now it's in flow */
     top: 5%;
     left: 5%;
+    z-index: 10;
+    pointer-events: auto;
     width: 60%;
     max-height: 80%;
     background-color: rgba(0, 0, 0, 0.95);
@@ -23,7 +25,6 @@ html {
     padding: 1rem;
     overflow-y: auto !important; /* or scroll, if you want it always visible */
     box-sizing: border-box;
-    z-index: 10;
 }
 
 #plotMenu button {
@@ -31,10 +32,14 @@ html {
 }
 
 #crt {
+    position: relative; /* Ensure it anchors its absolute children */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    top: 100px; /* Try adjusting this */
     width: 80vw; /* 80% of the viewport width */
     height: 70vh; /* 90% of the viewport height */
-    margin: 5vh auto; /* 5% vertical margin (5% top and bottom) */
-    padding: 30px;
     background: radial-gradient(
         ellipse at center,
         rgba(0, 0, 0, 0) 50%,
@@ -55,9 +60,13 @@ html {
 }
 
 body {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     margin: 0;
-    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     color: #33ff33;
     font-family: "WebPlus_IBM_EGA_9x8", monospace;
@@ -73,7 +82,7 @@ body {
     overflow-y: auto;
     border: 1px solid #33ff33;
     padding: 1rem;
-    max-height: 40vh;
+    max-height: 50vh;
     margin-bottom: 1rem;
     white-space: pre-wrap;
 }

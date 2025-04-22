@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Somniatrix | The Nightmare Terminal</title>
-        <link rel="stylesheet" href="./css/styles-paper.css">
+        <link rel="stylesheet" href="./css/styles-paper.css" id="theme-stylesheet">
         <pragma: "no-cache" />
     </head>
 
@@ -21,6 +21,11 @@
                     placeholder="Enter API key"
                     oninput="updateApiKey()"
                 />
+            
+            <div id="theme-toggle" class="glow">
+                <label for="theme-switch">Terminal Mode:</label>
+                <input type="checkbox" id="theme-switch" onchange="toggleTheme()">
+            </div>
                 <br />SELECT A STORY SUBJECT/PLOT<br /><br />
                 <label id="inputText">DECADE:</label>
                 <select id="inputDecade" onchange="updateYear()">
@@ -41,6 +46,7 @@
             <div id="header" class="glow">
                 
             </div>
+            
             <div id="terminal" class="terminal glow">
                 Connecting to story engine...
             </div>

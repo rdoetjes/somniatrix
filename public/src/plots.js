@@ -6,11 +6,20 @@ Progressively making the choices more dangerous and more violent and daring!`;
 
 export const plots = {
   nickolodean: {
-    name: "Nickolodean Kid Horror",
-    prompt: `Write a horror story for kids in the style of Nickelodeon's Eeri Indiana, Are You Afraid of the Dark?, Goosebumps, Tales from the Crypt.
-    No deaths or torture, just child friendly eerie horror and suspense. Audience is 8-14 years old.
-    ${CHOICE_PROMPT}`,
-  },
+    name: "Nickelodeon Kid Horror",
+    prompt: `Write a short horror story for kids aged 8–14 in the style of Nickelodeon's *Eerie, Indiana*, *Are You Afraid of the Dark?*, or *Goosebumps*. 
+  
+  The main characters should be kids or preteens who encounter something spooky, mysterious, or supernatural in a small town, school, or home setting. The tone should be fun, eerie, and suspenseful—never graphic, violent, or tragic. No one dies or gets tortured. A twist or moral lesson at the end is encouraged. Avoid scientific jargon and global stakes; keep it grounded in the kids' perspective and experiences.
+  
+  Include:
+  - A spooky or strange situation
+  - Creepy atmosphere or odd characters
+  - A clear beginning, middle, and twist ending
+  - Kid-friendly language and stakes
+  - Humor or wit if appropriate
+  
+  ${CHOICE_PROMPT}`
+  },  
   snuff_film: {
     name: "Snuff IT",
     prompt: `The protagonist is a young man, with a job as a gay porn actor.

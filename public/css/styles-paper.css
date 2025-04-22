@@ -28,6 +28,12 @@ html {
     height: 70vh; /* 70% of the viewport height */
     margin: 5vh auto; /* 5% vertical margin (5% top and bottom) */
     padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* Centers inner items horizontally */
+    justify-content: flex-start; /* Pushes them to the top vertically */
+
     background: #f5f0e0;
     color: #333;
     font-family: Georgia, serif;
@@ -75,7 +81,7 @@ body {
     padding: 2rem;
     cursor: default;
     overflow-y: hidden !important; /* Disable vertical scrolling */
-    background-image: url('/assets/paper-texture.jp');
+    background-image: url('/assets/paper-texture.jpg');
     background-repeat: repeat;
 }
 
