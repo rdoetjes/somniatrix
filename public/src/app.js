@@ -48,7 +48,8 @@ window.createSystemPrompt = function (decade, max_moves) {
         3. Seems good, but has dark consequences.
       - Don't write the 
       - Choices must be relevant, grounded, and reflect the events that have happened.
-      - All paths result in **some form of damage** — physical, emotional, or moral.
+      - Absolutely no choice leads to a peaceful, safe, or trauma-free outcome. Even “correct” or “survival” choices must cause irreversible harm, guilt, or moral collapse.
+      -     There are no good endings — only survival with scars, death, madness, or regret.
       - There must be **no safe option**, only degrees of consequence.
       - Story choices should never be repetitive.
       - The reader cannot die before the final move — only others can.
@@ -207,7 +208,8 @@ function renderChoices(options) {
 
     // Show the 3 parsed options
     options.forEach((opt, i) => {
-        addButton(opt, i);
+        const filtered = opt.replace(/\*\*\s?[\w\s]+\*\*/s, "");
+        addButton(filtered, i);
     });
 }
 
