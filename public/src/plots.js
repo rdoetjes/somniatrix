@@ -1,4 +1,4 @@
-export const MAX_MOVES = 25;
+export const MAX_MOVES = 15;
 
 const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach and the AI will determine if the reader is killed in the last move or barely gets away. This is move 1.
 Provide three typical horror choices to proceed, numbered 1 to 3, each on its own line.
