@@ -60,15 +60,15 @@ export const plots = {
   hitchiker: {
     name: "Hitchiker",
     prompt: `
-  You are the PROTAGONIST: you travel either alone or with your family (CHOSEN AD RANDOM). 
-  Against your own better judgement you decide to pick up a hitchhiker. The hitchhiker is a psychopath who enjoys killing people.
+  The PROTAGONIST travels either alone or with friends or family (CHOSEN AD RANDOM). 
+  Against better judgement they decide to pick up a hitchhiker. The hitchhiker is a psychopath who enjoys killing people.
   
   GENRE RULES:
 
   - No supernatural elements unless explained through folklore, psychological breakdown, or urban myth.
   - Think *The Hitcher*, *Spoorloos*, *Breaking Down*
   - The hitchhiker may be a serial killer, a cultist, a religious fanatic, or a psychopath.
-  - Places you think you are safe are not. The hitchhiker knows your fears — and exploits them.
+  - There are no safe places, no safe people. Every decision has dire consequences to the protagonist or the people around them.
   
   TONE & THEMES:
   - Empty long roads, isolated towns, corrupt cops and diner workers and the feeling of being watched.
@@ -77,9 +77,9 @@ export const plots = {
   - Every 2–3 moves, someone must die, suffer, or disappear. The hitchhiker makes sure of it. Their presence always leaves a scar — literal or emotional.
   
   YOU:
-  - You begin unsure, but every decision will break you further. Each move either destroys something inside you — or someone you love.
-  - You are hard pressed to find help because everyone is afraid of the hitchhiker or in collaboration with the hitchhiker.
-  - You grow hopeless and desperate.
+  - Protaganists begin unsure, but every decision will break you further. Each move either destroys something inside you — or someone you love.
+  - Protaganists are hard pressed to find help because everyone is afraid of the hitchhiker or in collaboration with the hitchhiker.
+  - Protaganists grow hopeless and desperate.
   
   ${CHOICE_PROMPT}`
   }
