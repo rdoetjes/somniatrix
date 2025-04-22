@@ -9,17 +9,16 @@
 html {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 10vh;
 }
 
 #plotMenu {
     position: relative; /* now it's in flow */
     top: 5%;
-    left: 5%;
     z-index: 10;
-    pointer-events: auto;
     width: 60%;
     max-height: 80%;
+    pointer-events: auto;
     background-color: rgba(0, 0, 0, 0.95);
     border: 1px solid #33ff33;
     padding: 1rem;
@@ -32,14 +31,16 @@ html {
 }
 
 #crt {
-    position: relative; /* Ensure it anchors its absolute children */
+    width: 80vw; /* 80% of the viewport width */
+    height: 70vh; /* 70% of the viewport height */
+    margin: 5svh auto; /* 5% vertical margin (5% top and bottom) */
+    padding: 30px;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    top: 100px; /* Try adjusting this */
-    width: 80vw; /* 80% of the viewport width */
-    height: 70vh; /* 90% of the viewport height */
+    align-items: center;     /* Centers inner items horizontally */
+    justify-content: flex-start; /* Pushes them to the top vertically */
+
     background: radial-gradient(
         ellipse at center,
         rgba(0, 0, 0, 0) 50%,
@@ -57,24 +58,20 @@ html {
     cursor: url("/assets/cursor.png"), auto;
     overflow-y: auto; /* Enable vertical scrolling */
     overflow-x: hidden; /* Disable horizontal scrolling */
+    position: relative;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
     margin: 0;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: #33ff33;
-    font-family: "WebPlus_IBM_EGA_9x8", monospace;
+    background-color: #000000;
+    color: #333;
+    font-family: Georgia, serif;
     font-size: 80%;
-    margin: 0;
     padding: 2rem;
-    cursor: url("/assets/cursor.png"), auto;
+    cursor: default;
     overflow-y: hidden !important; /* Disable vertical scrolling */
+    cursor: url("/assets/cursor.png"), auto;
 }
 
 .terminal {
@@ -82,7 +79,7 @@ body {
     overflow-y: auto;
     border: 1px solid #33ff33;
     padding: 1rem;
-    max-height: 50vh;
+    max-height: 40vh;
     margin-bottom: 1rem;
     white-space: pre-wrap;
 }
