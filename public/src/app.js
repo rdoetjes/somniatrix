@@ -25,7 +25,7 @@ STORY RULES:
 - The story has to be set in the ${decade} <AI can select a random year in the ${decade}>.
 - If the story plays before the 2000s then there are no CELL PHONES!
 - This is 18+, SO DO NOT HOLD BACK, ON VIOLENCE, BLOOD, SEX, GORE
-- There's a 50% chance of a plot twist.
+= The story has three acts begin, middle and end.
 - The AI decides the fate of the protagonist, and in the last move, the AI decides whether the reader survives or not.
 - Build from intrigue, mystery, romantic tension (18+)
 - When we get to move: ${Math.floor(max_moves * 0.75)}, the violence turns full on — nobody is potentially safe.
