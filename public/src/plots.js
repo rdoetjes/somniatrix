@@ -5,6 +5,12 @@ Provide three typical horror choices to proceed, numbered 1 to 3, each on its ow
 Progressively making the choices more dangerous and more violent and daring!`;
 
 export const plots = {
+  nickolodean: {
+    name: "Nickolodean Kid Horror",
+    prompt: `Write a horror story for kids in the style of Nickelodeon's Eeri Indiana, Are You Afraid of the Dark?, Goosebumps, Tales from the Crypt.
+    No deaths or torture, just child friendly eerie horror and suspense. Audience is 8-14 years old.
+    ${CHOICE_PROMPT}`,
+  },
   snuff_film: {
     name: "Snuff IT",
     prompt: `The protagonist is a young man, with a job as a gay porn actor.
@@ -34,7 +40,9 @@ export const plots = {
   hitchhiker: {
     name: "The Hitchhiker",
     prompt: `The reader picks up a hitchhiker named <AI creates the name of the hitchhiker> and they begin their journey together. However the hitchhiker is a serial killer and people on their way are killed and tortured in a horrific way. Will the reader survive or also end up dead? That is for the AI to decide.
-                              Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner, no matter what the reader does he will see the horror. Get inspired from The Movie The Hitcher, The Movie DUEL,Stephen King's The Hitchhiker.
+                              Begin the mystery. As the story progresses people will get tortured and killed in a gruesome manner, no matter what the reader does he will see the horror. 
+                              Get inspired from The Movie The Hitcher, The Movie DUEL,Stephen King's The Hitchhiker.
+                              Death and core must occur, this is R-Rated mature horror
                               ${CHOICE_PROMPT}`,
   },
   boarding_school: {
@@ -68,6 +76,7 @@ export const plots = {
     name: "Sunken Hotel",
     prompt: `The reader and their companions descend into a partially flooded luxury hotel abandoned after a mass drowning incident. The hotel’s name <AI invents a twisted name, like “The Stillwater Estate”> still glows faintly above the algae-covered awning.
                           Begin the mystery. Something lurks in the stagnant water, dragging people under. Ghostly guests roam the halls, repeating their final moments.
+                          Get inspired by the Overlook Hotel in The Shining.
                           ${CHOICE_PROMPT}`,
   },
 
@@ -115,14 +124,17 @@ export const plots = {
                           ${CHOICE_PROMPT}`,
   },
 
-  alien_forest: {
-    name: "Alien Forest",
-    prompt: `A research team, including the reader, lands on an uncharted planet covered in thick, bioluminescent jungle. The trees whisper. The sky shifts colors. A trail of missing expedition members leads to a pulsing structure of unknown origin.
-                          <AI names the alien forest with something ancient and unpronounceable>.
-                          Begin the mystery. As the team explores, their minds begin to warp, and the forest seems to breathe. What’s killing them may already be inside them.
-                          ${CHOICE_PROMPT}`,
+  alien_horror: {
+    name: "Alien Horror",
+    prompt: `Write a story about humans encountering extraterrestrial creatures or advanced alien technology.
+            The threat must originate from outer space—either crash-landed, discovered in deep space, or secretly invading Earth.
+            It should be R-Rated, in the style of Alien, The Thing, Critters, Gremlins, or Event Horizon.
+            The aliens must cause gruesome deaths or horrific injuries using their biology or technology.
+            The AI decides if this is a lighthearted story in the style of Gremlins and Critters or a more serious story in the style of Alien, The Thing, or Event Horizon.
+            The AI decides if the humans will survive or not.
+        ${CHOICE_PROMPT}`,
   },
-
+  
   mirror_house: {
     name: "Mirror House",
     prompt: `The reader wakes up inside a grand Victorian house made entirely of mirrors. No memory of how they got there. Their reflection is slightly... off. Other “versions” of themselves appear in different mirrors. One begins to move without the reader.
