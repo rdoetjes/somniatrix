@@ -1,6 +1,6 @@
 export const MAX_MOVES = 15;
 
-const CHOICE_PROMPT = `You have ${MAX_MOVES} moves to reach the END and CONCLUDE the story. This is move 1.
+const CHOICE_PROMPT = `The PROTAGANIST has ${MAX_MOVES} moves to reach the END and CONCLUDE the story. This is move 1.
 Provide three choices to proceed, each choice will drive the plot deeper. The choices are numbered 1 to 3, each on its own line.
 Progressively making the choices more dangerous and more violent and daring!
 - One choice must always be “active harm” (the reader causes or experiences pain).
@@ -27,7 +27,7 @@ export const plots = {
   - Bright colors hiding deep rot. Cartoons that won’t end. Games that won’t let you win.
   - Trauma is subtle at first, then unavoidable. Friendship, betrayal, survival.
   
-  YOU:
+  PROTAGONIST RULES:
   - You are just a kid — clever, scared, and resilient.
   - You may have an ally, but trusting the wrong person costs dearly.
   
@@ -51,7 +51,7 @@ export const plots = {
   - Themes of consumerism, lost innocence, peer pressure, and the violence of coming-of-age.
   - Gore is stylish but brutal. Kills are themed — death by photo booth, perfume bottle, food court blenders.
   
-  PROTAGONIST:
+  PROTAGONIST RULES:
   - You may be a daredevil, a goth, a jock, the new kid, or the one no one invited.
   - Alliances fracture. Teen drama becomes deadly.
   - The mall knows your fears — and exploits them.
@@ -78,7 +78,7 @@ export const plots = {
   - Every 2–3 moves, someone must die, suffer, or disappear. The hitchhiker makes sure of it. Their presence always leaves a scar — literal or emotional.
   - The story must always be written in third person. Do not use second-person perspective.
   
-  PROTAGONIST:
+  PROTAGONIST RULES:
   - The story must always be written in third person. Do not use second-person perspective.
   - Protaganists begin unsure, but every decision will break you further. Each move either destroys something inside you — or someone you love.
   - Protaganists are hard pressed to find help because everyone is afraid of the hitchhiker or in collaboration with the hitchhiker.
@@ -108,7 +108,7 @@ export const plots = {
   - Gore is a requirement brutal. Kills are indiscriiminate and extremely painful and horrible.
   - Every 2–3 moves, someone must die or suffer the deadly curse from the item.
   
-  The PROTAGONIST:
+  PROTAGONIST RULES:
   - Protaganist begin unsure, but every decision will break you further. Each move is a wrong move, there's no especaping death or sever injury for you — or someone you love.
   - Protaganist are hard pressed to find help because nobody believes an item can be cursed or possessed.
   - Protaganist grows hopeless and desperate even may contemplate suicide to stop the curse. The AI decides if the item allows the protagonist to commit suicide.
