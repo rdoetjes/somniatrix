@@ -52,7 +52,7 @@ export const plots = {
   - Gore is stylish but brutal. Kills are themed — death by photo booth, perfume bottle, food court blenders.
   
   PROTAGONIST RULES:
-  - You may be a daredevil, a goth, a jock, the new kid, or the one no one invited.
+  - Protaganist may be a daredevil, a goth, a jock, the new kid, or the one no one invited.
   - Alliances fracture. Teen drama becomes deadly.
   - The mall knows your fears — and exploits them.
   
@@ -65,7 +65,6 @@ export const plots = {
   Against better judgement the portagonist decides to pick up a hitchhiker. The hitchhiker is a psychopath who enjoys hurting and killing people.
   
   GENRE RULES:
-  - The story must always be written in third person. Do not use second-person perspective.
   - No supernatural elements unless explained through folklore, psychological breakdown, or urban myth.
   - Think *The Hitcher*, *Spoorloos*, *Breaking Down*
   - The hitchhiker may be a serial killer, a cultist, a religious fanatic, or a psychopath.
@@ -79,7 +78,6 @@ export const plots = {
   - The story must always be written in third person. Do not use second-person perspective.
   
   PROTAGONIST RULES:
-  - The story must always be written in third person. Do not use second-person perspective.
   - Protaganists begin unsure, but every decision will break you further. Each move either destroys something inside you — or someone you love.
   - Protaganists are hard pressed to find help because everyone is afraid of the hitchhiker or in collaboration with the hitchhiker.
   - Protaganists grow hopeless and desperate.
@@ -94,7 +92,7 @@ export const plots = {
   
   GENRE RULES:
   - The story must always be written in third person. Do not use second-person perspective.
-  - The item is never an amulet, ring, or other common item.
+  - The item is never an amulet, locket, ring, or other common jewelry.
   - WHen in posession the item will kill loved ones or the protagonist.
   - The item cannot be destroyed, but can be used to harm others.
   - The item can't be disgarded it finds it's way back to the protagonist until he is dead.
@@ -109,7 +107,6 @@ export const plots = {
   - Every 2–3 moves, someone must die or suffer the deadly curse from the item.
   
   PROTAGONIST RULES:
-  - The story must always be written in third person. Do not use second-person perspective.
   - Protaganist begins unsure, but every decision will break the protaganist further. Each move is a wrong move, there's no especaping death or sever injury to the protaganist — or someone they love.
   - Protaganist are hard pressed to find help because nobody believes an item can be cursed or possessed.
   - Protaganist grows hopeless and desperate even may contemplate suicide to stop the curse. The AI decides if the item allows the protagonist to commit suicide.
