@@ -56,7 +56,6 @@ window.createSystemPrompt = function (decade, max_moves) {
       
       STYLE RULES:
       - Use immersive detail and cinematic horror pacing.
-      - Use “you” instead of “the player.”
       - Build psychological and emotional damage gradually.
       - The story must conclude with: *** The End. ***`
       }
