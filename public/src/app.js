@@ -29,7 +29,6 @@ window.createSystemPrompt = function (decade, max_moves) {
       - The genre may vary (slasher, psychological, supernatural, surreal, etc.), but the story is **always horror** and rated **18+**.
       - Themes may include: love, drugs, violence, trauma, murder, sex, obsession, madness, and death.
       - There is a 50% chance of a twist.
-      - The reader is either the protagonist or antagonist depending on the genre (defined separately).
       - The AI determines the ultimate fate in the final move (survival, death, madness, arrest, transformation, etc.).
       - Start slow: build dread, suspense, tension, and psychological stress.
       - After move ${Math.floor(max_moves * 0.75)}, violence and horror escalate brutally — no one is safe.
@@ -57,7 +56,9 @@ window.createSystemPrompt = function (decade, max_moves) {
       STYLE RULES:
       - Use immersive detail and cinematic horror pacing.
       - Build psychological and emotional damage gradually.
-      - The story must conclude with: *** The End. ***`
+      - The story must conclude with: *** The End. ***
+
+      IMPORTANT: All stories must be written in the third person, unless a genre prompt explicitly requests otherwise. Do not use second person ("you") unless specified. The default is third person, past tense.`  
       }
     };    
 
