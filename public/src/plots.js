@@ -109,7 +109,8 @@ export const plots = {
   - Every 2–3 moves, someone must die or suffer the deadly curse from the item.
   
   PROTAGONIST RULES:
-  - Protaganist begin unsure, but every decision will break you further. Each move is a wrong move, there's no especaping death or sever injury for you — or someone you love.
+  - The story must always be written in third person. Do not use second-person perspective.
+  - Protaganist begins unsure, but every decision will break the protaganist further. Each move is a wrong move, there's no especaping death or sever injury to the protaganist — or someone they love.
   - Protaganist are hard pressed to find help because nobody believes an item can be cursed or possessed.
   - Protaganist grows hopeless and desperate even may contemplate suicide to stop the curse. The AI decides if the item allows the protagonist to commit suicide.
   
