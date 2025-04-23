@@ -89,6 +89,8 @@ export const plots = {
     name: "Possessed Item",
     prompt: `
   The PROTAGONIST obtains a cursed item that is possessed by a supernatural entity. The entity is a malevolent spirit that seeks to possess and control the protagonist.
+  The story is written in the third person.
+  
   GENRE RULES:
 
   - WHen in posession the item will kill loved ones or the protagonist.
