@@ -60,8 +60,8 @@ export const plots = {
   hitchiker: {
     name: "Hitchiker",
     prompt: `
-  The PROTAGONIST travels either alone or with friends or family (CHOSEN AD RANDOM). 
-  Against better judgement they decide to pick up a hitchhiker. The hitchhiker is a psychopath who enjoys killing people.
+  The PROTAGONIST travels CHOSEN BY AY (alone, with family or wiyth friends) in a car on a long road trip.
+  Against better judgement the portagonist decides to pick up a hitchhiker. The hitchhiker is a psychopath who enjoys hurting and killing people.
   
   GENRE RULES:
 
@@ -80,6 +80,34 @@ export const plots = {
   - Protaganists begin unsure, but every decision will break you further. Each move either destroys something inside you — or someone you love.
   - Protaganists are hard pressed to find help because everyone is afraid of the hitchhiker or in collaboration with the hitchhiker.
   - Protaganists grow hopeless and desperate.
+  
+  ${CHOICE_PROMPT}`
+  }
+  ,
+  
+  possed_item: {
+    name: "Possed  Item",
+    prompt: `
+  The PROTAGONIST obtains a cursed item that is possessed by a supernatural entity. The entity is a malevolent spirit that seeks to possess and control the protagonist.
+  GENRE RULES:
+
+  - WHen in posession the item will kill loved ones or the protagonist.
+  - The item cannot be destroyed, but can be used to harm others.
+  - The item can't be disgarded it finds it's way back to the protagonist until he is dead.
+  - The harm the item does is physical and very noticable but not always fatal.
+  - There are no safe places, no safe people. Every decision has dire consequences to the protagonist or the people around them.
+  
+  TONE & THEMES:
+  - Absoluted RATED R horror!
+  - Dormant town where usually nothing happens.
+  - The tone is dark, foreboding, and sinister.
+  - Gore is a requirement brutal. Kills are indiscriiminate and extremely painful and horrible.
+  - Every 2–3 moves, someone must die or suffer the deadly curse from the item.
+  
+  YOU:
+  - Protaganist begin unsure, but every decision will break you further. Each move is a wrong move, there's no especaping death or sever injury for you — or someone you love.
+  - Protaganist are hard pressed to find help because nobody believes an item can be cursed or possessed.
+  - Protaganist grows hopeless and desperate even may contemplate suicide to stop the curse. The AI decides if the item allows the protagonist to commit suicide.
   
   ${CHOICE_PROMPT}`
   }
