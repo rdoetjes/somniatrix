@@ -85,8 +85,8 @@ export const plots = {
   }
   ,
   
-  possed_item: {
-    name: "Possed  Item",
+  possessed_item: {
+    name: "Possessed Item",
     prompt: `
   The PROTAGONIST obtains a cursed item that is possessed by a supernatural entity. The entity is a malevolent spirit that seeks to possess and control the protagonist.
   GENRE RULES:
