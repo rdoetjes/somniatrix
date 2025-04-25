@@ -48,7 +48,7 @@ html {
     overflow-x: hidden;
     position: relative;
     cursor: default;
-    border: 2px solid #8a0303;
+    border: 5px solid #8a0303;
 }
 
 #crt::before {
@@ -193,7 +193,7 @@ button:active {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 1.3em;
-    animation: heartbeat 3s ease-in-out infinite;
+    animation: heartbeat 2.5s ease-in-out infinite;
 }
 
 @keyframes headerPulse {
