@@ -164,7 +164,7 @@ async function getPlot(plotKey, userChoice = null) {
     }
 
     // Clear screen before new output
-    terminal.textContent = "Writing the next horrific paragraph...";
+    terminal.textContent = "Writing the next horrific pages...";
     choicesContainer.innerHTML = "";
 
     const response = await client.chat.completions.create({

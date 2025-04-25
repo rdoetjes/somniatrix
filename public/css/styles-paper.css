@@ -11,7 +11,7 @@ html {
     width: 60%;
     max-height: 80%;
     background-color: rgba(245, 240, 230, 0.95);
-    border: 1px solid #8B4513;
+    border: 1px solid #db3009;
     padding: 1rem;
     overflow-y: auto !important; /* or scroll, if you want it always visible */
     box-sizing: border-box;
@@ -71,7 +71,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #ae2102;
     font-family: Georgia, serif;
     font-size: 80%;
     margin: 0;
@@ -86,7 +86,8 @@ body {
 .terminal {
     white-space: pre-wrap;
     overflow-y: auto;
-    border: 1px solid #8B4513;
+    border: 1px solid #ae2102;
+    color: #333;
     padding: 1rem;
     max-height: 40vh;
     margin-bottom: 1rem;
@@ -99,7 +100,7 @@ button {
     display: block;
     width: 100%;
     margin: 0.5rem 0;
-    background: #8B4513;
+    background: #ae2102;
     color: #f5f0e0;
     border: 0px;
     padding: 0.5rem 1rem;
@@ -111,7 +112,7 @@ button {
 }
 
 button:hover {
-    background: #a05a2c;
+    background: #ee4930;
     color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -119,16 +120,22 @@ button:hover {
 
 .glow {
     text-shadow: 0 0 2px rgba(139, 69, 19, 0.5);
-    color: #5a3d2b;
+    color: #ae2102;
 }
+
+.header {
+    text-shadow: 2 2 4px rgba(1ee4930);
+    color: #e7dbd3;
+}
+
 
 input {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
     background: #f8f5e6;
-    color: #333;
-    border: 1px solid #8B4513;
+    color: #ae2102;
+    border: 1px solid #ae2102;
     font-family: Georgia, serif;
     font-size: 100%;
     box-sizing: border-box;
@@ -139,7 +146,7 @@ input {
 input:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(139, 69, 19, 0.5);
-    border-color: #a05a2c;
+    border-color: #ee4930;
 }
 
 input::placeholder {
@@ -148,23 +155,3 @@ input::placeholder {
     font-family: Georgia, serif;
 }
 
-select {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    background: #f8f5e6;
-    color: #333;
-    border: 1px solid #8B4513;
-    font-family: Georgia, serif;
-    font-size: 100%;
-    box-sizing: border-box;
-    cursor: pointer;
-    appearance: none;
-    border-radius: 3px;
-}
-
-select:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(139, 69, 19, 0.5);
-    border-color: #a05a2c;
-}
