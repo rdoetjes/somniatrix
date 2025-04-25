@@ -143,7 +143,7 @@ export const plots = {
   
   ${CHOICE_PROMPT}`
   },
-  campy_yown_horror: {
+  campy_town_horror: {
     name: "Campy Town Horror",
     prompt: `
     The PROTAGONISTS a bunch of teenagers who have turned their twisted love of horror movies into a deadly, absurd hobby. 
@@ -173,7 +173,7 @@ export const plots = {
     - The friend's in the group are loud, bold, and obnoxiously fun, each one a walking parody of a horror trope.
     - Each member has their own over-the-top "kill theme" — one might be the “B-movie butcher,” another the “nervous slasher,” while a third is a *disturbed sex crazed teen*.
     - The friends often *argues* about their kills in the middle of the bloodshed, like fighting over the best way to stage a *giant chainsaw dance* or *making the victims into living horror props*.
-    - Family members are so ridiculous that they almost forget they’re killing — it’s all part of their “horror show” to them.
+    - The friends are so ridiculous that they almost forget they’re killing — it’s all part of their “horror show” to them.
     - Their violence is often *more absurd than actually scary* — like using an oversized foam hammer or a machine that turns victims into *giant, inflatable horror balloons*.
     - No sexual violence (just sexual innuendo and boobs but nothing more), just outrageous and playful dark humor.
   
