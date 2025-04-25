@@ -130,7 +130,7 @@ export const plots = {
   
   TONE & THEMES:
   - Absoluted RATED R horror!
-  - Think in the style of the Devil's Rejects family.
+  - Think in the style of the Devil's Rejects family, the Manson family or the antagonists from Deliverance.
   - Hoplessness for the victims is what should be felt by the reader.
   - No paranomal elements unless explained through folklore, psychological breakdown, or urban myth.
   - Gore is a requirement brutal. Kills are indiscriminate and extremely painful and horrible.
