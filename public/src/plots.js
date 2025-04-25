@@ -9,8 +9,8 @@ Progressively making the choices more dangerous and more violent and daring!
 `;
 
 export const plots = {
-  nickelodeon_kid_horror_style: {
-    name: "Nickelodeon Kid Horror",
+  nickelodeon_horror_style: {
+    name: "R-Rated Nickelodeon Horror",
     prompt: `
   The PROTAGONIST: a tween or teen stumbles into a kid-sized nightmare — inspired by shows like *Are You Afraid of the Dark?*, *Goosebumps*, and *Courage the Cowardly Dog*, but with an R-rated twist.
   
