@@ -150,7 +150,7 @@ input:focus {
 }
 
 input::placeholder {
-    color: #a9a9a9;
+    color: #ee4930;
     opacity: 0.8;
     font-family: Georgia, serif;
 }
