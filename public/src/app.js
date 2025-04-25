@@ -200,8 +200,8 @@ function renderChoices(options) {
 
     if (options.length === 0) {
         const msg = document.createElement("div");
-        msg.className = "glow";
-        msg.textContent = "Let's hope this never happens again.";
+        msg.className = "header";
+        msg.textContent = "You have reached the end of the story and perhaps your life!!!";;
         choicesContainer.appendChild(msg);
 
         return;
