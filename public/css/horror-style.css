@@ -1,0 +1,302 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#plotMenu {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 60%;
+    max-height: 80%;
+    background-color: rgba(10, 10, 10, 0.95);
+    border: 1px solid #8a0303;
+    padding: 1rem;
+    overflow-y: auto !important;
+    box-sizing: border-box;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7), 0 0 15px rgba(139, 0, 0, 0.3);
+}
+
+#plotMenu button {
+    margin: 0.25rem 0;
+}
+
+#crt {
+    width: 80vw;
+    height: 75vh;
+    margin: 5vh auto;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    background: rgba(15, 15, 15, 0.9);
+    color: #c7c7c7;
+    font-family: 'Courier New', monospace;
+    font-size: 16px; /* Reduced from 18px */
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 
+        0 5px 15px rgba(0, 0, 0, 0.8),
+        0 0 20px rgba(139, 0, 0, 0.3),
+        0 0 5px rgba(139, 0, 0, 0.1) inset;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    cursor: default;
+    border: 1px solid #8a0303;
+}
+
+#crt::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+        linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+    opacity: 0.15;
+    animation: flicker 0.15s infinite;
+    z-index: 2;
+}
+
+#crt::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.3) 90%,
+        rgba(0, 0, 0, 0.7) 100%
+    );
+    pointer-events: none;
+    z-index: 1;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #c7c7c7;
+    font-family: 'Courier New', monospace;
+    font-size: 75%; /* Reduced from 80% */
+    margin: 0;
+    padding: 2rem;
+    cursor: default;
+    overflow-y: hidden !important;
+    background-image: url('/assets/horror-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    pointer-events: none;
+    z-index: -1;
+    animation: scanline 10s linear infinite;
+}
+
+.terminal {
+    white-space: pre-wrap;
+    overflow-y: auto;
+    border: 1px solid #8a0303;
+    color: #c7c7c7 !important;
+    padding: 1rem;
+    max-height: 45vh;
+    margin-bottom: 1rem;
+    white-space: pre-wrap;
+    background-color: rgba(15, 15, 15, 0.9);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 5px rgba(139, 0, 0, 0.3);
+    font-family: 'Courier New', monospace;
+    font-size: 14px; /* Added explicit font size */
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 2px rgba(200, 200, 200, 0.2);
+}
+
+#terminal.terminal, .terminal {
+    color: #c7c7c7 !important;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    background: #3a0101;
+    color: #c7c7c7 !important;
+    border: 1px solid #8a0303;
+    padding: 0.5rem 1rem;
+    font-family: 'Courier New', monospace;
+    font-size: 90%; /* Reduced from 100% */
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 3px rgba(139, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover {
+    background: #5a0101;
+    color: #ffffff !important;
+    box-shadow: 0 0 10px rgba(139, 0, 0, 0.5);
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+button:active {
+    background: #8a0303;
+    transform: scale(0.98);
+}
+
+.glow {
+    text-shadow: 0 0 5px rgba(139, 0, 0, 0.7);
+    color: #8a0303;
+    animation: pulse 4s infinite;
+}
+
+.header {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(139, 0, 0, 0.5);
+    color: #c7c7c7;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.3em;
+    animation: headerPulse 4s infinite;
+}
+
+@keyframes headerPulse {
+    0% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(139, 0, 0, 0.5); }
+    50% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 20px rgba(139, 0, 0, 0.8), 0 0 30px rgba(139, 0, 0, 0.4); }
+    100% { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(139, 0, 0, 0.5); }
+}
+
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background: rgba(15, 15, 15, 0.9);
+    color: #c7c7c7;
+    border: 1px solid #8a0303;
+    font-family: 'Courier New', monospace;
+    font-size: 90%; /* Reduced from 100% */
+    box-sizing: border-box;
+    cursor: text;
+    border-radius: 3px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(139, 0, 0, 0.7), inset 0 0 5px rgba(0, 0, 0, 0.5);
+    border-color: #8a0303;
+}
+
+input::placeholder {
+    color: #8a0303;
+    opacity: 0.7;
+    font-family: 'Courier New', monospace;
+}
+
+/* Animations */
+@keyframes flicker {
+    0% { opacity: 0.15; }
+    5% { opacity: 0.2; }
+    10% { opacity: 0.15; }
+    15% { opacity: 0.18; }
+    20% { opacity: 0.15; }
+    25% { opacity: 0.17; }
+    30% { opacity: 0.15; }
+    35% { opacity: 0.16; }
+    40% { opacity: 0.15; }
+    45% { opacity: 0.19; }
+    50% { opacity: 0.15; }
+    55% { opacity: 0.18; }
+    60% { opacity: 0.15; }
+    65% { opacity: 0.17; }
+    70% { opacity: 0.15; }
+    75% { opacity: 0.16; }
+    80% { opacity: 0.15; }
+    85% { opacity: 0.18; }
+    90% { opacity: 0.15; }
+    95% { opacity: 0.17; }
+    100% { opacity: 0.15; }
+}
+
+@keyframes scanline {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100vh); }
+}
+
+@keyframes pulse {
+    0% { text-shadow: 0 0 5px rgba(139, 0, 0, 0.7); }
+    50% { text-shadow: 0 0 15px rgba(139, 0, 0, 0.9); }
+    100% { text-shadow: 0 0 5px rgba(139, 0, 0, 0.7); }
+}
+
+/* Blood drip effect for special elements */
+.blood-drip {
+    position: relative;
+}
+
+.blood-drip::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 10px;
+    background: #8a0303;
+    border-radius: 0 0 2px 2px;
+    animation: drip 4s infinite;
+}
+
+@keyframes drip {
+    0% { height: 0; opacity: 0; }
+    30% { height: 0; opacity: 0; }
+    50% { height: 10px; opacity: 1; }
+    70% { height: 20px; opacity: 0; }
+    100% { height: 0; opacity: 0; }
+}
+
+/* Heartbeat effect for important elements */
+.heartbeat {
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    5% { transform: scale(1.1); }
+    10% { transform: scale(1); }
+    15% { transform: scale(1.1); }
+    20% { transform: scale(1); }
+    100% { transform: scale(1); }
+}

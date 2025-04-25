@@ -248,7 +248,7 @@ window.toggleTheme = function() {
     if (themeSwitch.checked) {
         stylesheet.href = './css/styles-terminal.css';
     } else {
-        stylesheet.href = './css/styles-paper.css';
+        stylesheet.href = './css/horror-style.css';
     }
 }
 
