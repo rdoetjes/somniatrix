@@ -279,3 +279,10 @@ input::placeholder {
     20% { transform: scale(1); }
     100% { transform: scale(1); }
 }
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

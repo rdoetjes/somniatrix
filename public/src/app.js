@@ -5,7 +5,7 @@ import { plots } from "./plots.js";
 import { MAX_MOVES } from "./plots.js";
 
 let client = null;
-let currentMove = 1;
+let currentMove = 0;
 let currentPlot = "";
 let decade = "1980s";
 let messages = null;
@@ -168,7 +168,7 @@ async function getPlot(plotKey, userChoice = null) {
     choicesContainer.innerHTML = "";
 
     const response = await client.chat.completions.create({
-        model: "gpt-4.5-preview",
+        model: "gpt-4-turbo",
         messages: newMessages,
     });
 
@@ -181,7 +181,7 @@ async function getPlot(plotKey, userChoice = null) {
     const options = parseOptions(storyText);
     renderChoices(options);
     document.getElementById("header").innerHTML =  header + "&nbsp&nbspp." + currentMove;
-
+    currentMove
 }
 
 function addButton(opt, i) {
@@ -190,6 +190,7 @@ function addButton(opt, i) {
     btn.className = "glow";
     btn.onclick = () => {
         makeChoice(opt);
+        currentMove++;
     };
     choicesContainer.appendChild(btn);
 }
@@ -236,7 +237,6 @@ async function makeChoice(choice) {
     console.log(currentPlot);
     await getPlot(currentPlot, choice);
 
-    currentMove++;
     isProcessingChoice = false;
 }
 
