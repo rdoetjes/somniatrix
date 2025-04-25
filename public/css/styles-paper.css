@@ -34,22 +34,20 @@ html {
     align-items: center;     /* Centers inner items horizontally */
     justify-content: flex-start; /* Pushes them to the top vertically */
 
-    background: #f5f0e0;
+    background: #27221572;
     color: #333;
     font-family: Georgia, serif;
     font-size: 20px;
     line-height: 1.6;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 
         0 5px 15px rgba(0, 0, 0, 0.3),
         0 0 5px rgba(0, 0, 0, 0.1) inset;
     overflow-y: auto; /* Enable vertical scrolling */
     overflow-x: hidden; /* Disable horizontal scrolling */
-    background-image: 
+    /* background-image: 
         linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-    background-size: 20px 20px;
-    border-left: 30px solid #8B4513;
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px); */
     position: relative;
     cursor: default;
 }
@@ -73,7 +71,6 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #e8e0d0;
     color: #333;
     font-family: Georgia, serif;
     font-size: 80%;
@@ -81,8 +78,9 @@ body {
     padding: 2rem;
     cursor: default;
     overflow-y: hidden !important; /* Disable vertical scrolling */
-    background-image: url('/assets/paper-texture.jpg');
-    background-repeat: repeat;
+    background-image: url('/assets/horror-background.jpg');
+    background-repeat: no-repeat;
+    background-color: #000000;
 }
 
 .terminal {
