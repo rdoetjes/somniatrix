@@ -112,5 +112,35 @@ export const plots = {
   - Protaganist grows hopeless and desperate even may contemplate suicide to stop the curse. The AI decides if the item allows the protagonist to commit suicide.
   
   ${CHOICE_PROMPT}`
+  },
+  raging_family: {
+    name: "Raging Family",
+    prompt: `
+  The PROTAGONISTS or a family with a lust for torture, rape and murder. They'll cruise the American landscape, looking for victims, killing them in the most sadistic ways imaginable.
+  Their family bears the scars of generations of incest, abuse and psychopathy that shines through their actions.
+  
+  GENRE RULES:
+  - The story must always be written in third person. Do not use second-person perspective.
+  - The family dynamics are always dysfunctional and violent.
+  - The family is always on the run from the law.
+  - The family enjoys the torture of their victims together.
+  - After a victim is killed, they do something very unique to the body as their trademark and way of celebrating.
+  - With every new victim, the family grows more violent and sadistic.
+  - There's no safe places, no safe people. Every decision has dire consequences to the victims or the people around them.
+  
+  TONE & THEMES:
+  - Absoluted RATED R horror!
+  - Think in the style of the Devil's Rejects family.
+  - Hoplessness for the victims is what should be felt by the reader.
+  - No paranomal elements unless explained through folklore, psychological breakdown, or urban myth.
+  - Gore is a requirement brutal. Kills are indiscriminate and extremely painful and horrible.
+  - Every 2–3 moves, someone must die or suffer the deadly curse from the item.
+  
+  Antagonists RULES:
+  - Antagonists are bold vulgar and crude.
+  - Antagonists Some family members are more violent and sadistic than others.
+  - Antagonists Some family members are more include to sexual violence than others.
+  
+  ${CHOICE_PROMPT}`
   }
 };
