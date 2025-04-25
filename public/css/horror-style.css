@@ -181,10 +181,15 @@ button:active {
     animation: pulse 4s infinite;
 }
 
+@font-face {
+    font-family: 'BLOODY';
+    src: url("/assets/BLOODY.TTF") format('truetype');
+}
+
 .header {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(139, 0, 0, 0.5);
-    color: #c7c7c7;
-    font-family: 'Georgia, serif' , monospace;
+    color: #d10808;
+    font-family: 'BLOODY' , monospace;
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 1.3em;
