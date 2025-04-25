@@ -34,12 +34,12 @@ html {
     align-items: center;
     justify-content: flex-start;
 
-    background: rgba(15, 15, 15, 0.9);
+    background: rgba(15, 15, 15, 0.5);
     color: #c7c7c7;
     font-family: 'Courier New', monospace;
     font-size: 16px; /* Reduced from 18px */
     line-height: 1.5;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 
         0 5px 15px rgba(0, 0, 0, 0.8),
         0 0 20px rgba(139, 0, 0, 0.3),
@@ -48,7 +48,7 @@ html {
     overflow-x: hidden;
     position: relative;
     cursor: default;
-    border: 1px solid #8a0303;
+    border: 2px solid #8a0303;
 }
 
 #crt::before {
