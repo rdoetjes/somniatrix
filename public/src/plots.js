@@ -142,5 +142,42 @@ export const plots = {
   - Antagonists Some family members are more include to sexual violence than others.
   
   ${CHOICE_PROMPT}`
+  },
+  campy_yown_horror: {
+    name: "Campy Town Horror",
+    prompt: `
+    The PROTAGONISTS a bunch of teenagers who have turned their twisted love of horror movies into a deadly, absurd hobby. 
+    They take their love of horror to the extreme, staging elaborate kills and making their victims part of the show.
+    Their playground is their town, school, and the surrounding woods, where they stage elaborate kills and make their victims part of the show.
+  
+    GENRE RULES:
+    - R Rated horror!
+    - The story must always be written in third person. No second-person perspective.
+    - The friend group's dynamics are dysfunctional, but more exaggerated and *goofy* than grim.
+    - They enjoy staging elaborate kills and making their victims *part of the show*.
+    - After a kill the leave behind campy "signatures" — like a rubber chicken with a chainsaw, or a glittery body "disco death" scene.
+    - Each teenager in the group has a unique and often ridiculous style: One might be obsessed with *horror fashion* (think giant, flaming wigs), while another might try to convince the victims they’re living in a *haunted video game* and another is *sex crazed horny*.
+    - The friend's violence is often absurd or cartoonish. No one is ever too scared to *ham it up* during the kills.
+    - No matter how over-the-top things get, every kill must feel like a *bloody carnival performance*.
+  
+    TONE & THEMES:
+    - **Campy horror** — full of *cheesy gore, over-the-top performances, dark humor, and slapstick violence*.
+    - Think *Evil Dead II* meets *Death Becomes Her* meets *Killer Klowns from Outer Space*.
+    - Everything is exaggerated to the point of being comical, but still thrilling.
+    - Campy one-liners and wild situations (in italic) — from chainsaw chases to zombie disco dances.
+    - The victims are caught in an absurd horror world where nothing is truly dangerous… but *everything is out to get them*.
+    - The violence should be creative and *ridiculous* — exploding watermelons, acid-filled popcorn machines, and goofy jump scares.
+    - No dark, grim undertones — just total chaos, absurdity, and non-stop comedy-horror chaos.
+  
+    ANTAGONISTS RULES:
+    - The friend's in the group are loud, bold, and obnoxiously fun, each one a walking parody of a horror trope.
+    - Each member has their own over-the-top "kill theme" — one might be the “B-movie butcher,” another the “nervous slasher,” while a third is a *disturbed sex crazed teen*.
+    - The friends often *argues* about their kills in the middle of the bloodshed, like fighting over the best way to stage a *giant chainsaw dance* or *making the victims into living horror props*.
+    - Family members are so ridiculous that they almost forget they’re killing — it’s all part of their “horror show” to them.
+    - Their violence is often *more absurd than actually scary* — like using an oversized foam hammer or a machine that turns victims into *giant, inflatable horror balloons*.
+    - No sexual violence (just sexual innuendo and boobs but nothing more), just outrageous and playful dark humor.
+  
+    ${CHOICE_PROMPT}
+    `
   }
 };
