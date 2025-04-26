@@ -146,7 +146,7 @@ export const plots = {
   campy_town_horror: {
     name: "Campy Town Horror",
     prompt: `
-    The PROTAGONISTS a bunch of teenagers who have turned their twisted love of horror movies into a deadly, absurd hobby. 
+    The ANTAGONISTS a bunch of teenagers who have turned their twisted love of horror movies into a deadly, absurd hobby. 
     They take their love of horror to the extreme, staging elaborate kills and making their victims part of the show.
     Their playground is for example their: town, high-school, mall or the surrounding woods, where they stage elaborate kills and make their victims part of the show.
   
