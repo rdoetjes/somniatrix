@@ -13,8 +13,7 @@ let messages = null;
 const terminal = document.getElementById("terminal");
 const choicesContainer = document.getElementById("choices");
 const header = "SOMNIATRIX | NIGHTMARE NOVELS";
-const themeLink = document.getElementById("theme-stylesheet");
-const currentHref = themeLink.getAttribute("href");
+const complete_story = document.getElementById("complete_story");
 
 window.createSystemPrompt = function (decade, max_moves) {
     return {
@@ -173,13 +172,14 @@ async function getPlot(plotKey, userChoice = null) {
     choicesContainer.innerHTML = "";
 
     const response = await client.chat.completions.create({
-        model: "gpt-4.5-preview",
+        model: "gpt-4-turbo",
         messages: newMessages,
     });
 
     const storyText = response.choices[0].message.content.trim();
     const wrapped = wrapText(storyText).replace(/1\..*$/s, "");
     terminal.textContent = wrapped;
+    complete_story.textContent += "\r\n\r\n"+wrapped;
 
     messages.push({ role: "assistant", content: storyText });
 
@@ -189,12 +189,21 @@ async function getPlot(plotKey, userChoice = null) {
     currentMove
 }
 
+function showWholeStory() {
+    terminal.textContent = complete_story.textContent;
+    choicesContainer.innerHTML = "";
+}
+
 function addButton(opt, i) {
     const btn = document.createElement("button");
     btn.textContent = `${i + 1}. ${opt}`;
     btn.className = "glow";
     btn.onclick = () => {
-        makeChoice(opt);
+        if (i!==99){
+            makeChoice(opt);
+        } else {
+            showWholeStory();
+        }
         currentMove++;
     };
     choicesContainer.appendChild(btn);
@@ -205,9 +214,9 @@ function renderChoices(options) {
 
     if (options.length === 0) {
         const msg = document.createElement("div");
-        msg.className = "header";
-        msg.textContent = "You have reached the end of the story and perhaps your life!!!";;
+        
         choicesContainer.appendChild(msg);
+        addButton("Show whole story", 99);
 
         return;
     }
@@ -267,6 +276,9 @@ window.onload = () => {
 
     document.getElementById("terminal").style.display = "none";
     document.getElementById("choices").style.display = "none";
+    
+    console.log(document.getElementById("complete_story"));
+    document.getElementById("complete_story").style.display = "none";    
 
     showplotMenu();
 };
