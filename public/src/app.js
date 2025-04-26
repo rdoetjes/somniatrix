@@ -24,6 +24,7 @@ window.createSystemPrompt = function (decade, max_moves) {
         Use vivid language, evocative descriptions, and detailed settings.
       
       STORY RULES:
+      - Only use he/she pronouns. **Avoid their pronouns for a single indivual!!!**
       - The story is set in the ${decade}. The AI can pick a specific year within it.
       - The story has a beginning, middle, and end over exactly ${max_moves} moves.
       - The genre may vary (slasher, psychological, supernatural, surreal, etc.), but the story is **always horror** and rated **18+**.
