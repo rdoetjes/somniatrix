@@ -82,6 +82,8 @@ body {
     max-height: 40vh;
     margin-bottom: 1rem;
     white-space: pre-wrap;
+    max-width: 80ch;
+    margin-left: auto;
 }
 
 button {

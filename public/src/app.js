@@ -127,20 +127,6 @@ window.updateYear = function () {
     messages = [window.createSystemPrompt(decade, MAX_MOVES)];
 };
 
-function wrapText(text, maxWidth = 80) {
-    const words = text.split(/\s+/);
-    let line = "";
-    let result = "";
-    for (let word of words) {
-        if ((line + word).length > maxWidth) {
-            result += line.trim() + "\n";
-            line = "";
-        }
-        line += word + " ";
-    }
-    return result + line.trim();
-}
-
 function parseOptions(text) {
     const lines = text.split("\n").map((line) => line.trim());
     const options = [];
@@ -177,9 +163,8 @@ async function getPlot(plotKey, userChoice = null) {
     });
 
     const storyText = response.choices[0].message.content.trim();
-    const wrapped = wrapText(storyText).replace(/1\..*$/s, "");
-    terminal.textContent = wrapped;
-    complete_story.textContent += "\r\n\r\n"+wrapped;
+    terminal.textContent = storyText;
+    complete_story.textContent += "\r\n\r\n"+storyText;
 
     messages.push({ role: "assistant", content: storyText });
 

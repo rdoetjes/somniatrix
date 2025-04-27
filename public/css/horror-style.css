@@ -138,6 +138,7 @@ body::before {
     font-size: 14px; /* Added explicit font size */
     letter-spacing: 0.5px;
     text-shadow: 0 0 2px rgba(200, 200, 200, 0.2);
+    max-width: 80ch;
 }
 
 #terminal.terminal, .terminal {
