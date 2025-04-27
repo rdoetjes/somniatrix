@@ -182,7 +182,7 @@ function showWholeStory() {
 
 function addButton(opt, i) {
     const btn = document.createElement("button");
-    btn.textContent = `${i + 1}. ${opt}`;
+    btn.textContent = i==99?`${opt}`:`${i + 1}. ${opt}`;
     btn.className = "glow";
     btn.onclick = () => {
         if (i!==99){
