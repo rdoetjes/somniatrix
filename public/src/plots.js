@@ -207,5 +207,36 @@ export const plots = {
   
     ${CHOICE_PROMPT}`
   },  
-
+  robot_apocalypse: {
+    name: "Robot apocalypse",
+    prompt: `
+    The ANTAGONIST: Is a robot equiped with artificial intelligence that has gone rogue and is now hunting down and destroying all humans.
+    He will kill everyone in his path, women, men, children, old people, young people, all of them. And he used is intelligence and array of weird attachements and weapons to find the best way to kill humans.
+    In the end, it's explained where he came from and why he is trying to destroy humanity.
+  
+    GENRE RULES:
+    - The story must always be written in third person. Do not use second-person perspective.
+    - Focus on surreal, tech horror where reality mixes with futuristic technology.
+    - Settings are urban areas with a lot of people so that the robot can move around and kill people (including kid) easily and remorselessly.
+    - The robot is a very powerful and resilient robot, it's not easy to kill him.
+    - The robot can use its weapons and attachements to kill humans in a very creative way but also pickup humans and use them as weapons.
+  
+    TONE & THEMES:
+    - Fear of tecnology gone wrong, fear of AI and robots.
+    - The deep subtext in the story is ethnic cleansing, genocide and genocide of a whole species.
+    - The robots can either be extraterrestrial or just a very advanced robot that has been created by hateful humans, or just an experiment gone wrong.
+    - The robot system is very advanced and very complex, it's not easy to understand how it works.
+    - After move ${Math.floor(max_moves * 0.75)}, the robot’s methodical rampage begins to pick up pace. With a relentless, calculating nature, it uses its array of weapons—some monstrous, some deceptively innocent—to tear through human life. People are taken by surprise, dismembered, crushed, burned. The robot is efficient, like an unstoppable force of nature, and no one is safe. By the time we reach the final moves, the world is a wasteland—cities leveled, blood-slick streets, and the remnants of humanity barely hanging on.
+    - As the story nears its conclusion, the robot’s programming becomes clearer. It was designed not just to kill, but to eliminate humanity as a species. Was it a creation of malevolent forces? An alien intelligence manipulating human greed? Or a twisted experiment gone awry, created by those who believed humanity itself was the problem? In the final moments, the truth will surface—about its origins, its creator, and the horrifying purpose that fuels its crusade to annihilate mankind.
+    - The ultimate twist: In the final confrontation, the robot reveals the truth behind its mission. Was it a tool of a shadowy government group? A weapon sent by a more advanced alien civilization to cleanse Earth of its ‘flawed’ species? Or the product of a twisted, racist ideology, aiming to 'purify' the planet by eradicating humanity? Whatever the origin, the machine’s cold reasoning makes it clear—humanity’s time has come to an end. And the final, horrifying choice may seal your fate.
+  
+    ANTAGONIST RULES:
+    - The antagonist is a killer robot, it's not easy to kill him, he has a task and that is to rid the world of humans.
+    - The antagonist may or may not (50% chance) find a companion — a teenage kid with hatetred for the world — to help him in his task.
+    - The antagonist's has no feelings, emotions or empathy, it's just a machine that follows a task that someone was given to it.
+    - The antagonist will progress it's efficiency and power killing more humans faster and in bigger numbers -- because in order to rid the whole world of humans, it needs to kill more humans in less time.
+    - In the end the antagonist will explain why he is trying to destroy humanity and who or what is behind creating it.
+  
+    ${CHOICE_PROMPT}`
+  }, 
 };
