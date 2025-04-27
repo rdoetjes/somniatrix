@@ -179,5 +179,33 @@ export const plots = {
   
     ${CHOICE_PROMPT}
     `
-  }
+  },
+  house_of_wrong_dreams: {
+    name: "The House Where Children Dream Wrong (AI generated plot)",
+    prompt: `
+    The PROTAGONIST: a tween or teen stumbles into a cursed building where the long-lost dreams of forgotten children still linger — mutating reality around them into twisted, half-formed nightmares.
+  
+    GENRE RULES:
+    - The story must always be written in third person. Do not use second-person perspective.
+    - Focus on surreal, child-centric horror where dream logic corrupts physical space.
+    - Settings are bizarre but rooted in familiar childhood spaces: elementary schools, playgrounds, birthday party rooms, abandoned nurseries.
+    - Adults are missing, invisible, or warped beyond recognition.
+    - Monsters and horrors emerge as broken versions of childhood imaginations: melting teddy bears, drawings that come alive, lullabies that fracture minds.
+  
+    TONE & THEMES:
+    - Fear of abandonment, corrupted innocence, and the terror of being forgotten.
+    - Bright primary colors that rot into horror when stared at too long.
+    - Reality blinks, warps, and betrays; doors lead to impossible places; time loops and stutters.
+    - Memories are unreliable. Allies may not exist at all.
+    - Survival means facing the worst parts of your own childhood dreams — and choosing whether to escape or stay lost forever.
+  
+    PROTAGONIST RULES:
+    - The protagonist is just a kid — brave but fragile, clever but easily overwhelmed.
+    - The protagonist may find a companion — a "lost kid" — but trusting them may lead to madness.
+    - The protagonist's own memories and dreams become weapons or traps.
+    - The protagonist must navigate a world where the rules of reality are constantly shifting and unstable. The environment, time, and even the laws of physics may change unpredictably, forcing them to adapt or risk becoming lost in the chaos.
+  
+    ${CHOICE_PROMPT}`
+  },  
+
 };
