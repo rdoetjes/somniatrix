@@ -163,8 +163,9 @@ async function getPlot(plotKey, userChoice = null) {
     });
 
     const storyText = response.choices[0].message.content.trim();
-    terminal.textContent = storyText;
-    complete_story.textContent += "\r\n\r\n"+storyText;
+    const options_removed = storyText.replace(/1\..*$/s, "");
+    terminal.textContent = options_removed;
+    complete_story.textContent += options_removed;
 
     messages.push({ role: "assistant", content: storyText });
 
