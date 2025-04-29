@@ -18,7 +18,7 @@ export const plots = {
   - The story must always be written in third person. Do not use second-person perspective.
   - Kid-centric suburban horror with **real danger** — no sugarcoating.
   - Think abandoned malls, animatronic restaurants, old VHS tapes, arcades, school basements.
-  - Adults are useless, complicit, or strangely missing.
+  - Adults are useless, complicit, extremely cruel, or strangely missing.
   - Monsters may exist — but only if explained through urban legend, folklore, or psychological trauma.
   - Childhood nostalgia is twisted into terror: TV shows that talk back, dolls that won't die, teachers that want your skin.
   
