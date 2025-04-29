@@ -24,7 +24,7 @@ export const plots = {
   
   TONE & THEMES:
   - Innocence lost, growing up too fast, fear of abandonment, identity horror.
-  - Bright colors hiding deep rot. Cartoons that won’t end. Games that won’t let you win.
+  - Bright colors hiding deep rot. Cartoons that won’t end. Games that won’t let you win. Toys that come to life. Houses that will be cruel and maddening. Or teachers that are beyond cruel.
   - Trauma is subtle at first, then unavoidable. Friendship, betrayal, survival.
   
   PROTAGONIST RULES:
