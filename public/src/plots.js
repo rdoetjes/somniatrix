@@ -47,7 +47,7 @@ export const plots = {
   
   TONE & THEMES:
   - Nostalgia laced with dread. Neon lights flicker. Escalators grind.
-  - Every corner holds dread: shuttered arcades, gutted food courts, forgotten storage rooms.
+  - Every corner holds dread: gutted food courts, forgotten storage rooms, eerie schools, deadly elevators, dangerous garages, scary bedrooms.
   - Themes of consumerism, lost innocence, peer pressure, and the violence of coming-of-age.
   - Gore is stylish but brutal. Kills are themed — death by photo booth, perfume bottle, food court blenders.
   
