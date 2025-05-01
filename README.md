@@ -8,7 +8,7 @@ The AI prompts are setup to be R-Rated. However you can of course change the pro
 I realised that with kids, not reading as much as they should, this can actually be a good way to get them to read more. It combines reading with "screens" and interactive elements.
 
 **Setup Screen**
-[alt text]("./images/pic1.png")
+[alt text](images/pic1.png "Setup Screen")
 
 **Story Screen**
-[alt text]("./images/pic2.png")
+[alt text](./images/pic2.png "Story Screen")
