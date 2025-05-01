@@ -12,3 +12,12 @@ I realised that with kids, not reading as much as they should, this can actually
 
 **Story Screen**
 ![The actual story screen](./images/pic2.png "Story Screen")
+
+**Runnning the application**
+This is just a simple vanilla JS application. You can run it on any static webserver, it requires no server side code so a static webserver will do.
+
+I use http-server to run it, from the root of the project run the following command.
+```
+http-server -d public
+```
+
