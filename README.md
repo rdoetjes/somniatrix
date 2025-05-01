@@ -1,4 +1,5 @@
 **SomniaTrix**
+
 Is and application that generates "Choose You Own Adventure" styled R-Rated horror stories.
 All you need to do is, start a small webserver point it to public, plug in your OpenAPI key and you are good to go.
 
@@ -16,6 +17,7 @@ There is also the ability to set the period of the story. Horror stories of the 
 ![The actual story screen](./images/pic2.png "Story Screen")
 
 **Runnning the application**
+
 This is just a simple vanilla JS application. You can run it on any static webserver, it requires no server side code so a static webserver will do.
 
 I use http-server to run it, from the root of the project run the following command.
