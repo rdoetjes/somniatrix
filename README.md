@@ -23,3 +23,8 @@ I use http-server to run it, from the root of the project run the following comm
 http-server -d public
 ```
 
+**Cost**
+This is a free application. However, if you want to use it for commercial purposes, you will need to purchase an OpenAI API key.
+If you know how LLMs work then you should know that the cost of running the OpenAI API is quite high. Since LLMss have no state (active memory) we need to feedback in so called "assistant prompts" to the model to keep trackf of the story, it has created itself.. So the cost of running the OpenAI API is quite high, as you have a lot of "input tokens" -- the system prompt, the choices and the whole story itself.
+And average story runs 12 pages and will cost around $1.80.
+
