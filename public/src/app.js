@@ -158,7 +158,7 @@ async function getPlot(plotKey, userChoice = null) {
     choicesContainer.innerHTML = "";
 
     const response = await client.chat.completions.create({
-        model: "gpt-4.5-turbo",
+        model: "gpt-4-turbo",
         messages: newMessages,
     });
 
