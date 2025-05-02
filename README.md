@@ -1,33 +1,38 @@
-**SomniaTrix**
+## **SomniaTrix**
 
-Is and application that generates "Choose You Own Adventure" styled R-Rated horror stories.
-All you need to do is, start a small webserver point it to public, plug in your OpenAPI key and you are good to go.
+**SomniaTrix** is an application that generates R-rated, "Choose Your Own Adventure"-style horror stories.
 
-There are a selection of typical horror plots to choose and OpenAI will generate a story for you. It will list 3 options to choose from to progress the story.
+All you need to do is start a small web server, point it to the `public` directory, plug in your OpenAI API key—and you're good to go.
 
-The AI prompts are setup to be R-Rated. However you can of course change the prompts to be PG-Rated. This was initially created for my own, to get some horrific gross "Choose Your Own Adventure" horror stories. 
-I realised that with kids, not reading as much as they should, this can actually be a good way to get them to read more. It combines reading with "screens" and interactive elements.
+This is a working proof of concept. You can choose from a selection of classic horror plots, and OpenAI will generate a story for you. At each step, you'll be presented with three choices to influence how the story progresses.
 
-There is also the ability to set the period of the story. Horror stories of the 70s, 80s, 90s can achieve more of a horror effect because there's no cell phones, no internet, no social media. So "conflict" that leads to disperation or dangerous situations is more likely to happen. Also 80s horror is more "campy" and "over the top" which is also a good horror effect. And OpenAI actually does a great job at generating period "vibed" horror stories.
+The AI prompts are designed to be R-rated by default, but you can easily modify them for PG-rated content if desired. Originally, I built this for myself to enjoy some grotesque and chilling horror adventures. However, I realized it could also be a creative way to encourage kids to read more. It blends reading with screens and interactivity, making the experience more engaging.
 
-**Setup Screen**
+You can also choose the time period for the story—like the 70s, 80s, or 90s—which adds to the horror vibe. Without modern tech like smartphones, the characters face more isolation and danger, making the narrative more intense. Plus, 80s horror in particular tends to be delightfully campy and over-the-top, which adds to the fun. OpenAI does a surprisingly good job capturing these nostalgic horror "vibes."
+
+---
+
+### **Setup Screen**  
 ![The Setup Screen](images/pic1.png "Setup Screen")
 
-**Story Screen**
+### **Story Screen**  
 ![The actual story screen](./images/pic2.png "Story Screen")
 
-**Runnning the application**
+---
 
-This is just a simple vanilla JS application. You can run it on any static webserver, it requires no server side code so a static webserver will do.
+## **Running the Application**
 
-I use http-server to run it, from the root of the project run the following command.
-```
-http-server -d public
-```
+This is a simple vanilla JavaScript app. It doesn't require any server-side code and can run on any static web server.
 
-**Cost**
+I recommend using `http-server`. From the root of the project, run the following command:
 
-This is a free application. However, if you want to use it for commercial purposes, you will need to purchase an OpenAI API key.
-If you know how LLMs work then you should know that the cost of running the OpenAI API is quite high. Since LLMss have no state (active memory) we need to feedback in so called "assistant prompts" to the model to keep trackf of the story, it has created itself.. So the cost of running the OpenAI API is quite high, as you have a lot of "input tokens" -- the system prompt, the choices and the whole story itself.
-And average story runs 12 pages and will cost around $1.80.
 
+---
+
+## **Cost**
+
+This application is free to use. However, for commercial use, you’ll need to purchase an OpenAI API key.
+
+If you're familiar with how LLMs work, you'll know that running the OpenAI API can get expensive. Since language models have no persistent memory, we must feed back the story so far via "assistant prompts" to maintain continuity. This involves a significant number of input tokens—including the system prompt, the evolving story, and the choice history.
+
+An average story spans about 12 pages and costs roughly **$1.80** in API usage.
